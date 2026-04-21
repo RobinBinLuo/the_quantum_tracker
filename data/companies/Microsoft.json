@@ -1,0 +1,315 @@
+{
+  "id": "c03-microsoft",
+  "name": "Microsoft",
+  "industry": null,
+  "summary": "Microsoft 通过 Azure Quantum 布局量子软件、云平台和合作伙伴硬件，同时押注拓扑量子比特作为长期容错路线。短期看，它更像 Azure 科学计算与 AI 基础设施的延伸；长期看，量子被定位为云计算的下一代加速能力。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Microsoft's quantum work is organized around Azure Quantum and a long-term topological-qubit roadmap. The company emphasizes resource estimation, quantum software, chemistry/materials workflows and a future path toward fault-tolerant quantum computing."
+    }
+  },
+  "ticker": "NASDAQ:MSFT",
+  "newsQuery": "(Microsoft quantum OR Azure Quantum OR Majorana quantum)",
+  "newsSearchTerm": "Azure Quantum",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "topological",
+    "label": "拓扑 Topological",
+    "shortLabel": "拓扑",
+    "summary": "希望通过拓扑保护提高量子比特稳定性，是高潜力但高风险的长期路线，仍处于较早阶段。",
+    "tags": [
+      "Majorana",
+      "长期路线",
+      "前沿研究",
+      "容错潜力"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Topological",
+        "shortLabel": "Topological",
+        "summary": "Aims to use topological protection to improve qubit stability. It is a high-potential but high-risk long-term route.",
+        "tags": [
+          "Majorana",
+          "Long-term route",
+          "Frontier research",
+          "Fault-tolerance potential"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "3.10T",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "10.20",
+    "evSales": "10.31",
+    "pe": "26.46",
+    "pb": "8.04",
+    "netCash": "-33.82B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "3.10T",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "3.10T"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "3.15T",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "3.15T"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "305.45B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "305.45B"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "209.50B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "209.50B"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "68.59%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "68.59%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "10.20",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "10.20"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "10.31",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "10.31"
+        }
+      }
+    },
+    {
+      "key": "pe",
+      "label": "滚动 P/E",
+      "value": "26.46",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM P/E",
+          "value": "26.46"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "8.04",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "8.04"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "123.28B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "123.28B"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "-33.82B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "-33.82B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Not separately disclosed."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "None disclosed."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+    "ticker": "MSFT"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "电话会中，CEO表示量子计算将成为继 AI 之后推动云计算性能跃升的下一个核心引擎。并表示在月份早期，微软与 Atom Computing 联合宣布了全球首个 Level 2（容错级）量子计算机的实际部署。",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "Microsoft's annual-call commentary positioned quantum as a future cloud accelerator after AI. Management also referenced progress with Atom Computing and the broader path toward fault-tolerant quantum systems."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/press-release-webcast?utm\n电话会：https://www.investing.com/news/transcripts/earnings-call-transcript-microsoft-q1-2025-earnings-beat-expectations-stock-surges-93CH-4015220?utm\n\nThe company introduced major innovations, including the Majorana One quantum computing initiative.\n我们仍然是客户关键任务VMware、SAP和Oracle工作负载的首选云平台，拥有比其他任何超大规模提供商都更广的区域可用性。我们也对与Quantum携手开拓云系统的新领域感到兴奋。除了将我们的Quantum堆栈部署到合作伙伴的机器上之外，我们还通过推出Majorana One，在迈向实用级量子计算机的道路上取得了实质性进展。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 materials referenced Majorana One and Azure Quantum progress. Microsoft framed quantum as a new frontier for cloud systems, combining its quantum stack with partner hardware and long-term topological-qubit work."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "电话会：https://www.fool.com/earnings/call-transcripts/2025/01/29/microsoft-msft-q2-2025-earnings-call-transcript/?utm\n财报：https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/press-release-webcast?utm\n\n没直接提到量子相关内容",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Q2 materials did not include a direct quantum-computing update. The quarter should be read mainly through Azure, AI infrastructure and Microsoft Cloud performance."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "营收约 US$70.1 billion，同比增长约 13%（在固定汇率下约 +15%）\n智能云（Intelligent Cloud）收入约 US$26.8 billion，同比增长约 21% \n运营利润约 US$32.0 billion，同比增长约 16% \n\n本季度资本支出 (CapEx) 包括用于云与 AI 基础设施的支出约 US$21.4 billion（包括租赁资产）\n\n财报链接：https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast\n\n电话会链接：https://view.officeapps.live.com/op/view.aspx?src=https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptFY25Q3\n\n电话会提及量子内容：我们同样对量子技术在云系统领域的下一个前沿充满期待。除了将我们的量子技术栈部署到合作伙伴的设备上，随着Majorana-1的推出，我们在迈向大规模量子计算机的道路上也取得了实质性进展。(有可能指的是将他们的Majorana接入Azure 云服务器)",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $70.1B, up about 13%, with Intelligent Cloud revenue of about $26.8B. Management again referenced quantum as a next frontier for cloud systems and linked Majorana-1 to the long-term path toward scalable quantum computing."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1、Q4 财报核心财务数据\n\nFY2025 Q4：\n收入：$76.4B\n同比增长：18%\nEPS：$3.65\nMicrosoft Cloud 收入：$46.7B\nAzure 年收入：$75B\n\n全年 FY2025：\n收入：$281.7B\n同比增长：15%\n\n主要增长驱动：Azure; AI infrastructure; Microsoft Cloud\n\n2、电话会中关于量子的内容（有明确依据）\n2.1 在 Q4 电话会中，Satya Nadella 提到量子计算一次。CEO 原话 “The next big accelerator in the cloud will be quantum, and I'm excited about our progress.”\n意思是：云计算的下一个重要加速技术将是量子计算。微软把量子计算定位为：Azure 长期平台能力而不是短期产品。\n目前微软的量子战略通过：Azure Quantum提供：量子硬件访问，量子模拟和量子开发软件，Azure Quantum 支持硬件合作伙伴：IonQ，Quantinuum，Pasqal，Rigetti。\n\n2.2 微软宣布近期与 Atom Computing 合作开发量子计算系统，目标是：logical qubits and error-corrected quantum computing。电话会提到最近已经成功合作开发了一台实验级具有一定计算能力的量子计算机，具体参数并未透露。\n\n3. Atom computing 的相关简介：\n目前未上市。\n成立时间：2018 年\n总部：美国 加州 Berkeley\n技术路线：neutral atom quantum computing（中性原子量子计算）\n创始人：Ben Bloom、Jonathan King\n主要投资机构：Innovation Endeavors、Venrock 等\n公司定位：构建 大规模可扩展量子计算机。\n\nAtom Computing 当前量子计算机：Atom Computing 的旗舰系统：Atom Quantum System\n公开参数：\n参数\t数值\nqubits\t1000+ physical qubits\n技术\tneutral atom\ngate fidelity\t~99%\narchitecture\toptical tweezer arrays\n这是目前 qubit 数量最多的量子计算机之一。而与 Microsoft 的合作就是让微软在 Azure Quantum 中集成中性原子量子计算的硬件。在 Azure 上提供自研中性原子的量子计算机",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "FY2025 Q4 revenue was about $76.4B, up 18%, and full-year revenue was about $281.7B, up 15%. Satya Nadella described quantum as the next major cloud accelerator. Azure Quantum remains the main commercial interface, while Microsoft continues to rely on partner hardware and its long-term Majorana roadmap."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术路线：拓扑量子比特与云聚合平台\n(1.1) 原理\nMicrosoft 长期专注于拓扑量子比特（Topological Qubits） 路线，通过利用 Majorana准粒子创建更稳定的量子态。拓扑量子比特天然具备错误率低、相干时间长的潜力，一旦成功，将大幅提高容错量子计算机的可扩展性，降低实现大规模逻辑比特所需的物理比特数量。（Microsoft 的这个路线我在和腾讯的合作过程中也有聊到，专门有一次开会由一位腾讯的高级研究员介绍了Microsoft的技术，目前看来可行性还不是很大，这种Majorana的粒子在实验中非常难制备，但也可以继续关注。）\n\n2. Azure Quantum 平台\n(2.1) 功能\n微软目前没有对外提供自研处理器，而是将自家硬件研发保留在实验室阶段，同时在 Azure Quantum 平台聚合多家硬件供应商的量子处理器，确保客户无需等待拓扑比特成熟即可开始量子算法开发和测试。Azure Quantum 提供云端接口，让用户可通过统一 API 访问不同厂商的量子处理器或高性能经典模拟器，包括：（IonQ（离子阱量子处理器）Quantinuum（离子阱量子处理器 ）Rigetti（超导量子处理器））\n\n(2.2) 开发者与生态支持\nAzure Quantum 内置 Q# 编程语言 与 Quantum Development Kit (QDK)，支持本地模拟、调试与混合量子–经典工作流；提供量子优化与量子启发式算法服务，用于物流、金融建模、材料设计等领域；可在 Azure 公有云环境运行，也支持与企业本地基础设施集成，以满足安全和合规要求。",
+    "financial": "市值：3.85 万亿\nP/E（TTM）：37.97",
+    "latestQuarter": "1、Q4 财报核心财务数据\n\nFY2025 Q4：\n收入：$76.4B\n同比增长：18%\nEPS：$3.65\nMicrosoft Cloud 收入：$46.7B\nAzure 年收入：$75B\n\n全年 FY2025：\n收入：$281.7B\n同比增长：15%\n\n主要增长驱动：Azure; AI infrastructure; Microsoft Cloud\n\n2、电话会中关于量子的内容（有明确依据）\n2.1 在 Q4 电话会中，Satya Nadella 提到量子计算一次。CEO 原话 “The next big accelerator in the cloud will be quantum, and I'm excited about our progress.”\n意思是：云计算的下一个重要加速技术将是量子计算。微软把量子计算定位为：Azure 长期平台能力而不是短期产品。\n目前微软的量子战略通过：Azure Quantum提供：量子硬件访问，量子模拟和量子开发软件，Azure Quantum 支持硬件合作伙伴：IonQ，Quantinuum，Pasqal，Rigetti。\n\n2.2 微软宣布近期与 Atom Computing 合作开发量子计算系统，目标是：logical qubits and error-corrected quantum computing。电话会提到最近已经成功合作开发了一台实验级具有一定计算能力的量子计算机，具体参数并未透露。\n\n3. Atom computing 的相关简介：\n目前未上市。\n成立时间：2018 年\n总部：美国 加州 Berkeley\n技术路线：neutral atom quantum computing（中性原子量子计算）\n创始人：Ben Bloom、Jonathan King\n主要投资机构：Innovation Endeavors、Venrock 等\n公司定位：构建 大规模可扩展量子计算机。\n\nAtom Computing 当前量子计算机：Atom Computing 的旗舰系统：Atom Quantum System\n公开参数：\n参数\t数值\nqubits\t1000+ physical qubits\n技术\tneutral atom\ngate fidelity\t~99%\narchitecture\toptical tweezer arrays\n这是目前 qubit 数量最多的量子计算机之一。而与 Microsoft 的合作就是让微软在 Azure Quantum 中集成中性原子量子计算的硬件。在 Azure 上提供自研中性原子的量子计算机",
+    "ceoMedia": "推特账户：Azure Quantum\n\n2025年8月20日，微软表示在安全／密码学方面，推进 “Quantum-Safe” 或“Post-Quantum Cryptography”的策略：与标准组织如 NIST、ISO、ETSI 等合作，目标是在 2029 年之前启用 quantum-安全产品/服务，并在 2033 年前全面过渡。（与IBM推进的量子计算机时间一致）https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/?utm_source=chatgpt.com",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Azure Quantum as a cloud platform that connects users to quantum hardware partners, simulation tools and workflow services.\n2. Topological qubit research, including Majorana-based approaches intended to reduce error-correction overhead over the long run.\n3. Quantum software, resource estimation and quantum chemistry/materials tooling through Azure Quantum Elements.",
+      "financial": "Quantum is not separately disclosed in Microsoft's financial reporting. The activity sits within Microsoft's cloud, AI and research ecosystem.",
+      "latestQuarter": "The latest quarter material mainly reflects Microsoft's broader cloud and AI business. Quantum remains a strategic R&D and platform effort rather than a reported standalone segment.",
+      "ceoMedia": "Microsoft has highlighted Azure Quantum, resource estimation and topological-qubit work as part of its broader scientific computing strategy. Public messaging emphasizes long-term fault tolerance and integration with cloud services.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://view.officeapps.live.com/op/view.aspx?src=https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/TranscriptFY25Q3",
+    "https://www.fool.com/earnings/call-transcripts/2025/01/29/microsoft-msft-q2-2025-earnings-call-transcript/?utm",
+    "https://www.investing.com/news/transcripts/earnings-call-transcript-microsoft-q1-2025-earnings-beat-expectations-stock-surges-93CH-4015220?utm",
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q1/press-release-webcast?utm",
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q2/press-release-webcast?utm",
+    "https://www.microsoft.com/en-us/investor/earnings/fy-2025-q3/press-release-webcast",
+    "https://www.microsoft.com/en-us/security/blog/2025/08/20/quantum-safe-security-progress-towards-next-generation-cryptography/?utm_source=chatgpt.com"
+  ]
+}

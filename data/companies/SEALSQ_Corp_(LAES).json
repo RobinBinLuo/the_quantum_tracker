@@ -1,0 +1,315 @@
+{
+  "id": "c09-sealsq-corp-laes",
+  "name": "SEALSQ Corp (LAES)",
+  "industry": null,
+  "summary": "SEALSQ 以安全芯片、身份认证和后量子密码产品为核心，量子叙事主要体现在量子抗性芯片和主权安全基础设施。它更接近网络安全与半导体安全公司，收入兑现取决于量子安全产品落地节奏。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "SEALSQ focuses on post-quantum security, secure chips and quantum-resilient infrastructure. It is best viewed as a cybersecurity and semiconductor-security company with a quantum-safe positioning."
+    }
+  },
+  "ticker": "NASDAQ:LAES",
+  "newsQuery": "(SEALSQ OR LAES OR post-quantum security)",
+  "newsSearchTerm": "SEALSQ",
+  "latestQuarterKey": "q3_2025",
+  "latestQuarterLabel": "2025 Q3",
+  "route": {
+    "slug": "quantum-network-security",
+    "label": "量子网络与安全 Quantum Network / Security",
+    "shortLabel": "量子安全",
+    "summary": "围绕量子安全通信、后量子密码与网络基础设施展开，更偏应用层和安全层，而非通用量子硬件本身。",
+    "tags": [
+      "PQC",
+      "安全通信",
+      "网络基础设施",
+      "应用层"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Quantum Network / Security",
+        "shortLabel": "Quantum Security",
+        "summary": "Covers quantum-secure communications, post-quantum cryptography and network infrastructure. It is more application- and security-layer oriented than general-purpose quantum hardware.",
+        "tags": [
+          "PQC",
+          "Secure communications",
+          "Network infrastructure",
+          "Application layer"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "557.27M",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": "$17.5M – $20.0M",
+    "ps": "29.44",
+    "evSales": "6.45",
+    "pe": "n/a",
+    "pb": "1.16",
+    "netCash": "419.70M"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "557.27M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "557.27M"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "117.67M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "117.67M"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "18.25M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "18.25M"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "9.14M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "9.14M"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "50.05%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "50.05%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "29.44",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "29.44"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "6.45",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "6.45"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "1.16",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "1.16"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "8.00M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "8.00M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "419.70M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "419.70M"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "~$11M，没有把量子业务收入单独列出来",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "About $11M total revenue; quantum-related revenue was not disclosed separately."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "2024年 R&D 总支出 $5.0M，其中有部分用于 post-quantum",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "Total 2024 R&D expense was about $5.0M, with part of the spend related to post-quantum products."
+        }
+      }
+    },
+    {
+      "key": "revenue_2025_growth",
+      "label": "2025 收入增速",
+      "value": "$17.5M – $20.0M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Revenue Growth",
+          "value": "$17.5M – $20.0M"
+        }
+      }
+    },
+    {
+      "key": "remaining_spend_2025",
+      "label": "本年度剩余支出估算",
+      "value": "H1 已用 R&D $4.7M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Estimated Remaining Spend",
+          "value": "H1 R&D spend used: $4.7M."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+    "ticker": "LAES"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "1）预计其新的量子抗性芯片将于 2025 年第四季度 开始商业产品发布，并于 2026 年全面部署或实现收入来源。\n2）在 2025 年，公司已有确认的订单大约 US$6.4 million，比 2024 年同期增长约 80%。\n3）公司在 2024 年底通过多个直接股票发行筹集约 US$60 million，来加速其 post-quantum 芯片技术部署与 ASIC 能力。",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "SEALSQ expected its new quantum-resistant chip to begin commercial product release around Q4 2025 and broader deployment or revenue contribution in 2026. The company also reported about $6.4M of confirmed 2025 orders and raised roughly $60M through direct offerings to accelerate post-quantum chip deployment."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://www.sealsq.com/investors/news-releases/sealsq-corp-reports-h1-2025-results-provides-updates-on-its-fy-2025-revenue-guidance-of-17.5-to-20.0-million-representing-59-to-82-growth-1757442408864?utm\n\n电话会：https://mlq.ai/stocks/LAES/earnings-call-transcript/Q2-2025?utm\n\nSEALSQ在2025年上半年确立了量子安全作为其核心战略：公司已向合作伙伴交付QS7001后量子微控制器样片，计划在2025 Q4和2026 Q1推出量子抗性TPM(QVault™)版本，并预计2026年起产生收入；同时以17.5–20 百万美元全年营收指引（同比+59 - 82%）、约121 - 150 百万美元现金储备支撑扩张，收购IC’ALPS并在西班牙启动Quantix Edge半导体中心以增强ASIC设计与制造能力；其2026-2028业务管线约170百万美元，并强调EU Cyber Resilience Act、美国Cyber Trust Mark等法规驱动PQC需求；管理层指出量子计算直接收入目前仍小，未来3-5年才会显现，因此先行部署抗量子安全芯片、PKI与卫星通信以抢占市场先机。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "H1 2025 materials positioned quantum security as SEALSQ's core strategy. The company delivered QS7001 post-quantum microcontroller samples, planned QVault TPM versions for late 2025/early 2026, guided FY2025 revenue to $17.5M-$20.0M and maintained a large cash base for expansion and acquisitions."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "/ 采用半年制",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "SEALSQ uses a semiannual reporting cadence, so the Q2 field refers to the same half-year reporting framework rather than a separate U.S.-style quarterly filing."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "基本财务状况：\nQ3 2025 单季收入约 US$5.1 million。\n（累计 9M （前九个月）收入约 US$9.9 million，同比增长约 41%。）\n上半年H1 亏损 US$ 21.2 million\n公司指导 2025 财年收入目标为 US$17.5 million 至 US$20.0 million，同比增长约 59%-82%。\n\n现金储备十分充裕：截至 2025 年早期有报告现金 ≈ US$121 million（6月30日）亦有报告截至 10 月初约 US$220 million。\n\n公司仍处于转型期：H1 2025 收入平稳（约 US$4.8 million），而仍有较高亏损／投入（R&D、收购整合等）背景",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $5.1M, and nine-month revenue was about $9.9M, up roughly 41% year over year. The company reiterated FY2025 revenue guidance of $17.5M-$20.0M and reported substantial cash resources. The business remains in a transition phase with high investment in post-quantum security and ASIC capability."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术：后量子安全芯片与量子抗性解决方案。SEALSQ专注于研发能抵御未来量子计算攻击的加密硬件和软件。其芯片采用后量子密码算法（PQC algorithms），兼容新兴的NIST PQC 标准，并集成至RISC-V 架构，实现高速、低功耗的安全运算。\n(1.1) 技术优势：即使面对未来大规模量子计算机，SEALSQ 的加密模块仍可保持密钥和数据的长期安全性。与 IoT/卫星/工业系统兼容，能够嵌入到标准设备中，支持大规模部署。通过收购 IC’ALPS ASIC 设计公司，增强自主芯片设计能力，为未来量子安全硬件提供更强支持。\n(1.2) 项目：与西班牙政府合作 Quantix Edge 半导体中心，投资约 €40 million，其中 SEALSQ 出资 25%，以推进后量子半导体技术。收购法国 ASIC 设计公司 IC’ALPS（待法国政府批准），增强定制芯片与IP设计能力。成立 Quantum Investment Fund（已增至 US$35 million），用于孵化和投资量子安全芯片与相关企业。推动 SEALQuantum.com Lab，专注于量子网络安全与 AI 融合技术的初创项目。\n\n2. 产品与平台\n(2.1) Secure Elements与TPM 芯片：VaultIC系列安全元件与可信平台模块（TPM），广泛用于 IoT设备、支付系统和工业控制。这些产品正在集成 后量子密码算法，为未来量子威胁做好准备。\n(2.2) Post-Quantum RISC-V Chips：支持 PQC 算法的 RISC-V 架构芯片，为开发者提供高性能、低功耗的量子安全处理能力。\n(2.3) 卫星通信安全：SEALSQ 团队支持将后量子安全技术嵌入 WISeSat 卫星，下一次发射计划于 2025 年 11 月，目标是为卫星与地面之间提供抗量子攻击的通信。\n\n3. 软件与生态\n(3.1) PKI 与密钥管理：提供后量子兼容的公钥基础设施（PKI）与密钥管理服务，用于工业、金融和政府应用。通过 API 和 SDK 支持设备到云（Device-to-Cloud）及设备到设备（Device-to-Device）的安全通信。",
+    "financial": "市值：$5.95亿\nP/S：54.21",
+    "latestQuarter": "基本财务状况：\nQ3 2025 单季收入约 US$5.1 million。\n（累计 9M （前九个月）收入约 US$9.9 million，同比增长约 41%。）\n上半年H1 亏损 US$ 21.2 million\n公司指导 2025 财年收入目标为 US$17.5 million 至 US$20.0 million，同比增长约 59%-82%。\n\n现金储备十分充裕：截至 2025 年早期有报告现金 ≈ US$121 million（6月30日）亦有报告截至 10 月初约 US$220 million。\n\n公司仍处于转型期：H1 2025 收入平稳（约 US$4.8 million），而仍有较高亏损／投入（R&D、收购整合等）背景",
+    "ceoMedia": "2025年9月9日，在 H1 2025 财报中，公司更新其 2025 财年收入指导到 US$17.5M 到 US$20.0M。https://www.otcmarkets.com/stock/LAES/news/SEALSQ-Corp-Reports-H1-2025-Results-Provides-Updates-on-its-FY-2025-Revenue-Guidance-of-175-to-200-Million-Representing-?e=&id=3311286&utm_source=chatgpt.com\n\n2025年9月4日，SEALSQ 表示正在推进下一代 TPMs，以满足美国政府（例如 NSA 的 CNSA 2.0 政策）对量子抗性密码 的截止日期要求（2027 年）。他们的 QVault TPM 被提及，将提供在硬件层面支持 PQC 算法。https://www.sealsq.com/investors/news-releases/sealsq-accelerates-post-quantum-readiness-with-next-generation-tpms-ahead-of-2027-u.s.-government-deadline?utm_source=chatgpt.com\n\nSEALSQ 与 Ajyal Holding 签署意向书（non­binding LOI），在阿布扎比成立合作企业 “KUAENTUM”，聚焦于 Post-Quantum Semiconductors Personalization Center (PQSPC) 与量子安全卫星生产线。预计投资约 US$100Mhttps://quantumzeitgeist.com/sealsq-corp-ajyal-holding-to-establish-post-quantum-venture-in-abu-dhabi/?utm_source=chatgpt.com",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Secure semiconductors, identity and post-quantum cryptography products.\n2. Quantum-resilient infrastructure initiatives and investments in quantum-related startups.\n3. Partnerships aimed at adding post-quantum security to drones, FPGAs and connected devices.",
+      "financial": "The company has released preliminary 2025 financial metrics, but the quantum contribution is not clearly separated. The business should be evaluated through security-chip demand, partnerships and balance-sheet capacity.",
+      "latestQuarter": "Recent updates include expansion of a quantum fund, post-quantum partnerships, investment in EeroQ and preliminary 2025 metrics.",
+      "ceoMedia": "SEALSQ messaging emphasizes sovereign quantum infrastructure, post-quantum cryptography, CMOS-compatible quantum architectures and device-level security.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://mlq.ai/stocks/LAES/earnings-call-transcript/Q2-2025?utm",
+    "https://quantumzeitgeist.com/sealsq-corp-ajyal-holding-to-establish-post-quantum-venture-in-abu-dhabi/?utm_source=chatgpt.com",
+    "https://www.otcmarkets.com/stock/LAES/news/SEALSQ-Corp-Reports-H1-2025-Results-Provides-Updates-on-its-FY-2025-Revenue-Guidance-of-175-to-200-Million-Representing-?e=&id=3311286&utm_source=chatgpt.com",
+    "https://www.sealsq.com/investors/news-releases/sealsq-accelerates-post-quantum-readiness-with-next-generation-tpms-ahead-of-2027-u.s.-government-deadline?utm_source=chatgpt.com",
+    "https://www.sealsq.com/investors/news-releases/sealsq-corp-reports-h1-2025-results-provides-updates-on-its-fy-2025-revenue-guidance-of-17.5-to-20.0-million-representing-59-to-82-growth-1757442408864?utm"
+  ]
+}

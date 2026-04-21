@@ -1,0 +1,314 @@
+{
+  "id": "c01-google",
+  "name": "Google",
+  "industry": "Quantum 量子",
+  "summary": "Google 的量子业务集中在 Google Quantum AI，核心目标是沿超导路线推进通用容错量子计算。它目前更像 Alphabet 内部的长期科研与平台能力：硬件、纠错、Cirq 工具链和云端实验访问都在推进，但量子收入尚未单独商业化披露。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Google's quantum effort is centered on Google Quantum AI Lab and its roadmap toward universal fault-tolerant quantum computing. The team develops superconducting processors, error-correction methods and software tools, but the activity is still mainly a research and platform effort rather than a mass-market commercial product."
+    }
+  },
+  "ticker": "NASDAQ:GOOGL",
+  "newsQuery": "(Alphabet OR Google Quantum AI OR Willow quantum chip)",
+  "newsSearchTerm": "Google Quantum AI",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "superconducting",
+    "label": "超导 Superconducting",
+    "shortLabel": "超导",
+    "summary": "目前最成熟、产业化推进最快的通用量子计算路线之一，依赖低温超导量子比特、微波控制和大规模工程集成。",
+    "tags": [
+      "低温超导",
+      "Gate-based",
+      "Cloud",
+      "容错路线"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Superconducting",
+        "shortLabel": "Superconducting",
+        "summary": "One of the most mature and fastest-commercializing paths for general-purpose quantum computing, built around cryogenic superconducting qubits, microwave control and large-scale systems engineering.",
+        "tags": [
+          "Cryogenic superconducting",
+          "Gate-based",
+          "Cloud",
+          "Fault tolerance"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "4.10T",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "10.26",
+    "evSales": "10.11",
+    "pe": "31.64",
+    "pb": "9.95",
+    "netCash": "59.85B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "4.10T",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "4.10T"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "4.07T",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "4.07T"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "402.84B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "402.84B"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "240.30B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "240.30B"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "59.65%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "59.65%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "10.26",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "10.26"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "10.11",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "10.11"
+        }
+      }
+    },
+    {
+      "key": "pe",
+      "label": "滚动 P/E",
+      "value": "31.64",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM P/E",
+          "value": "31.64"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "9.95",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "9.95"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "67.00B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "67.00B"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "59.85B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "59.85B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Not separately disclosed."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "None disclosed."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+    "ticker": "GOOGL"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "2024年年报电话会CEO第一段发言提到了谷歌推进的下一代技术前沿：1）Ai智能体  2）推理与深度研究  3）先进视频生成 4）量子计算。",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "Alphabet's 2024 annual-call discussion referenced quantum computing as one of Google's next-generation technology frontiers, alongside AI agents, reasoning/deep research and advanced video generation. Quantum remains a strategic research platform rather than a separate commercial reporting segment."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "都没有提及量子",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "The Q1 2025 materials did not include a meaningful quantum-computing update. The quarter should be read mainly through Alphabet's broader cloud, AI infrastructure and advertising performance."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报链接：https://abc.xyz/assets/cc/27/3ada14014efbadd7a58472f1f3f4/2025q2-alphabet-earnings-release.pdf\n\n电话会链接：https://abc.xyz/2025-q2-earnings-call/\n\n都没有提及量子",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "The Q2 2025 earnings release and call did not meaningfully discuss quantum computing. No standalone quantum revenue or operating metric was disclosed."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "财报链接：https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf\n\n电话会链接：https://abc.xyz/investor/events/event-details/2025/2025-Q3-Earnings-Call-2025-4OI4Bac_Q9/default.aspx\n\n电话会提到： 我们的研究领导力正推动前沿科技发展。上周，我们宣布Willow量子芯片取得重大突破，其运行算法的速度比全球顶尖超级计算机快13,000倍。该成果具有可验证性，为未来实际应用铺平了道路。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "The Q3 2025 call mentioned Google's Willow quantum-chip breakthrough. Management highlighted a verifiable algorithmic result that ran about 13,000 times faster than a leading supercomputer, framing the result as a step toward future practical applications."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 财报基本情况（简要）\nQ4 收入：$96.5B，同比增长约 12%。\n全年收入：$348B，同比增长约 14%。\n核心增长来源：（1）Google Cloud；（2）AI infrastructure；（3）advertising\n量子业务在财报中 未单独计入收入板块，电话会也没有提到量子计算。\n\n\n财报链接：https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf\n电话会：https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Q4 revenue was about $96.5B, up roughly 12% year over year, while full-year revenue was about $348B, up roughly 14%. Growth was driven mainly by Google Cloud, AI infrastructure and advertising. Quantum was not reported as a standalone revenue segment and was not meaningfully discussed on the call."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 硬件上设计与制造量子处理器：\n  目标是通用容错量子计算机\n  技术路线：基于低温超导量子比特\n  最新里程碑：2025年 Willow 芯片量子比特 105 \n2. 量子纠错与容错架构 (硬件和软件都涉及)\n  （2.1）算法上开发surface code 纠错编码解码算法，编译器和操作调度 （目前公认最好的量子纠错编码方式）\n  （2.2）硬件层设计控制电路、读出器、拓扑连接、冷却与封装。\n3. 软件上设计量子算法与构建生态\n  （3.1）维护 Cirq（开源量子编程框架）及相关工具。(Cirq 已被学界和开发者广泛使用，主要可用于编写和模拟量子电路，运行量子算法，支持 Google 量子处理器和其他后端。可本地模拟或通过 Google Cloud 连接实际量子处理器。Google Quantum AI团队也有探索量子生成模型、量子神经网络等。)\n  （3.2）开发量子算法、优化问题求解、量子模拟、量子机器学习从而实现科研产出发论文说明量子优越性。\n  （3.3）Quantum Playground / Cloud 访问：在特定合作或研究项目中提供对 Google 量子处理器（如 Sycamore 和Willow）的云端访问。（虽然量子计算本身还未产生显著营收，但未来Google 很可能将量子计算集成进 Google Cloud 的科研和企业服务。）",
+    "financial": "市值：3.09万亿\nP/E（TTM)：27.21",
+    "latestQuarter": "1. 财报基本情况（简要）\nQ4 收入：$96.5B，同比增长约 12%。\n全年收入：$348B，同比增长约 14%。\n核心增长来源：（1）Google Cloud；（2）AI infrastructure；（3）advertising\n量子业务在财报中 未单独计入收入板块，电话会也没有提到量子计算。\n\n\n财报链接：https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf\n电话会：https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+    "ceoMedia": "2025 年 9 月 11 日，Google Quantum AI 在《Nature》期刊上发表了一项突破性实验，展示了量子计算机不仅能执行算法，还能作为实验平台探索物质的新状态。\n\n2025 年 7月 31 日，Google Quantum AI 表示 Willow 的 T1 时间达到了约 100 微秒，是上一代芯片的 5 倍（上一代是2024年）\n\n2024年12月10日，CEO表示 Willow 是通往“实用型量子计算”的重要一步，未来可应用于药物发现、聚变能源、下一代电池设计等领域",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Current business and product focus\n1. Hardware design and fabrication of superconducting quantum processors, with the goal of building a universal fault-tolerant quantum computer. The latest milestone highlighted in the source material is the 105-qubit Willow chip.\n2. Quantum error correction and fault-tolerant architecture, including surface-code decoding, compilation, scheduling, control circuitry, readout, topology, cooling and packaging.\n3. Quantum software and ecosystem work, including Cirq, quantum algorithms, simulation, optimization, machine learning research and limited cloud access to processors such as Sycamore and Willow.",
+      "financial": "Market capitalization: about $3.09T\nP/E (TTM): 27.21",
+      "latestQuarter": "Q4 revenue was about $96.5B, up roughly 12% year over year. Full-year revenue was about $348B, up roughly 14%, driven mainly by Google Cloud, AI infrastructure and advertising. Quantum is not reported as a separate revenue segment and was not discussed in the earnings call.",
+      "ceoMedia": "Google Quantum AI published a Nature experiment showing quantum processors as platforms for exploring new states of matter. The team also reported Willow T1 times around 100 microseconds, roughly five times the prior generation. Management has described Willow as an important step toward practical quantum computing for areas such as drug discovery, fusion energy and next-generation batteries.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://abc.xyz/2025-q2-earnings-call/",
+    "https://abc.xyz/assets/cc/27/3ada14014efbadd7a58472f1f3f4/2025q2-alphabet-earnings-release.pdf",
+    "https://abc.xyz/investor/events/event-details/2025/2025-Q3-Earnings-Call-2025-4OI4Bac_Q9/default.aspx",
+    "https://abc.xyz/investor/events/event-details/2026/2025-Q4-Earnings-Call-2026-Dr_C033hS6/default.aspx",
+    "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q3/2025q3-alphabet-earnings-release.pdf",
+    "https://s206.q4cdn.com/479360582/files/doc_financials/2025/q4/2025q4-alphabet-earnings-release.pdf"
+  ]
+}

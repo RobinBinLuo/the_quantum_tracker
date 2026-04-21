@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Quantum Frontier Tracker</title>
+    <meta
+      name="description"
+      content="The Quantum Frontier Tracker 聚焦美股量子公司与关键技术路线，用结构化方式展示量子计算产业的公司格局、技术分化与研究判断。"
+    />
+    <script src="./auth.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+SC:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="orb orb-a"></div>
+    <div class="orb orb-b"></div>
+    <div class="grid-glow"></div>
+
+    <main class="shell">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">The Quantum Frontier Tracker</p>
+          <h2 data-i18n="hero-title">量子计算动态追踪</h2>
+          <p class="hero-text" data-i18n="hero-text">
+            这是一个围绕美股量子公司建立的研究型网站，重点追踪不同技术路线的竞争格局、
+            商业化进展与代表性公司。网站按照硬件路线来组织内容，让访问者可以从超导、
+            离子阱、中性原子、光子与量子安全等方向切入，再延伸到每家公司的独立研究页面。
+          </p>
+        </div>
+        <div class="hero-side">
+          <div class="hero-chip">
+            <span data-i18n="site-position-label">网站定位</span>
+            <strong data-i18n="site-position-value">面向公开阅读的量子产业研究索引</strong>
+          </div>
+          <div class="hero-chip">
+            <span data-i18n="reading-label">阅读方式</span>
+            <strong data-i18n="reading-value">先看路线，再进入公司</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel news-panel" id="latest-news">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Latest News</p>
+            <h2 data-i18n="news-title">量子行业最新新闻</h2>
+          </div>
+          <p class="section-note" data-i18n="news-note">
+            自动汇总近期与量子计算、量子技术和重点公司相关的新闻，用来补充路线页与公司页的研究视角。
+          </p>
+        </div>
+        <div id="global-news-grid" class="news-grid"></div>
+      </section>
+
+      <section class="panel route-explorer" id="routes">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Route Explorer</p>
+            <h2 data-i18n="routes-title">按技术路线浏览公司</h2>
+          </div>
+          <p class="section-note" data-i18n="routes-note">
+            点击任一路线卡片即可进入对应的路线页，查看该路线的优缺点和相关公司。
+          </p>
+        </div>
+        <div id="route-grid" class="route-grid"></div>
+      </section>
+
+      <section class="panel companies-panel" id="companies">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Coverage</p>
+            <h2 data-i18n="coverage-title">公司索引</h2>
+          </div>
+          <label class="search">
+            <span data-i18n="search-label">搜索公司</span>
+            <input id="search-input" type="search" placeholder="例如 IonQ、IBM、Quantinuum" />
+          </label>
+        </div>
+        <div id="company-grid" class="company-grid"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./home.js"></script>
+  </body>
+</html>

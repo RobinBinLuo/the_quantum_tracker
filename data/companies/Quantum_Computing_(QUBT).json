@@ -1,0 +1,304 @@
+{
+  "id": "c05-quantum-computing-qubt",
+  "name": "Quantum Computing (QUBT)",
+  "industry": null,
+  "summary": "Quantum Computing Inc. 以光子技术、薄膜铌酸锂芯片、量子安全通信和优化设备为主线。公司仍处于早期商业化阶段，收入基数很小，但通过 foundry、并购和大额融资试图把光子器件能力转化为可销售产品。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Quantum Computing Inc. positions itself around photonic quantum technologies, quantum-secure communications and related hardware/software products. Its business mix includes early-stage product commercialization, acquisitions and capital raising."
+    }
+  },
+  "ticker": "NASDAQ:QUBT",
+  "newsQuery": "(Quantum Computing Inc OR QUBT OR photonic quantum computing)",
+  "newsSearchTerm": "Quantum Computing Inc",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "photonic",
+    "label": "光子 Photonic",
+    "shortLabel": "光子",
+    "summary": "使用光子作为信息载体，强调室温、通信友好与网络兼容性，是量子计算和量子通信的重要交叉路线。",
+    "tags": [
+      "室温",
+      "光量子",
+      "通信友好",
+      "集成光子"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Photonic",
+        "shortLabel": "Photonic",
+        "summary": "Uses photons as information carriers, emphasizing room-temperature potential, communication compatibility and network integration.",
+        "tags": [
+          "Room temperature",
+          "Photonic qubits",
+          "Communications",
+          "Integrated photonics"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "2.18B",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "3,228.15",
+    "evSales": "1,593.66",
+    "pe": "n/a",
+    "pb": "1.34",
+    "netCash": "1.11B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "2.18B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "2.18B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "1.09B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "1.09B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "682,000",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "682,000"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "67,000",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "67,000"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "9.82%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "9.82%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "3,228.15",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "3,228.15"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "1,593.66",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "1,593.66"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "1.34",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "1.34"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "2.58M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "2.58M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "1.11B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "1.11B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "公司总营收为 $373k",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Total company revenue was about $373K."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "总运营费用$26.049M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "Total operating expenses were about $26.049M."
+        }
+      }
+    },
+    {
+      "key": "other_current_assets",
+      "label": "其他流动资产",
+      "value": "$348.758M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Other Current Assets",
+          "value": "$348.758M"
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+    "ticker": "QUBT"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "1）QUBT 在亚利桑那州 Tempe 建设了一座专注于 TFLN光子集成电路制造厂。该厂房将生产用于公司自身产品线和向商业市场销售的定制 TFLN 光子芯片。\n2）公司确认其 Dirac-3 量子优化机与 NASA 的合作，用于真实应用场景的数据/问题验证。这个合作强化了其产品在 “优化 + 解决实际问题” 上的能力和可信度。\n3）Foundry 在 2025 年早期预计正式投入运营，以支持 TFLN 光子芯片的量产与商业化交付。公司将光子 foundry 定位为其推动其商业量子 /光子产品组合的核心基础设施",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "QUBT's 2024 materials emphasized its Tempe TFLN photonic integrated-circuit foundry, the Dirac-3 optimization machine and NASA-related validation work. The company positioned photonic manufacturing as the foundation for its commercial quantum and photonic product portfolio."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://quantumcomputinginc.com/investor-relations?utm\n\n收入：US$39,000\n营业费用：US$8.3 million\n净利润：US$17.0 million\n\n虽然他们报告了正的 净利润为 US$17.0 million，但这个利润主要是由非现金项目驱动的（“non-cash gain”），具体是 QPhoton 合并后 warrant liability 的估值变动所带来的收益。\n\n电话会：https://www.marketscreener.com/quote/stock/QUANTUM-COMPUTING-INC-120790471/news/Transcript-Quantum-Computing-Inc-Q1-2025-Earnings-Call-May-15-2025-49972242/?utm\n\nQUBT的Q1 2025财报显示，公司商业化收入仍处微量阶段，利润数字主要受非现金权证估值驱动；但其重大技术与业务进展显著：Tempe TFLN 光子芯片代工厂正式投产并获得首批订单，Dirac-3量子优化机已在生命科学和航天等领域获得多项实际合同（NASA、TU Delft等）。管理层将2025定位为“产线爬坡与市场教育期”，并计划自2026起加速量产与拓展，甚至考虑第二座工厂，以打造光子量子计算 + 代工服务双轨业务。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 revenue was about $39K, with operating expenses of about $8.3M. Reported net income of about $17M was mainly driven by a non-cash warrant-liability gain. The key business update was commercial start-up of the Tempe TFLN foundry and early product/customer activity."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报：https://www.prnewswire.com/news-releases/quantum-computing-inc-reports-second-quarter-2025-financial-results-302530562.html?utm\n\n收入：US$61,000\n营业费用：US$10.2 million\n净损失：US$36.5 million 的净损失\n\n净损失中包含一个较大的非现金费用（non-cash loss）：大约 US$28 million 的 warrant derivative liability 重估损失\n营业费用较 Q1 和去年同期增长，主要是员工成本等费用增加\n\n电话会：https://seekingalpha.com/article/4814997-quantum-computing-inc-qubt-q2-2025-earnings-call-transcript?utm\n\nQ2，QUBT 的财务规模仍很小。Tempe的TFLN光子芯片代工厂已开始履约，量子器件与方案实现跨欧亚美的早期商业出货（TU Delft 的 QPV、韩国纠缠光子源、头部车厂EmuCore），并拿到NASA的$406k分包以及美国Top 5银行的首单量子安全商业销售。公司的短期主题是产线与客户导入，关注点在于代工出货/器件订单与量子安全/量子 AI的付费转化能否在未来数季持续放量。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Q2 revenue was about $61K, operating expenses were about $10.2M and net loss was about $36.5M, including a large non-cash warrant-derivative remeasurement loss. The quarter showed very early revenue scale but continued investment in photonic manufacturing and device commercialization."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 收入方面\n（1）Q4季度收入：Q4 收入 $198K（0.198M），同比增长约 219%（2024Q4 为 $62K），但明显低于市场预期约 $312K–$400K。\n（2）全年收入：FY2025 全年收入 $0.68M，较 FY2024 的 $0.37M 增长约 84%。\n（3）GAAP 净利润：Q4 净亏损 $1.6M（-$0.01/股），较去年同期 **-$51.2M（-$0.47/股）**显著收窄。\n（4）全年净亏损：FY2025 全年净亏损 $18.7M（-$0.11/股），较 FY2024 的 -$68.5M明显改善。\n（5）经营亏损（Operating Loss）：Q4 经营亏损 $22.2M，较去年同期 $8.9M大幅扩大。\n（6）运营费用：Q4 运营费用 $22.1M，同比增长 148%，主要由于研发、制造能力建设和并购成本增加。\n（7）现金及等价物：截至 2025 年末现金 $737.9M，较 2024 年末 $78.9M大幅增加。该现金增长主要来自：$750M 私募融资（private placement）。\n\n2. 商业化与产品落地\n\nQUBT 的技术路线与 IonQ / Rigetti / D-Wave 不同，\n其核心是：光子量子计算\n特点：基于 TFLN（薄膜铌酸锂）光子芯片，可以在室温运行，不需要超低温稀释制冷设备\n公司当前商业化方向包括：（1）光子量子处理器；（2）光子 AI / reservoir computing；（3）光子芯片代工（foundry）\n2.1 近期业务亮点\n（1）收购 Luminar Semiconductor（$110M）获得：激光器和光子探测器的封装与制造能力，用于强化光子量子芯片产业链。\n（2）Fab-1 光子芯片制造厂开始产生收入，位于 亚利桑那州 Tempe，用于光子芯片的原型制造和小批量生产。公司没有披露具体客户名称或订单金额。\n（3）公司正在规划 Fab-2 工厂，用于未来规模化光子芯片生产。\n（4）推出 Neurawave reservoir computer：用于 AI 与量子优化问题，仍处于 早期商业测试阶段，尚未披露大规模订单。\n（5）QUBT 提到与 美国政府机构和国防相关项目存在合作机会，包括：光子量子优化和量子通信相关技术，但财报中未披露具体合同金额也未确认新的大型政府合同。\n\n3. 战略扩张\n公司 FY2025 最大战略动作包括：\n（1）大规模融资：Q4 完成 $750M 私募融资，显著强化资产负债表。融资后：总资产约 $1.6B，股东权益 $1.6B。\n（2）光子芯片制造能力 通过对Luminar Semiconductor 收购，Fab-1 建设，规划 Fab-2，很明显公司战略正在从量子软件算法公司向光子量子硬件与芯片制造商进行转型。\n\n4. 2026年营收预期\n（1）公司 未提供官方 2026 收入指引。\n（2）分析师预计：Q1 2026 收入约 $0.8M，FY2026 收入约 $6.9M。\n（3）公司预计仍将持续亏损，因为：制造投资+研发扩张+新工厂建设。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Q4 revenue was about $198K, up roughly 219% year over year, while FY2025 revenue was about $0.68M. Net loss narrowed meaningfully versus FY2024, but operating expenses expanded due to R&D, manufacturing capability and M&A costs. Cash increased substantially after a $750M private placement."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术：光子量子计算与安全通信解决方案。光子技术具备高带宽、低能耗、抗噪声干扰等优势，利用光子的量子特性进行数据处理、复杂计算和安全通信，避免了低温超导体系的高昂冷却成本，适合在传统环境中快速部署。公司正在开发能够与经典计算资源结合的混合架构，以支持量子机器学习、网络安全和高性能计算等前沿应用。\n(1.2) 项目与合作：与美国国防和情报领域的合作伙伴探索量子安全通信与加密技术。与学术机构和工业伙伴合作，将光子量子计算原型用于图优化、AI 推理和高速数据处理等试点项目。推出面向企业客户的量子演示与咨询服务，帮助潜在用户评估光子量子解决方案的适用性。\n\n2. 产品与平台\n(2.1) 光子量子硬件与器件：提供基于光子芯片的量子计算原型与模块，支持在常温下进行量子实验和算法验证。目前还没有自研的光子量子处理器，公司正在开发新一代光子量子处理器，以提高量子比特相干性和扩展规模。\n(2.2) QCi 软件与算法工具链：提供面向光子量子计算的 SDK 和 API，帮助开发者在经典计算环境中建模并测试量子算法。支持混合求解框架，使客户能够在经典处理器与光子量子模块之间无缝切换，提高算法性能。\n(2.3) 行业与企业产品：在网络安全领域推出基于量子特性的密钥分发和防窃听通信方案。为人工智能和数据分析提供光子量子加速模块，用于模式识别、优化与数据压缩。与制造、通信和能源企业合作，探索高速量子通信链路和边缘量子计算的应用。\n\n3. 软件与生态\n(3.1) 开发生态与社区：建立了面向研究人员和企业开发者的社区平台，提供开源示例、技术文档和线上培训。通过黑客松、合作项目和早期访问计划推动光子量子算法与应用开发。\n(3.2) 量子安全与集成生态：推动量子密钥分发（QKD）和量子安全加密方案的标准化与商业化。致力于将光子量子技术与现有 IT 基础设施、AI 平台及边缘设备整合，形成从硬件到软件的完整生态。",
+    "financial": "市值：$37.2亿\n市销率：14146",
+    "latestQuarter": "1. 收入方面\n（1）Q4季度收入：Q4 收入 $198K（0.198M），同比增长约 219%（2024Q4 为 $62K），但明显低于市场预期约 $312K–$400K。\n（2）全年收入：FY2025 全年收入 $0.68M，较 FY2024 的 $0.37M 增长约 84%。\n（3）GAAP 净利润：Q4 净亏损 $1.6M（-$0.01/股），较去年同期 **-$51.2M（-$0.47/股）**显著收窄。\n（4）全年净亏损：FY2025 全年净亏损 $18.7M（-$0.11/股），较 FY2024 的 -$68.5M明显改善。\n（5）经营亏损（Operating Loss）：Q4 经营亏损 $22.2M，较去年同期 $8.9M大幅扩大。\n（6）运营费用：Q4 运营费用 $22.1M，同比增长 148%，主要由于研发、制造能力建设和并购成本增加。\n（7）现金及等价物：截至 2025 年末现金 $737.9M，较 2024 年末 $78.9M大幅增加。该现金增长主要来自：$750M 私募融资（private placement）。\n\n2. 商业化与产品落地\n\nQUBT 的技术路线与 IonQ / Rigetti / D-Wave 不同，\n其核心是：光子量子计算\n特点：基于 TFLN（薄膜铌酸锂）光子芯片，可以在室温运行，不需要超低温稀释制冷设备\n公司当前商业化方向包括：（1）光子量子处理器；（2）光子 AI / reservoir computing；（3）光子芯片代工（foundry）\n2.1 近期业务亮点\n（1）收购 Luminar Semiconductor（$110M）获得：激光器和光子探测器的封装与制造能力，用于强化光子量子芯片产业链。\n（2）Fab-1 光子芯片制造厂开始产生收入，位于 亚利桑那州 Tempe，用于光子芯片的原型制造和小批量生产。公司没有披露具体客户名称或订单金额。\n（3）公司正在规划 Fab-2 工厂，用于未来规模化光子芯片生产。\n（4）推出 Neurawave reservoir computer：用于 AI 与量子优化问题，仍处于 早期商业测试阶段，尚未披露大规模订单。\n（5）QUBT 提到与 美国政府机构和国防相关项目存在合作机会，包括：光子量子优化和量子通信相关技术，但财报中未披露具体合同金额也未确认新的大型政府合同。\n\n3. 战略扩张\n公司 FY2025 最大战略动作包括：\n（1）大规模融资：Q4 完成 $750M 私募融资，显著强化资产负债表。融资后：总资产约 $1.6B，股东权益 $1.6B。\n（2）光子芯片制造能力 通过对Luminar Semiconductor 收购，Fab-1 建设，规划 Fab-2，很明显公司战略正在从量子软件算法公司向光子量子硬件与芯片制造商进行转型。\n\n4. 2026年营收预期\n（1）公司 未提供官方 2026 收入指引。\n（2）分析师预计：Q1 2026 收入约 $0.8M，FY2026 收入约 $6.9M。\n（3）公司预计仍将持续亏损，因为：制造投资+研发扩张+新工厂建设。",
+    "ceoMedia": "2025 年 7 月，QCi 获得一项来自美国排名前五的大银行的大额采购订单（≈ US$332,000），用于其量子通信系统，目标是建立一个量子安全测试平台。这是 QCi 在美国境内对其 quantum cybersecurity 解决方案的首次商业销售。https://quantumcomputinginc.com/news/press-releases/quantum-computing-inc.-secures-purchase-order-from-top-5-u.s.-bank-to-advance-quantum-cybersecurity-testbed?utm_source=chatgpt.com\n\n2025 年 6 月，QCi 向一个韩国的领先研究机构发出其第一批商用纠缠光子源产品。标志其在量子通信 /量子网络产品商业化上的关键里程碑。https://www.prnewswire.com/news-releases/quantum-computing-inc-ships-first-commercial-entangled-photon-source-for-quantum-communication-research-302483641.html?utm_source=chatgpt.com\n\n2025年4月，获得与 NASA Langley Research Center 的合同，金额约 US$406,478，用于开发一个量子技术的方法，帮助移除太阳噪声干扰，以提高太空 LIDAR 在白天测量时的信噪比。https://quantumcomputinginc.com/news/press-releases/quantum-computing-inc.-awarded-contract-to-support-nasas-space-based-lidar-data-analysis?utm_source=chatgpt.com",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": "2025-06-30的 Form 10-Q"
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Photonic and optical quantum technologies, including quantum-secure communications and related components.\n2. Product and platform development around entropy, encryption, optimization and optical quantum systems.\n3. M&A-driven expansion, including acquired capabilities intended to broaden the company's hardware and security portfolio.",
+      "financial": "The company is early-stage, with revenue still small relative to operating costs. Recent updates point to rising revenue but also continued expense growth.",
+      "latestQuarter": "Recent company news highlights revenue growth, operating-cost increases, leadership changes and acquisition activity. The investment case remains tied to whether photonic and security products can convert into repeatable commercial revenue.",
+      "ceoMedia": "Public communication has focused on product launches, acquisitions, CEO changes and demonstrations of quantum-secure communications.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://quantumcomputinginc.com/investor-relations?utm",
+    "https://quantumcomputinginc.com/news/press-releases/quantum-computing-inc.-awarded-contract-to-support-nasas-space-based-lidar-data-analysis?utm_source=chatgpt.com",
+    "https://quantumcomputinginc.com/news/press-releases/quantum-computing-inc.-secures-purchase-order-from-top-5-u.s.-bank-to-advance-quantum-cybersecurity-testbed?utm_source=chatgpt.com",
+    "https://seekingalpha.com/article/4814997-quantum-computing-inc-qubt-q2-2025-earnings-call-transcript?utm",
+    "https://www.marketscreener.com/quote/stock/QUANTUM-COMPUTING-INC-120790471/news/Transcript-Quantum-Computing-Inc-Q1-2025-Earnings-Call-May-15-2025-49972242/?utm",
+    "https://www.prnewswire.com/news-releases/quantum-computing-inc-reports-second-quarter-2025-financial-results-302530562.html?utm",
+    "https://www.prnewswire.com/news-releases/quantum-computing-inc-ships-first-commercial-entangled-photon-source-for-quantum-communication-research-302483641.html?utm_source=chatgpt.com"
+  ]
+}

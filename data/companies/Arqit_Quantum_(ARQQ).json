@@ -1,0 +1,276 @@
+{
+  "id": "c08-arqit-quantum-arqq",
+  "name": "Arqit Quantum (ARQQ)",
+  "industry": null,
+  "summary": "Arqit 并不是通用量子计算硬件公司，而是量子安全加密和后量子密码迁移标的。它的核心看点在于国防、电信和企业安全客户是否会加速采用量子安全方案，而不是量子处理器性能。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Arqit is positioned around quantum-safe encryption and post-quantum security rather than building general-purpose quantum computers. Its commercial story depends on enterprise, telecom and government adoption of quantum-safe security products."
+    }
+  },
+  "ticker": "NASDAQ:ARQQ",
+  "newsQuery": "(Arqit OR Arqit Quantum OR quantum encryption)",
+  "newsSearchTerm": "Arqit",
+  "latestQuarterKey": "q2_2025",
+  "latestQuarterLabel": "2025 Q2",
+  "route": {
+    "slug": "quantum-network-security",
+    "label": "量子网络与安全 Quantum Network / Security",
+    "shortLabel": "量子安全",
+    "summary": "围绕量子安全通信、后量子密码与网络基础设施展开，更偏应用层和安全层，而非通用量子硬件本身。",
+    "tags": [
+      "PQC",
+      "安全通信",
+      "网络基础设施",
+      "应用层"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Quantum Network / Security",
+        "shortLabel": "Quantum Security",
+        "summary": "Covers quantum-secure communications, post-quantum cryptography and network infrastructure. It is more application- and security-layer oriented than general-purpose quantum hardware.",
+        "tags": [
+          "PQC",
+          "Secure communications",
+          "Network infrastructure",
+          "Application layer"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "248.86M",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "470.44",
+    "evSales": "402.03",
+    "pe": "n/a",
+    "pb": "9.00",
+    "netCash": "36.26M"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "248.86M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "248.86M"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "213.08M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "213.08M"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "530,000",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "530,000"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "200,000",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "200,000"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "37.74%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "37.74%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "470.44",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "470.44"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "402.03",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "402.03"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "9.00",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "9.00"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "719,000",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "719,000"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "36.26M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "36.26M"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "$29.3 万\n\n全年（税前）净亏损：US$23.9 million",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "FY2024 revenue was about $293K. Pretax net loss was about $23.9M."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "US$24.6 million",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "US$24.6 million"
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+    "ticker": "ARQQ"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "在 2024 财年，公司收入约 US$293,000，相比 2023 年的约 US$640,000 有所下降",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "Arqit's FY2024 revenue was about $293K, down from about $640K in FY2023. The company remained focused on quantum-safe encryption software and early defense/telecom commercialization rather than quantum hardware."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://www.sec.gov/Archives/edgar/data/1859690/000110465925051848/arqq-20250522xex99d1.htm?utm\n\n收入：USD 67000\n净亏损：USD1720万\n\n将 Arqit 的对称密钥协议软件嵌入到出售给美国国防部 (DoD) 的一项受资助备案项目的解决方案中。该解决方案与国防部的一家大型IT供应商合作",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 materials reported revenue of about $67K and a net loss of about $17.2M. Arqit highlighted embedding its symmetric-key agreement software into a U.S. Department of Defense-funded solution with a major IT supplier."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "/ 采用半年制",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Arqit reports on a semiannual cadence, so there was no conventional Q2 quarterly report in the source file. The company should be tracked through half-year revenue, defense wins, telecom partnerships and cash usage."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务：\n1. 核心技术路线：对称密钥协商\n（1.1）原理：Arqit 通过一种称为 Symmetric Key Agreement (SKA) 的协议，让端点设备和网络节点动态生成一次性对称密钥，而不依赖于传统的基于大整数或椭圆曲线的公钥交换。\n（1.2）抗量子优势：对称密钥加密算法在量子攻击下只需加倍密钥长度即可保持安全性，因此 SKA + 强对称加密被视为更容易抵御未来的量子计算攻击。\n（1.3）去硬件化转型：Arqit 最初计划利用量子卫星分发熵种子，但 2022 年起战略调整，不再建设自有卫星，强调“无需量子硬件即可实现量子级安全”，而是将 SKA 完全实现为云端/软件平台，大幅降低部署成本并提升扩展性。\n2. QuantumCloud™ 平台\n（2.1）功能：这是Arqit的旗舰SaaS/PaaS服务，部署在标准云或数据中心，能够为数百万设备提供量子安全密钥生成和分发。客户可通过API或SDK将 QuantumCloud集成到现有网络设备、VPN、防火墙、移动应用或 IoT平台中，实现端到端加密与密钥轮换。既可在公有云（AWS、Azure 等）部署，也支持私有化/本地化数据中心安装，以满足政府或高敏感行业的合规需求。\n3. 集成与生态\n（3.1）网络设备集成：与 Juniper Networks 合作，在其 SRX 系列防火墙上演示量子安全 VPN；与 Fabric Networks 签署商业许可，为运营商提供量子安全网络；参与 Vodafone Tomorrow Street Scaleup X 项目，加速量子安全在电信网络中的应用。\n（3.2）政府与标准化：入选 英国国家网络安全中心（NCSC）PQC 迁移试点，帮助英国公共部门和关键行业进行量子安全迁移；",
+    "financial": "市值：$6.36亿\nP/S：2639.48",
+    "latestQuarter": "/ 采用半年制",
+    "ceoMedia": "2025年9月16日，Fabric Networks 购买了 Arqit 的 NetworkSecure™ 平台的商业 Private Instance（私有实例）许可证，用来在它们的客户基础设施中部署量子安全网络。https://ir.arqit.uk/news-events/press-releases/detail/113/fabric-networks-purchases-commercial-license-from-arqit-to-deploy-quantumsafe-networks-at-scale?utm_source=chatgpt.com\n\n2025年3月底，Arqit 的对称密钥协商软件被集成到一个由大型 IT 供应商为美国国防部提供的系统中，作为一个被认可的 “program of record” 合同。这是 Arqit 第一次获得美国国防部正式批准合同。https://ir.arqit.uk/news-events/press-releases/detail/107/arqit-quantum-inc-announces-financial-results-for-first-half-of-fiscal-year-2025?utm_source=chatgpt.com\n\n2025年4月初，Arqit 与某 Tier-1 网络运营商（覆盖 32 个国家，拥有超过 600,000 公里的光纤干线）签署三年合同。该合同将 Arqit 的 NetworkSecure 技术作为其 (NaaS 套件的一部分来部署，为电信网络提供量子安全基础设施服务。现已可供企业与政府用户订购。\n\n2025年5月22日，Arqit 的 NetworkSecure 技术被集成到 Intel TDX 创建的受信域中，为机密计算 加载量子安全对称密钥保护。本质是使数据在端点 / enclave 内部获得量子安全保护",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Quantum-safe encryption software and key-agreement products for telecom, defense and enterprise customers.\n2. Post-quantum cryptography planning and encryption intelligence tools.\n3. Partnerships and pilots with network operators, security providers and government-related customers.",
+      "financial": "Revenue remains modest and volatile. Recent updates point to revenue softness but potentially meaningful U.S. defense and telecom opportunities.",
+      "latestQuarter": "The latest quarter data in the source file is limited. Recent news emphasizes a registered direct offering, telecom partnerships and post-quantum planning products.",
+      "ceoMedia": "Arqit public updates focus on quantum-safe encryption partnerships, telecom tests, defense wins and capital-market activity.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://ir.arqit.uk/news-events/press-releases/detail/107/arqit-quantum-inc-announces-financial-results-for-first-half-of-fiscal-year-2025?utm_source=chatgpt.com",
+    "https://ir.arqit.uk/news-events/press-releases/detail/113/fabric-networks-purchases-commercial-license-from-arqit-to-deploy-quantumsafe-networks-at-scale?utm_source=chatgpt.com",
+    "https://www.sec.gov/Archives/edgar/data/1859690/000110465925051848/arqq-20250522xex99d1.htm?utm"
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "id": "c13-skywater-technology-inc-skyt",
+  "name": "SkyWater Technology, Inc. (SKYT)",
+  "industry": null,
+  "summary": "SkyWater 不是纯量子计算公司，而是量子产业链中的制造与代工基础设施标的。它的价值在于为量子芯片、控制器和特殊半导体器件提供制造支持，因此更适合作为量子供应链公司来观察。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "SkyWater is an enabling-infrastructure company rather than a pure quantum-computing vendor. Its relevance comes from semiconductor foundry, fabrication and packaging capabilities that can support quantum devices."
+    }
+  },
+  "ticker": "NASDAQ:SKYT",
+  "newsQuery": "(SkyWater Technology OR quantum foundry OR SkyWater quantum)",
+  "newsSearchTerm": "SkyWater quantum",
+  "latestQuarterKey": "q3_2025",
+  "latestQuarterLabel": "2025 Q3",
+  "route": {
+    "slug": "enabling-infrastructure",
+    "label": "基础设施与代工 Enabling Infrastructure",
+    "shortLabel": "基础设施",
+    "summary": "提供晶圆制造、封装、器件和生态支撑，虽然不是直接卖量子算力，但属于产业链不可缺的一环。",
+    "tags": [
+      "Foundry",
+      "制造",
+      "封装",
+      "产业链"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Enabling Infrastructure",
+        "shortLabel": "Infrastructure",
+        "summary": "Provides wafer manufacturing, packaging, devices and ecosystem support. These firms may not sell quantum compute directly, but they are critical parts of the supply chain.",
+        "tags": [
+          "Foundry",
+          "Manufacturing",
+          "Packaging",
+          "Supply chain"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "1.63B",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "3.67",
+    "evSales": "4.18",
+    "pe": "13.69",
+    "pb": "8.51",
+    "netCash": "-227.12M"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "1.63B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "1.63B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "1.85B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "1.85B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "442.14M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "442.14M"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "86.93M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "86.93M"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "19.66%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "19.66%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "3.67",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "3.67"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "4.18",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "4.18"
+        }
+      }
+    },
+    {
+      "key": "pe",
+      "label": "滚动 P/E",
+      "value": "13.69",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM P/E",
+          "value": "13.69"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "8.51",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "8.51"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "250.34M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "250.34M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "-227.12M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "-227.12M"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "营收：约 US $342.3 million（即约 3.423 亿美元），同比增长约 19%。\n\n毛利／毛利率：GAAP 毛利约 US $69.6 million（毛利率约 20.3%）\n\n年度净亏损：GAAP 净亏损约 US $6.8 million（每股约 -$0.14）\n\n非-GAAP 净收益：约 US $2.7 million（每股约 +$0.06",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Revenue was about $342.3M, up roughly 19% year over year. GAAP gross profit was about $69.6M, with a gross margin of about 20.3%. GAAP net loss was about $6.8M, while non-GAAP net income was about $2.7M."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+    "ticker": "SKYT"
+  },
+  "earningsReports": [
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "财报：https://ir.skywatertechnology.com/news/news-details/2025/SkyWater-Technology-Reports-Record-Third-Quarter-2025-Results/default.aspx\n基本财务状况\n\n营收：约 US$150.7 million，同比增长约 60.7%。 \n毛利：GAAP 毛利约 US$36.2 million（毛利率约 24.0%），相比去年同期毛利率约 21.6%。 \n非 GAAP 净收益：约 US$11.5 million（每股约 US$0.24）相比去年同期 US$3.6 million。 \nGAAP 净收益：约 US$144.0 million（每股约 US$2.95），但该数较大程度来自“一次性利得”（收购账务处理效果）而非纯运营。 \n指导 Q4 2025：预期总营收在 US$155 million–US$165 million 之间\n\n电话会议链接：https://www.roic.ai/quote/SKYT/transcripts/2025-year/3-quarter\n\n电话会议指出量子是当前增长最快的业务线\n\n2025 财年量子相关 ATS 收入预计同比增长 >30%。公司预计 2026 年仍将保持类似增长幅度，即连续两年高增长。\n注意：量子收入基数仍小，对总收入贡献有限，但增速在公司所有业务中最高。\n\n新增4家量子客户 → 商业化加速迹象，本季度新增 4 个商业化量子客户，使活跃量子客户数达到 7 家。\n\n已公开的两个客户：\n（1）SQC：硅自旋量子比特，依赖 CMOS 兼容性 → 与 SkyWater 的制程适配度高。\n（2）QuamCore：超导架构，目标百万量子比特级别 → SkyWater 在互连与逻辑集成方面提供支持。\n\n说明 SkyWater 不是押注单一路线，在多架构（自旋、超导、光子等）上都在布局。\n\nSkyWater 量子业务模式的核心：ATS（Technology-as-a-Service）\n\n客户在早期研发阶段主要支付 NRE（非重复工程成本），SkyWater 占据开发环节价值链。如果客户进入量产，才转入 wafer services（晶圆生产），未来盈利弹性取决于客户能否 commercialize。当前阶段 收入结构仍以 NRE 为主，非量产阶段。\n\n战略叙事：SkyWater 试图成为“Quantum Foundry”\n\n公司表述明确：量子硬件制造应在美国本土实现。SkyWater 提供“可信任 + 本土 + 可扩展制造”，试图成为量子公司默认代工方（类似 TSMC 在 AI 芯片中的角色）。\n\n叙事逻辑：架构路线未定 → 代工厂布局多路线以“等赢家出现”。\n\n潜在风险 & 需要保持警惕的点\n\n量子客户多处于 原型/探索阶段，商业化时间未知，转量产未必顺利。目前量子收入占比小，短期内 对整体营收或利润贡献有限。\n增速高但高增速来自基数小，需避免外推式乐观",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $150.7M, up roughly 60.7% year over year. GAAP gross profit was about $36.2M with a 24.0% gross margin, non-GAAP net income was about $11.5M and GAAP net income was about $144M, largely due to a one-time accounting gain. Q4 revenue guidance was $155M-$165M."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "主要业务线包括：\n1. 美国国防部认证成员，供应敏感芯片（通信、航天、武器系统等）。\n2. 与 IBM、Rigetti、D-Wave、Sandia 等研究机构合作，为量子计算芯片（超导量子芯片，离子阱芯片）提供代工服务，提供硅-量子混合制造能力。",
+    "financial": "市值：USD $1.1Billion\n市盈率TTM: 9.06",
+    "latestQuarter": "财报：https://ir.skywatertechnology.com/news/news-details/2025/SkyWater-Technology-Reports-Record-Third-Quarter-2025-Results/default.aspx\n基本财务状况\n\n营收：约 US$150.7 million，同比增长约 60.7%。 \n毛利：GAAP 毛利约 US$36.2 million（毛利率约 24.0%），相比去年同期毛利率约 21.6%。 \n非 GAAP 净收益：约 US$11.5 million（每股约 US$0.24）相比去年同期 US$3.6 million。 \nGAAP 净收益：约 US$144.0 million（每股约 US$2.95），但该数较大程度来自“一次性利得”（收购账务处理效果）而非纯运营。 \n指导 Q4 2025：预期总营收在 US$155 million–US$165 million 之间\n\n电话会议链接：https://www.roic.ai/quote/SKYT/transcripts/2025-year/3-quarter\n\n电话会议指出量子是当前增长最快的业务线\n\n2025 财年量子相关 ATS 收入预计同比增长 >30%。公司预计 2026 年仍将保持类似增长幅度，即连续两年高增长。\n注意：量子收入基数仍小，对总收入贡献有限，但增速在公司所有业务中最高。\n\n新增4家量子客户 → 商业化加速迹象，本季度新增 4 个商业化量子客户，使活跃量子客户数达到 7 家。\n\n已公开的两个客户：\n（1）SQC：硅自旋量子比特，依赖 CMOS 兼容性 → 与 SkyWater 的制程适配度高。\n（2）QuamCore：超导架构，目标百万量子比特级别 → SkyWater 在互连与逻辑集成方面提供支持。\n\n说明 SkyWater 不是押注单一路线，在多架构（自旋、超导、光子等）上都在布局。\n\nSkyWater 量子业务模式的核心：ATS（Technology-as-a-Service）\n\n客户在早期研发阶段主要支付 NRE（非重复工程成本），SkyWater 占据开发环节价值链。如果客户进入量产，才转入 wafer services（晶圆生产），未来盈利弹性取决于客户能否 commercialize。当前阶段 收入结构仍以 NRE 为主，非量产阶段。\n\n战略叙事：SkyWater 试图成为“Quantum Foundry”\n\n公司表述明确：量子硬件制造应在美国本土实现。SkyWater 提供“可信任 + 本土 + 可扩展制造”，试图成为量子公司默认代工方（类似 TSMC 在 AI 芯片中的角色）。\n\n叙事逻辑：架构路线未定 → 代工厂布局多路线以“等赢家出现”。\n\n潜在风险 & 需要保持警惕的点\n\n量子客户多处于 原型/探索阶段，商业化时间未知，转量产未必顺利。目前量子收入占比小，短期内 对整体营收或利润贡献有限。\n增速高但高增速来自基数小，需避免外推式乐观",
+    "ceoMedia": null,
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Semiconductor foundry and advanced manufacturing services.\n2. Collaboration with quantum companies on hybrid quantum-classical chips and superconducting controllers.\n3. Fab and packaging capabilities that support the broader quantum supply chain.",
+      "financial": "SkyWater's financials are driven by its broader foundry business. Quantum-related revenue is not separately visible.",
+      "latestQuarter": "Recent updates include fourth-quarter and full-year 2025 results, a Fab 25 deal and quantum-related collaborations with Silicon Quantum Computing and QuamCore.",
+      "ceoMedia": "Public messaging highlights manufacturing partnerships, supply-chain positioning and specialty foundry capabilities for emerging technologies.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://ir.skywatertechnology.com/news/news-details/2025/SkyWater-Technology-Reports-Record-Third-Quarter-2025-Results/default.aspx",
+    "https://www.roic.ai/quote/SKYT/transcripts/2025-year/3-quarter"
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "source": "StockAnalysis",
+    "generatedAt": "2026-04-20T15:24:42+00:00",
+    "notes": "Public market statistics scraped from StockAnalysis company statistics pages. Values are point-in-time and should be refreshed before publication."
+  },
+  "companies": {
+    "Google": {
+      "ticker": "GOOGL",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/googl/statistics/",
+      "metrics": {
+        "marketCap": "4.10T",
+        "enterpriseValue": "4.07T",
+        "pe": "31.64",
+        "ps": "10.26",
+        "pb": "9.95",
+        "evSales": "10.11",
+        "ttmRevenue": "402.84B",
+        "grossProfit": "240.30B",
+        "totalDebt": "67.00B",
+        "netCash": "59.85B",
+        "grossMargin": "59.65%"
+      }
+    },
+    "IBM": {
+      "ticker": "IBM",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "metrics": {
+        "marketCap": "238.33B",
+        "enterpriseValue": "288.05B",
+        "pe": "22.75",
+        "ps": "3.52",
+        "pb": "7.27",
+        "evSales": "4.27",
+        "ttmRevenue": "67.54B",
+        "grossProfit": "39.30B",
+        "totalDebt": "64.61B",
+        "netCash": "-50.19B",
+        "grossMargin": "58.19%"
+      }
+    },
+    "Microsoft": {
+      "ticker": "MSFT",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/msft/statistics/",
+      "metrics": {
+        "marketCap": "3.10T",
+        "enterpriseValue": "3.15T",
+        "pe": "26.46",
+        "ps": "10.20",
+        "pb": "8.04",
+        "evSales": "10.31",
+        "ttmRevenue": "305.45B",
+        "grossProfit": "209.50B",
+        "totalDebt": "123.28B",
+        "netCash": "-33.82B",
+        "grossMargin": "68.59%"
+      }
+    },
+    "IonQ": {
+      "ticker": "IONQ",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "metrics": {
+        "marketCap": "17.16B",
+        "enterpriseValue": "14.98B",
+        "pe": "n/a",
+        "ps": "133.38",
+        "pb": "4.40",
+        "evSales": "115.22",
+        "ttmRevenue": "130.02M",
+        "grossProfit": "54.69M",
+        "totalDebt": "30.02M",
+        "netCash": "2.36B",
+        "grossMargin": "42.06%"
+      }
+    },
+    "Quantum Computing (QUBT)": {
+      "ticker": "QUBT",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qubt/statistics/",
+      "metrics": {
+        "marketCap": "2.18B",
+        "enterpriseValue": "1.09B",
+        "pe": "n/a",
+        "ps": "3,228.15",
+        "pb": "1.34",
+        "evSales": "1,593.66",
+        "ttmRevenue": "682,000",
+        "grossProfit": "67,000",
+        "totalDebt": "2.58M",
+        "netCash": "1.11B",
+        "grossMargin": "9.82%"
+      }
+    },
+    "D-Wave Quantum (QBTS)": {
+      "ticker": "QBTS",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "metrics": {
+        "marketCap": "7.99B",
+        "enterpriseValue": "7.05B",
+        "pe": "n/a",
+        "ps": "320.91",
+        "pb": "9.13",
+        "evSales": "286.71",
+        "ttmRevenue": "24.59M",
+        "grossProfit": "20.31M",
+        "totalDebt": "43.46M",
+        "netCash": "841.02M",
+        "grossMargin": "82.59%"
+      }
+    },
+    "Rigetti Computing (RGTI)": {
+      "ticker": "RGTI",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "metrics": {
+        "marketCap": "6.52B",
+        "enterpriseValue": "6.00B",
+        "pe": "n/a",
+        "ps": "907.46",
+        "pb": "12.02",
+        "evSales": "845.90",
+        "ttmRevenue": "7.09M",
+        "grossProfit": "2.06M",
+        "totalDebt": "7.17M",
+        "netCash": "436.34M",
+        "grossMargin": "29.12%"
+      }
+    },
+    "Arqit Quantum (ARQQ)": {
+      "ticker": "ARQQ",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/arqq/statistics/",
+      "metrics": {
+        "marketCap": "248.86M",
+        "enterpriseValue": "213.08M",
+        "pe": "n/a",
+        "ps": "470.44",
+        "pb": "9.00",
+        "evSales": "402.03",
+        "ttmRevenue": "530,000",
+        "grossProfit": "200,000",
+        "totalDebt": "719,000",
+        "netCash": "36.26M",
+        "grossMargin": "37.74%"
+      }
+    },
+    "SEALSQ Corp (LAES)": {
+      "ticker": "LAES",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/laes/statistics/",
+      "metrics": {
+        "marketCap": "557.27M",
+        "enterpriseValue": "117.67M",
+        "pe": "n/a",
+        "ps": "29.44",
+        "pb": "1.16",
+        "evSales": "6.45",
+        "ttmRevenue": "18.25M",
+        "grossProfit": "9.14M",
+        "totalDebt": "8.00M",
+        "netCash": "419.70M",
+        "grossMargin": "50.05%"
+      }
+    },
+    "Intel (INTC)": {
+      "ticker": "INTC",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "metrics": {
+        "marketCap": "331.44B",
+        "enterpriseValue": "353.15B",
+        "pe": "n/a",
+        "ps": "6.51",
+        "pb": "2.99",
+        "evSales": "6.68",
+        "ttmRevenue": "52.85B",
+        "grossProfit": "19.33B",
+        "totalDebt": "47.11B",
+        "netCash": "-9.21B",
+        "grossMargin": "36.56%"
+      }
+    },
+    "Quantinuum": {
+      "ticker": "HON",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "metrics": {
+        "marketCap": "146.79B",
+        "enterpriseValue": "170.62B",
+        "pe": "33.91",
+        "ps": "3.95",
+        "pb": "10.67",
+        "evSales": "4.56",
+        "ttmRevenue": "37.44B",
+        "grossProfit": "13.83B",
+        "totalDebt": "35.56B",
+        "netCash": "-22.63B",
+        "grossMargin": "36.93%"
+      }
+    },
+    "Infleqtion (INFQ)": {
+      "ticker": "INFQ",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "metrics": {
+        "marketCap": "3.59B",
+        "enterpriseValue": "3.73B",
+        "pe": "n/a",
+        "ps": "116.16",
+        "pb": "42.58",
+        "evSales": "114.90",
+        "ttmRevenue": "32.46M",
+        "grossProfit": "11.81M",
+        "totalDebt": "5.15M",
+        "netCash": "40.86M",
+        "grossMargin": "36.39%"
+      }
+    },
+    "SkyWater Technology, Inc. (SKYT)": {
+      "ticker": "SKYT",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/skyt/statistics/",
+      "metrics": {
+        "marketCap": "1.63B",
+        "enterpriseValue": "1.85B",
+        "pe": "13.69",
+        "ps": "3.67",
+        "pb": "8.51",
+        "evSales": "4.18",
+        "ttmRevenue": "442.14M",
+        "grossProfit": "86.93M",
+        "totalDebt": "250.34M",
+        "netCash": "-227.12M",
+        "grossMargin": "19.66%"
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "c12-infleqtion-infq",
+  "name": "Infleqtion (INFQ)",
+  "industry": null,
+  "summary": "Infleqtion 以中性原子技术为核心，业务横跨量子计算、精密计时、传感和政府/航天任务。上市后它的关键看点是能否把中性原子平台从科研系统推进到可重复交付的收入模型。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Infleqtion is a neutral-atom quantum company covering computing, sensing and precision timing. After its public-market transition, the company is emphasizing revenue guidance and mission-critical quantum applications."
+    }
+  },
+  "ticker": "NYSE:INFQ",
+  "newsQuery": "(Infleqtion OR INFQ OR neutral atom quantum)",
+  "newsSearchTerm": "Infleqtion",
+  "latestQuarterKey": "q1_2025",
+  "latestQuarterLabel": "2025 Q1",
+  "route": {
+    "slug": "neutral-atom",
+    "label": "中性原子 Neutral Atom",
+    "shortLabel": "中性原子",
+    "summary": "依靠激光操控中性原子阵列，兼具较好扩展性和灵活拓扑，是近年上升很快的量子硬件方向。",
+    "tags": [
+      "原子阵列",
+      "激光控制",
+      "量子模拟",
+      "扩展潜力"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Neutral Atom",
+        "shortLabel": "Neutral Atom",
+        "summary": "Relies on laser-controlled neutral-atom arrays. It combines strong scaling potential with flexible topology and has become a fast-rising hardware direction.",
+        "tags": [
+          "Atom arrays",
+          "Laser control",
+          "Quantum simulation",
+          "Scaling potential"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "3.59B",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "116.16",
+    "evSales": "114.90",
+    "pe": "n/a",
+    "pb": "42.58",
+    "netCash": "40.86M"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "3.59B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "3.59B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "3.73B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "3.73B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "32.46M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "32.46M"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "11.81M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "11.81M"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "36.39%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "36.39%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "116.16",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "116.16"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "114.90",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "114.90"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "42.58",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "42.58"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "5.15M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "5.15M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "40.86M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "40.86M"
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/infq/statistics/",
+    "ticker": "INFQ"
+  },
+  "earningsReports": [
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "Churchill X 网站公开的 Infleqtion & Churchill X Presentation，披露了截至 2025-06-30 的过去12个月（TTM）收入约 $29M、已获/在手订单约 $50M、销售管道 >$300M 等关键信息。\n\n消息源：https://thequantuminsider.com/2025/09/08/infleqtion-to-go-public-through-merger-with-churchill-capital-corp-x/?utm",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "The Infleqtion and Churchill Capital Corp X presentation disclosed about $29M of trailing-12-month revenue as of June 30, 2025, roughly $50M of awarded/backlog orders and a sales pipeline of more than $300M. These figures frame Infleqtion as an early commercial neutral-atom company moving toward public-market visibility."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 硬件：基于中性原子量子处理器与核心平台\n目标：构建可扩展、容错的通用量子计算机，同时将中性原子技术用于传感与授时。\n技术路线：基于冷原子阵列（neutral atom arrays）。\n（1.1）Sqale：面向可扩展、容错计算的下一代量子处理器架构。采用可编程光学晶格与激光控制，实现数百级别物理量子比特的操控，并规划在 2030 年实现超过 1000 逻辑比特。重点是“扩展性”和“容错”，公司认为中性原子在连通性和相干时间上有天然优势。（目前我对中性原子了解不多，讨论最多的还是低温超导量子比特和离子阱技术。这个公司还没有完整地造出来一个量子计算机，仍停留在设计架构和实验上。）\n（1.2）Quantum Core 系列（如 miniMOT V2、RuBECi）：提供冷原子核心模块和真空/激光控制单元，面向大学实验室、国家实验室与企业研发团队。降低进入中性原子研究的门槛，并为未来生态培养开发者和研究人员。\n\n2. 传感与精密时间（PNT）产品线 （这一部分应该是当前这个公司的主要盈利点）\n（2.1）Tiqker 光学原子钟：用于数据中心、电信、国防/航天等对授时精度和抗干扰要求极高的场景。支持在 GPS 信号受阻环境下提供独立、高稳定性的时间基准。\n（2.2）Quantum RF Receiver（量子射频接收机） 与 量子惯性传感器：利用里德伯原子实现超灵敏射频探测，可用于频谱监测和国防电子战。惯性传感器适用于 GPS 拒止环境下的高精度定位导航，面向军事、能源勘探、地球物理测绘等。\n\n3. 软件与生态建设\nInfleqtion 提供量子控制软件和开发工具链，使用户能在中性原子硬件上编程、调度和运行算法。公司与政府、企业、大学合作，建立中性原子量子开发社区，并开放误差校正研究库以促进容错路线的发展。\n\n4. 商业模式与部署\n（a）量子核心硬件（Quantum Core）、Sqale 处理器的研发合作与未来部署；\n  (b)  提供光学原子钟、量子 RF/惯性传感设备，已开始产生营收（TTM 收入约 2900 万美元）。获得/在手订单约 5000 万美元，潜在销售管道超过 3 亿美元。\n  (c)  全球布局：产品和演示在美国、英国、日本、澳大利亚等地部署，并与美国国防部、能源部等机构合作进行量子传感和量子通信测试。",
+    "financial": null,
+    "latestQuarter": "Churchill X 网站公开的 Infleqtion & Churchill X Presentation，披露了截至 2025-06-30 的过去12个月（TTM）收入约 $29M、已获/在手订单约 $50M、销售管道 >$300M 等关键信息。\n\n消息源：https://thequantuminsider.com/2025/09/08/infleqtion-to-go-public-through-merger-with-churchill-capital-corp-x/?utm",
+    "ceoMedia": null,
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Neutral-atom quantum computing systems, including a 100-qubit operational system in the UK.\n2. Quantum precision timing and sensing for mission-critical systems.\n3. Government, aerospace and research partnerships, including NASA-related quantum capabilities.",
+      "financial": "The company announced 2026 revenue guidance of $40M and received significant SPAC-related funding, according to recent news. It remains an early-stage public quantum company.",
+      "latestQuarter": "Recent updates include NYSE trading, revenue guidance, NASA-related delivery and neutral-atom system deployment in the UK.",
+      "ceoMedia": "Infleqtion messaging emphasizes neutral-atom scalability, quantum timing, government/aerospace use cases and operational quantum systems.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://thequantuminsider.com/2025/09/08/infleqtion-to-go-public-through-merger-with-churchill-capital-corp-x/?utm"
+  ]
+}

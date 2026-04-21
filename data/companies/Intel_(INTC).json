@@ -1,0 +1,266 @@
+{
+  "id": "c10-intel-intc",
+  "name": "Intel (INTC)",
+  "industry": null,
+  "summary": "Intel 的量子布局依托半导体制造经验和硅自旋量子比特研究，本质上是大型芯片公司的长期技术储备。量子业务目前对财务贡献有限，但如果硅基量子器件路线跑通，Intel 的制造能力可能成为关键优势。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Intel's quantum work is tied to semiconductor manufacturing and silicon spin-qubit research. It is not a pure-play quantum company, but its fabrication capabilities could matter if silicon-based quantum devices scale."
+    }
+  },
+  "ticker": "NASDAQ:INTC",
+  "newsQuery": "(Intel quantum computing OR Tunnel Falls qubits OR Intel quantum)",
+  "newsSearchTerm": "Intel quantum",
+  "latestQuarterKey": "q2_2025",
+  "latestQuarterLabel": "2025 Q2",
+  "route": {
+    "slug": "superconducting",
+    "label": "超导 Superconducting",
+    "shortLabel": "超导",
+    "summary": "目前最成熟、产业化推进最快的通用量子计算路线之一，依赖低温超导量子比特、微波控制和大规模工程集成。",
+    "tags": [
+      "低温超导",
+      "Gate-based",
+      "Cloud",
+      "容错路线"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Superconducting",
+        "shortLabel": "Superconducting",
+        "summary": "One of the most mature and fastest-commercializing paths for general-purpose quantum computing, built around cryogenic superconducting qubits, microwave control and large-scale systems engineering.",
+        "tags": [
+          "Cryogenic superconducting",
+          "Gate-based",
+          "Cloud",
+          "Fault tolerance"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "331.44B",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "6.51",
+    "evSales": "6.68",
+    "pe": "n/a",
+    "pb": "2.99",
+    "netCash": "-9.21B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "331.44B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "331.44B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "353.15B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "353.15B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "52.85B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "52.85B"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "19.33B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "19.33B"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "36.56%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "36.56%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "6.51",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "6.51"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "6.68",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "6.68"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "2.99",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "2.99"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "47.11B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "47.11B"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "-9.21B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "-9.21B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Not separately disclosed."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "None disclosed."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/intc/statistics/",
+    "ticker": "INTC"
+  },
+  "earningsReports": [
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://download.intel.com/newsroom/2025/corporate/67s2p/Intel-1Q2025-Earnings.pdf?utm\n\n电话会：https://www.rev.com/transcripts/intel-q1-2025-earnings-call?utm\n\n均没有提及量子",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Intel's Q1 2025 earnings release and call did not meaningfully mention quantum computing. Quantum remains a long-term research and semiconductor-manufacturing option rather than a financial driver."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报：https://www.intc.com/news-events/press-releases/detail/1745/intel-reports-second-quarter-2025-financial-results?utm\n\n电话会：https://www.fool.com/earnings/call-transcripts/2025/08/05/intel-intc-q2-2025-earnings-call-transcript/?utm\n\n均没有提及量子",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Intel's Q2 2025 earnings release and call also did not meaningfully discuss quantum computing. The quarter should be interpreted mainly through Intel's core semiconductor turnaround and foundry strategy."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术：硅自旋量子比特 + 超低温冷链控制芯片\n(1.1) 原理\nIntel 采用在硅中形成量子点（quantum dots）来囚禁单电子自旋（electron spin）作为量子比特状态。这一方案可利用现有半导体制造基础设施实现大规模集成。自旋量子比特尺寸小、互连密度高，理论上更易扩展至数百万量子比特级别。硅材料纯度高、噪声相对较低，有潜力实现较长的相干时间。\n(1.2) 控制与集成创新\nIntel自研Horse Ridge和Horse Ridge II低温控制芯片，以及Pando Tree毫开尔文控制电子，解决量子系统中布线瓶颈和热负荷问题，简化冷链环境下的控制信号管理。\n\n2. 产品与平台\n(2.1) Tunnel Falls 芯片：12量子比特硅自旋量子处理器，用于研究社区实验。2023年6月已分发给多所大学和美国联邦研究实验室，旨在加速硅自旋量子比特的算法与架构研究。\n(2.2) Horse Ridge 系列 & Pando Tree 控制芯片：在稀释制冷机低温环境中工作，实现量子比特驱动脉冲与读出。减少冷却层之间的连线数量，提升系统集成度与稳定性。（只是一个控制器，不是量子芯片。）\n(2.3) 制造：依托Intel 300 mm晶圆厂（fabs）进行硅量子芯片制造，目标是在现有CMOS工艺线上实现量子处理器规模化生产。",
+    "financial": "1381.46亿",
+    "latestQuarter": "财报：https://www.intc.com/news-events/press-releases/detail/1745/intel-reports-second-quarter-2025-financial-results?utm\n\n电话会：https://www.fool.com/earnings/call-transcripts/2025/08/05/intel-intc-q2-2025-earnings-call-transcript/?utm\n\n均没有提及量子",
+    "ceoMedia": null,
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Silicon spin-qubit and quantum-dot devices that leverage Intel's semiconductor manufacturing background.\n2. Research partnerships and test-chip development, including devices used by national labs.\n3. Long-term exploration of scalable quantum hardware through silicon manufacturing processes.",
+      "financial": "Quantum is not separately disclosed and is immaterial relative to Intel's core semiconductor business.",
+      "latestQuarter": "Recent quantum-specific material highlights deployment of a 12-qubit quantum-dot device with Argonne. Financial reporting remains dominated by Intel's core semiconductor operations.",
+      "ceoMedia": "Intel's quantum communication is largely research- and partnership-driven, with emphasis on silicon compatibility and manufacturing scalability.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://download.intel.com/newsroom/2025/corporate/67s2p/Intel-1Q2025-Earnings.pdf?utm",
+    "https://www.fool.com/earnings/call-transcripts/2025/08/05/intel-intc-q2-2025-earnings-call-transcript/?utm",
+    "https://www.intc.com/news-events/press-releases/detail/1745/intel-reports-second-quarter-2025-financial-results?utm",
+    "https://www.rev.com/transcripts/intel-q1-2025-earnings-call?utm"
+  ]
+}

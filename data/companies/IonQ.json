@@ -1,0 +1,480 @@
+{
+  "id": "c04-ionq",
+  "name": "IonQ",
+  "industry": null,
+  "summary": "IonQ 是美股中最典型的离子阱量子计算纯标的之一，业务覆盖云端访问、系统销售、政府项目和企业合作。公司在收入增速和现金储备上已经进入更高能见度阶段，同时也把量子网络作为重要延伸方向。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "IonQ is a public pure-play quantum-computing company built around trapped-ion hardware. It sells cloud access, enterprise projects and system deployments while also expanding into quantum networking."
+    }
+  },
+  "ticker": "NYSE:IONQ",
+  "newsQuery": "(IonQ OR trapped-ion quantum computing)",
+  "newsSearchTerm": "IonQ",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "trapped-ion",
+    "label": "离子阱 Trapped-Ion",
+    "shortLabel": "离子阱",
+    "summary": "以单原子离子作为量子比特，拥有高保真和全连接优势，是高质量门操作路线的重要代表。",
+    "tags": [
+      "高保真",
+      "全连接",
+      "离子阱",
+      "Gate-based"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Trapped-Ion",
+        "shortLabel": "Trapped-Ion",
+        "summary": "Uses individual trapped ions as qubits. The route is known for high fidelity and strong connectivity, making it an important high-quality gate-model architecture.",
+        "tags": [
+          "High fidelity",
+          "All-to-all connectivity",
+          "Trapped ions",
+          "Gate-based"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "17.16B",
+    "revenue2024": 0.0431,
+    "guidance2025": "0.082 - 0.1 (2025 Q2)",
+    "growth2025": 1.11,
+    "ps": "133.38",
+    "evSales": "115.22",
+    "pe": "n/a",
+    "pb": "4.40",
+    "netCash": "2.36B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "17.16B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "17.16B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "14.98B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "14.98B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "130.02M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "130.02M"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "54.69M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "54.69M"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "42.06%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "42.06%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "133.38",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "133.38"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "115.22",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "115.22"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "4.40",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "4.40"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "30.02M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "30.02M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "2.36B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "2.36B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "总收入 US$43.1 million\n\n相比 2023 年几乎翻倍增长（增长约 95%）",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Total revenue was $43.1M, nearly doubling from 2023."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "营业开销 / Operating Expenses, 2024\n约 US$276 million\n\n净亏损（Net Loss, 全年 2024）\nUS$331.6 million",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "Operating expenses were about $276M. FY2024 net loss was about $331.6M."
+        }
+      }
+    },
+    {
+      "key": "revenue_2024",
+      "label": "2024 收入",
+      "value": "0.0431",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Revenue",
+          "value": "0.0431"
+        }
+      }
+    },
+    {
+      "key": "gross_margin_gaap",
+      "label": "毛利率 GAAP",
+      "value": "0.545",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Gross Margin GAAP",
+          "value": "0.545"
+        }
+      }
+    },
+    {
+      "key": "revenue_2025_guidance",
+      "label": "2025 收入指引",
+      "value": "0.082 - 0.1 (2025 Q2)",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Revenue Guidance",
+          "value": "0.082 - 0.1 (2025 Q2)"
+        }
+      }
+    },
+    {
+      "key": "revenue_2025_growth",
+      "label": "2025 收入增速",
+      "value": "1.11",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Revenue Growth",
+          "value": "1.11"
+        }
+      }
+    },
+    {
+      "key": "estimated_spend_2025",
+      "label": "预估 2025 支出",
+      "value": "8 - 12 M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Estimated 2025 Spend",
+          "value": "8 - 12 M"
+        }
+      }
+    },
+    {
+      "key": "completed_spend_2025",
+      "label": "2025 已完成支出",
+      "value": "3.5",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Completed Spend",
+          "value": "3.5"
+        }
+      }
+    },
+    {
+      "key": "remaining_spend_2025",
+      "label": "本年度剩余支出估算",
+      "value": "4.5 - 8.5 M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Estimated Remaining Spend",
+          "value": "4.5 - 8.5 M"
+        }
+      }
+    },
+    {
+      "key": "net_assets",
+      "label": "净资产",
+      "value": "1.178",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Net Assets",
+          "value": "1.178"
+        }
+      }
+    },
+    {
+      "key": "short_term_financing_debt",
+      "label": "短期融资性债务",
+      "value": "0",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Short-term Financing Debt",
+          "value": "0"
+        }
+      }
+    },
+    {
+      "key": "long_term_financing_debt",
+      "label": "长期融资性债务",
+      "value": "0",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Long-term Financing Debt",
+          "value": "0"
+        }
+      }
+    },
+    {
+      "key": "cash_and_equivalents",
+      "label": "总资产 / 现金及等价物",
+      "value": "0.14",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Total Assets / Cash and Equivalents",
+          "value": "0.14"
+        }
+      }
+    },
+    {
+      "key": "other_current_assets",
+      "label": "其他流动资产",
+      "value": "0.06",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Other Current Assets",
+          "value": "0.06"
+        }
+      }
+    },
+    {
+      "key": "non_current_assets",
+      "label": "非流动资产",
+      "value": "0.72",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Non-current Assets",
+          "value": "0.72"
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/ionq/statistics/",
+    "ticker": "IONQ"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "1）在 Q3 2024，公司与美国空军研究实验室签订了 $54.5 百万美元的大合同。\n2）公司在财报中给出的 2025 年营收预期：$75 百万 到 $95 百万美元。约为2024 年$43.1M 的一倍\n3）2024 年有两个客户占比约 77% 的总收入",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "IonQ's 2024 materials highlighted a $54.5M contract with the U.S. Air Force Research Laboratory, 2025 revenue guidance of $75M-$95M and high customer concentration, with two customers contributing about 77% of 2024 revenue."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://investors.ionq.com/news/news-details/2025/IonQ-Announces-First-Quarter-Financial-Results/?utm\n\n收入（Revenue）US$ 7.6 million\n营业费用 + 总费用（Operating costs & expenses）US$ 83.2 million\n净亏损（Net loss）US$ 32.3 million\n\n包含一个约 US$ 38.5 million 的非现金收益（warrant liability 公允价值变动）使净亏损数字有所“调节”\n\n电话会：\nhttps://s28.q4cdn.com/828571518/files/doc_financials/2025/q1/IONQ-Q1-2025-Earnings-Call-7-May-2025-430-PM-ET.pdf?utm",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 revenue was about $7.6M, with operating costs and expenses of about $83.2M and a net loss of about $32.3M. Reported net loss benefited from a non-cash warrant-liability fair-value gain."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报：https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/\n\n收入（Revenue）US$ 20.7 million\n营业费用 / 总费用（Operating costs & expenses）US$ 181.3 million（同比大幅增长）\n净亏损（Net loss） US$ 177.5 million\n\n电话会：https://viavid.webcasts.com/starthere.jsp?ei=1724799&tp_key=ac60832f6f",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Q2 revenue was about $20.7M, while operating costs rose sharply to about $181.3M. Net loss was about $177.5M. The quarter showed strong top-line momentum but also heavy investment in hardware, platform expansion and commercialization."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "收入方面：Q3 2025 营收为 US$39.9 million，同比增长约 222%。\n净亏损／盈利能力：Q3 净亏损约 US$1.1 Billion\n（IonQ 报告的 $1.1 billion 亏损主要由账面估值与一次性会计项目造成，而非实质性现金流出。\n运营层面仍维持“高研发投入、低现金消耗”模式，核心现金支出集中于量子硬件与平台扩张。）\n\n指导预期提升：公司将 2025 年营收指引提高至约 US$106 M–110 M。\n\n财报链接：https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Third-Quarter-2025-Financial-Results/\n\n电话会链接：https://seekingalpha.com/article/4838778-ionq-inc-ionq-q3-2025-earnings-call-transcript?utm_source=chatgpt.com\n\n主要进展与里程碑：\n1. 量子计算\n（1）Tempo 系统（第 5 代机型）于 2025 年提前三个月上线。实现 Algorithmic Qubit (AQ) = 64，计算空间比上一代 Forte 扩大 2.6 亿倍。公布了公开基准测试，计算空间约为当前商用超导系统的 36 千万亿倍。\n\n（2）两量子比特门保真度 99.99%（世界纪录）被公司视为“历史性成就”，标志其首次实现容错门性能（fault-tolerant gate performance）。减少运算误差并降低所需物理量子比特数。\n\n（3）Roadmap\n2026 年：推出 256 qubit 系统，集成 Oxford Ionics 的EQC（Electronic Qubit Control）架构。\n2028 年目标： 1,600 逻辑量子比特；\n2030 年目标： 80,000 逻辑量子比特；\n长远展望： 2 百万 物理量子比特。\n声称使用成熟半导体代工节点实现量产化。\n\n（4）Oxford Ionics 并购整合：实现电子控制量子比特（EQC）与 IonQ 架构融合。目标是成为“全球首个量子计算大众化公司（mass-market quantum computing company）”。\n\n2. 量子网络与量子传感（Quantum Networking & Sensing）\n\n（1）收购 Vector Atomic 后拓展至量子感知与量子安全领域：Vector Atomic 产品已部署于 美国空军 X-37B 轨道飞行器；\n技术用于 GPS 替代（量子导航与定时）。\n\n（2）空间项目：IonQ 正在 将量子定位与时间技术部署到自有卫星上；未来将搭载量子密钥分发 (QKD) 系统，实现全球量子安全通信网络。\n\n（3）地面项目 参与 瑞士日内瓦市量子网络项目（Geneva Quantum Network）；合作方包括 CERN、Rolex 与瑞士政府；IonQ 提供 QKD 与量子探测系统，实现城市级量子加密通信。\n\n（4）声称当前正竞标 超 10 亿美元 的量子安全与网络合同。\n\n3.量子安全和网络安全\n量子安全被定位为近期可变现的核心应用场景；IonQ 已建立 IonQ Federal 部门，专注美国与盟国政府项目（如 Golden Dome 计划、能源部 DOE 合作）；强调自身在 国防与经济安全领域的战略地位。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $39.9M, up roughly 222% year over year. GAAP net loss was about $1.1B, mainly driven by accounting and one-time items rather than operating cash burn. IonQ raised 2025 revenue guidance to about $106M-$110M and highlighted Tempo, quantum networking and hybrid quantum-HPC progress."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 收入方面：\n（1）Q4季度收入：$61.9 M，美股季度同比增长 ≈429%（2024 同期远低得多）。季度收入大幅超越市场预期（分析师预估约 $40.4 M 以上）\n（2）全年收入：$130.0 M，同比暴增 ≈202%，成为首家年 GAAP 收入超过 $100 M 的公开量子计算公司。（Q3 时候已经预告过了公司提高了全年营收指引，但是最终营收还是超过了当时的指引）\n（3）GAAP 净利润：Q4 报告为正 $753.7 M，但主要由认股权证等非（4）现金公允价值调整推动；全年净亏损约 $510.4 M。\n（5）调整后 EPS：每股亏损约 -$0.20，明显好于市场预期。\n（6）调整后 EBITDA：季度亏损约 -$67.4 M，全年约 -$186.8 M。\n（7）现金及等价物：截至 2025 年末约 $3.3 B，为进一步扩张和研发提供了深厚缓冲。\n\n2. 商业化与产品落地\n商业收入占比超过 60%，首度体现 Trapped-ion 技术在工业与企业应用上的初步商业吸引力。\n国际销售贡献逾 30%，表明市场不再局限本土科研或政府项目。\n\n2.1. 近期业务亮点\n（1）与 QuantumBasel 扩大协议，金额超过 6000 万美元，涵盖四年和四代 IonQ Forte系统。\n（2）向韩国科学技术研究院 (KISTI) 出售第五代IonQ Forte Enterprice 100 量子比特系统，打造韩国最大的量子-经典计算平台，并将混合人工智能、高性能计算和英伟达加速技术置于韩国下一代计算战略的核心。\n（3）通过与CCRM的战略合作，持续推进量子赋能生命科学领域的创新，加速先进疗法的研发。\n（4）在瑞士、斯洛伐克和罗马尼亚部署了大规模、可运行的国家级量子网络\n（5）IonQ 因其展现出的量子能力而被 DARPA 选中参加量子基准测试计划的 B 阶段。\n在错误校正与量子门保真度方面有显著技术成果（例如 99.99% 两量子比特门保真度）。（但是IonQ 的基于离子阱的技术的量子计算机运行速度慢核心问题还是没有被提到有改进，运行速度慢是这个技术路线相对于超导是的最大弊端。）\n\n2.2. 订单与收入可见性：未完成履约义务（RPO）大幅上升，显示 backlog 增强，有利于未来收入可见性。RPO 从 2024 年末的约 $77 M 增加到 2025 年末约 $370 M，几乎提升 5 倍\n\n3. 战略扩张\n宣布收购 SkyWater Technology —— 全球领先的量子芯片代工厂，有望整合供应链并强化制造能力。此次交易预计约 $1.8 B，并需监管批准。收购动作体现 IonQ 从 量子计算硬件开发商 向 全栈量子平台公司 的战略转型，涵盖计算、联网、传感、量子安全等业务领域\n\n4. 2026年营收指引\n（1）指导全年预计营收 $225M–$245M，显著高于 2025 年水平与多数市场预期。\n（2）预计第一季度营收约 $48M–$51M。\n（3）同时预期调整后 EBITDA 仍为负值（约 -$310M to -$330M）。\n\n财报链接：https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx\n电话会链接：https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-Fourth-Quarter-and-Full-Year-2025-Earnings-Call/default.aspx?utm_source=chatgpt.com",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Q4 revenue was about $61.9M, up roughly 429% year over year, and FY2025 revenue reached about $130M. IonQ became the first public quantum-computing company to exceed $100M in annual GAAP revenue. Reported GAAP net income was driven largely by non-cash fair-value adjustments, while adjusted EBITDA remained negative."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {
+    "market_cap": 22.48,
+    "revenue_2024": 0.0431,
+    "gross_margin_gaap": 0.545,
+    "net_assets": 1.178
+  },
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术：基于离子阱技术设计与制造通用量子处理器，离子阱技术目前被认为是实现高精度、低错误率量子计算的一种可行路径，\n（1.1）IonQ Forte: 36 算法量子比特 （算法量子比特是完全真正能用来实现计算的量子比特数量，上面IBM的Condor虽然可以有1000多个量子比特，但是大部分量子比特是作为辅助进行纠错而不能用来计算。目前还没有统一的标准去比较不同技术下的量子计算机的性能。）Forte是当前旗舰级、性能最强的系统，目前在商用可访问的离子阱系统中处于较高水平，但与实现大规模逻辑比特的目标（通常需要数千至数百万算法量子比特）还有很大差距。\n（1.2）IonQ Tempo：正在规划中，预计将提升到 算法量子比特 ≥ 64–100 的范围，目标实现门保真度 99.9%，该系统尚未全面商用，但代表 IonQ 在未来两三年的扩展目标。\n\n2. IonQ Cloud 平台（量子云平台）\n(2.1) 功能\nIonQ 提供基于云端的量子计算平台，能够让用户不依赖于本地硬件即可访问量子计算资源。\n平台的核心功能包括：\n       （a）用户可以通过 IonQ 提供的云平台直接访问 IonQ 的量子计算机，进行量子算法的开发、测试和优化，无需自建量子硬件；\n       （b）IonQ 的平台支持用户利用量子算法开发工具（如 Quantum Development Kit (QDK)）开发量子程序并运行在量子计算机上，同时平台支持量子-经典混合计算，使得非量子专家也能轻松上手量子计算；\n         (c)通过量子优化服务，用户可以利用量子计算解决例如物流、金融建模、能源调度等领域的优化问题。\n(2.2) 开发者与生态支持\nSDK与编程工具：IonQ 为开发者提供了丰富的量子计算软件工具包（SDK），其中包括支持 Python 和 Q# 语言的量子开发工具，能够帮助开发者在量子计算平台上进行算法设计、调试、测试等操作。\n集成与支持：IonQ 的云平台支持与主流开发环境和工具的集成，包括与 GitHub 和 Visual Studio Code 的深度集成，开发者可以轻松在这些常见平台上进行量子程序的开发与部署。\n学习资源与社区支持：IonQ 提供大量的示例库、教程和文档，以帮助初学者和专业开发者更好地理解量子计算并开发相关应用。公司还致力于建设量子开发者社区，鼓励更多的创新与合作。（但是目前最火的还是IBM Qiskit）。\n\n3. 量子网络 /安全通信产品：由于离子阱技术能够让量子比特获得更长的相干时间，这使得IonQ在量子通信上也会有所发展。IonQ 最近的收购与扩张中包括 Oxford Ionics（英国量子公司），其在高保真 ion-trap 芯片制造方面有强能力，并希望将这种控制技术与 IonQ 的系统整合以加速其路线图。还有 ID Quantique 的收购，用于增强量子安全密钥分发 (QKD)／量子网络等能力。\n\n\n未来展望商业模式：\n（a）通过云平台（例如 IonQ Quantum Cloud，与 AWS Braket / Azure Quantum /Google Cloud 等集成或直接）出租量子计算硬件访问权和作业执行。 \n（b）提供专业服务（professional services）—帮助客户识别、测试、构建量子解决方案（applications, algorithms,业务集成等）。（这个将会和D-Wave 类似） \n（c）销售全量子计算系统（本地安装或云端服务）给特定客户。（目前只有IBM能做到这个，这个应该是量子的公司实现收益的重要渠道） \n（d）出售／许可量子网络产品、安全通信产品 /量子安全 (quantum-safe cryptography)／密钥分发等。收购如 ID-Quantique 增强了这一块",
+    "financial": "市值：209亿\nP/S：400.23",
+    "latestQuarter": "1. 收入方面：\n（1）Q4季度收入：$61.9 M，美股季度同比增长 ≈429%（2024 同期远低得多）。季度收入大幅超越市场预期（分析师预估约 $40.4 M 以上）\n（2）全年收入：$130.0 M，同比暴增 ≈202%，成为首家年 GAAP 收入超过 $100 M 的公开量子计算公司。（Q3 时候已经预告过了公司提高了全年营收指引，但是最终营收还是超过了当时的指引）\n（3）GAAP 净利润：Q4 报告为正 $753.7 M，但主要由认股权证等非（4）现金公允价值调整推动；全年净亏损约 $510.4 M。\n（5）调整后 EPS：每股亏损约 -$0.20，明显好于市场预期。\n（6）调整后 EBITDA：季度亏损约 -$67.4 M，全年约 -$186.8 M。\n（7）现金及等价物：截至 2025 年末约 $3.3 B，为进一步扩张和研发提供了深厚缓冲。\n\n2. 商业化与产品落地\n商业收入占比超过 60%，首度体现 Trapped-ion 技术在工业与企业应用上的初步商业吸引力。\n国际销售贡献逾 30%，表明市场不再局限本土科研或政府项目。\n\n2.1. 近期业务亮点\n（1）与 QuantumBasel 扩大协议，金额超过 6000 万美元，涵盖四年和四代 IonQ Forte系统。\n（2）向韩国科学技术研究院 (KISTI) 出售第五代IonQ Forte Enterprice 100 量子比特系统，打造韩国最大的量子-经典计算平台，并将混合人工智能、高性能计算和英伟达加速技术置于韩国下一代计算战略的核心。\n（3）通过与CCRM的战略合作，持续推进量子赋能生命科学领域的创新，加速先进疗法的研发。\n（4）在瑞士、斯洛伐克和罗马尼亚部署了大规模、可运行的国家级量子网络\n（5）IonQ 因其展现出的量子能力而被 DARPA 选中参加量子基准测试计划的 B 阶段。\n在错误校正与量子门保真度方面有显著技术成果（例如 99.99% 两量子比特门保真度）。（但是IonQ 的基于离子阱的技术的量子计算机运行速度慢核心问题还是没有被提到有改进，运行速度慢是这个技术路线相对于超导是的最大弊端。）\n\n2.2. 订单与收入可见性：未完成履约义务（RPO）大幅上升，显示 backlog 增强，有利于未来收入可见性。RPO 从 2024 年末的约 $77 M 增加到 2025 年末约 $370 M，几乎提升 5 倍\n\n3. 战略扩张\n宣布收购 SkyWater Technology —— 全球领先的量子芯片代工厂，有望整合供应链并强化制造能力。此次交易预计约 $1.8 B，并需监管批准。收购动作体现 IonQ 从 量子计算硬件开发商 向 全栈量子平台公司 的战略转型，涵盖计算、联网、传感、量子安全等业务领域\n\n4. 2026年营收指引\n（1）指导全年预计营收 $225M–$245M，显著高于 2025 年水平与多数市场预期。\n（2）预计第一季度营收约 $48M–$51M。\n（3）同时预期调整后 EBITDA 仍为负值（约 -$310M to -$330M）。\n\n财报链接：https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx\n电话会链接：https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-Fourth-Quarter-and-Full-Year-2025-Earnings-Call/default.aspx?utm_source=chatgpt.com",
+    "ceoMedia": "2025年9月17日，IonQ 与美国能源部签署了一份谅解备忘录，探索在轨道中部署量子功能，例如量子安全通信 、量子定位导航时序系统 、量子传感与映射，以及未来量子计算在卫星上的测试与应用。\nhttps://investors.ionq.com/news/news-details/2025/IonQ-Signs-Memorandum-of-Understanding-with-U-S--Department-of-Energy-to-Advance-Quantum-Technologies-in-Space/default.aspx?utm_source=chatgpt.com",
+    "notes": "高速增长+高估值：指引上调至 $82–100M；但估值倍数极高（PS/EV/Sales > 400×），盈利仍远期化。2025 年多起并购（Oxford Ionics、Lightsynq、Capella 等）推升无形资产与商誉；账上净现金充裕且无债，但整合与执行风险需关注。",
+    "latestEarnings": "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/?utm",
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": "https://s28.q4cdn.com/828571518/files/doc_financials/2024/ar/IonQ_2024-Annual-Report.pdf"
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Trapped-ion quantum computers with high-fidelity gates and cloud access through major cloud platforms.\n2. Enterprise and government projects, including algorithm pilots, hybrid workflows and direct system sales.\n3. Quantum networking initiatives, including collaborations with research institutions and programs aimed at connecting quantum systems.",
+      "financial": "IonQ is still in a high-growth, investment-heavy stage. Revenue is growing from a small base, while operating losses remain meaningful as the company invests in R&D, commercialization and system deployment.",
+      "latestQuarter": "Recent reporting highlights accelerating quantum sales and annual revenue crossing the $100M level. The company continues to emphasize bookings, system contracts and government/enterprise demand as key progress indicators.",
+      "ceoMedia": "IonQ frequently communicates progress through system-roadmap updates, government program awards, university collaborations and customer announcements. Management frames trapped-ion performance and networking capability as core differentiators.",
+      "notes": "IonQ has also been added to the Quantum Network / Security route because its networking collaborations are increasingly relevant to that category."
+    }
+  },
+  "links": [
+    "https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-Fourth-Quarter-and-Full-Year-2025-Earnings-Call/default.aspx?utm_source=chatgpt.com",
+    "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-First-Quarter-Financial-Results/?utm",
+    "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/",
+    "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/?utm",
+    "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Third-Quarter-2025-Financial-Results/",
+    "https://investors.ionq.com/news/news-details/2025/IonQ-Signs-Memorandum-of-Understanding-with-U-S--Department-of-Energy-to-Advance-Quantum-Technologies-in-Space/default.aspx?utm_source=chatgpt.com",
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
+    "https://s28.q4cdn.com/828571518/files/doc_financials/2024/ar/IonQ_2024-Annual-Report.pdf",
+    "https://s28.q4cdn.com/828571518/files/doc_financials/2025/q1/IONQ-Q1-2025-Earnings-Call-7-May-2025-430-PM-ET.pdf?utm",
+    "https://seekingalpha.com/article/4838778-ionq-inc-ionq-q3-2025-earnings-call-transcript?utm_source=chatgpt.com",
+    "https://viavid.webcasts.com/starthere.jsp?ei=1724799&tp_key=ac60832f6f"
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": "c07-rigetti-computing-rgti",
+  "name": "Rigetti Computing (RGTI)",
+  "industry": null,
+  "summary": "Rigetti 是超导量子计算纯标的，长期围绕 QPU、云访问和整机部署推进。公司技术路线清晰，但收入仍主要来自研发合同和早期系统部署，投资判断高度依赖硬件里程碑兑现与现金使用效率。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Rigetti is a public pure-play superconducting quantum-computing company. It develops quantum processors, cloud access and full-stack systems, while the business remains highly dependent on R&D execution and external funding."
+    }
+  },
+  "ticker": "NASDAQ:RGTI",
+  "newsQuery": "(Rigetti OR Rigetti Computing OR superconducting quantum computing)",
+  "newsSearchTerm": "Rigetti",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "superconducting",
+    "label": "超导 Superconducting",
+    "shortLabel": "超导",
+    "summary": "目前最成熟、产业化推进最快的通用量子计算路线之一，依赖低温超导量子比特、微波控制和大规模工程集成。",
+    "tags": [
+      "低温超导",
+      "Gate-based",
+      "Cloud",
+      "容错路线"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Superconducting",
+        "shortLabel": "Superconducting",
+        "summary": "One of the most mature and fastest-commercializing paths for general-purpose quantum computing, built around cryogenic superconducting qubits, microwave control and large-scale systems engineering.",
+        "tags": [
+          "Cryogenic superconducting",
+          "Gate-based",
+          "Cloud",
+          "Fault tolerance"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "6.52B",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "907.46",
+    "evSales": "845.90",
+    "pe": "n/a",
+    "pb": "12.02",
+    "netCash": "436.34M"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "6.52B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "6.52B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "6.00B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "6.00B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "7.09M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "7.09M"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "2.06M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "2.06M"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "29.12%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "29.12%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "907.46",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "907.46"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "845.90",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "845.90"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "12.02",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "12.02"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "7.17M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "7.17M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "436.34M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "436.34M"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "收入约 US$10.79 million。运营亏损为$68.5 million。\n年度支出的硬件+研发+运营组合成本很高，导致全年净亏损$201.0 million，",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "Revenue was about $10.79M. Operating loss was $68.5M and FY2024 net loss was about $201.0M."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "支出和运营$74.2 million\n\nRigetti 与 Quanta Computer 有一个 Collaboration Agreement（合作协议），双方预计在未来五年在超导量子计算上各自投入超过 US$100 million。 Quanta 同时对 Rigetti 的股票有一次性约 US$35 million 的股权投资。",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "Spending and operations totaled about $74.2M. Rigetti and Quanta Computer also agreed to invest in superconducting quantum computing over five years."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/rgti/statistics/",
+    "ticker": "RGTI"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "1）2025年末目标是推出一个具有 超过 100 个量子比特 的系统，以约 2 倍误差率改进为目标\n2）Rigetti 目前的收入主要来自于技术开发合同，而不是大规模的量子计算订单。公司强调，与政府 /国家实验室 /研究机构的合同将继续是短期/中期收入的主要来源。",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "Rigetti's 2024 materials framed 2025 as a roadmap year, targeting a system with more than 100 qubits and roughly 2x error-rate improvement. Revenue was still mainly driven by technology-development contracts rather than large-scale quantum-computer sales."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-first-quarter-2025-financial-results?utm\n\n收入：US$1.5 million，与去年同期相比下降约 50-52%\n营业费用 ： US$22.1 million\n营业亏损： US$21.6 million\n净收入／净利润：US$42.6 million （主要因为非现金账面收益（例如重估衍生工具担保权利、earn-out liabilities 等）影响所致）\n\n电话会：https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-first-quarter-2025-financial-results?utm\n\n财报中指出收入下降，但有与政府合同和 NQCC 的销售是未来收入来源的重要部分。公司计划升级其部署在NQCC的量子处理器 (QPU) 从24 qubits 到36 qubits，并且整合Rigetti最新代的控制系统 (低延迟接口) 与QECstack。也在与 Riverlane、NQCC等合作推进超导量子电路/纠错能力。\n\nRigetti被选中参加 DARPA 的一个阶段 (“Phase A”) 项目，这个项目目标是推进一个utility-scale（实用规模）量子计算机的概念，包括硬件架构+量子纠错 (Quantum Error Correction, QEC) 的能力。\n\nRigetti用其 “Ankaa-3” 系统 (84 qubits) 上的 “quantum preconditioning” 算法在南卡罗来纳州的电网问题上取得了相对优于经典优化器的成果，表明在某些实际问题上开始有量子辅助的优势\n\n未来，Rigetti计划在2025 年中实现 chiplet 架构（多个小芯片拼接）来扩展 qubit数量，达到超过100个 qubit；同时将两比特门 (two-qubit gate) 的中值保真度 (median fidelity) 提高到约 99.5-99.7%。并且追求gate操作时间小于 10纳秒。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 revenue was about $1.5M, down roughly 50% year over year. Operating expenses were about $22.1M and operating loss was about $21.6M. Reported net income was driven by non-cash accounting gains. Government contracts and the NQCC system upgrade remained key revenue drivers."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报：https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-second-quarter-2025-financial-results?utm\n收入 ：US$1.8 million （较 Q1 有小幅上升，但同比去年同季下降约 40-42%）\n营业费用：US$20.4 million\n营业亏损：US$19.9 million\n净收入/净利润：-US$39.7 million （包含约 US$22.8 million 的非现金损失，主要是衍生工具权利与 earn-out liabilities 的重估损害）\n\n电话会：https://seekingalpha.com/article/4812920-rigetti-computing-inc-rgti-q2-2025-earnings-call-transcript?utm\n\n在Q2报告中，Rigetti宣布其 36-Qubit 多芯片量子处理器（36-Qubit Multi-Chip Quantum Computer） 已经对外 “General Availability”（即“一般可用”）并部署在Rigetti的云服务平台 QCS（Quantum Cloud Services）上。也计划其后在Azure等合作云平台上线。这标志着从研发／测试向实用服务交付的阶段性推进。\n\n公司在报告与电话会中重申其路线图中对量子辅助任务或早期量子实用性的目标，例如在优化、化学模拟等领域取得相对于经典算法的“相对优势”。Rigetti也承认目前量子计算还处于研发阶段，距离在实际应用中实现“量子优势”还有4–5年的时间。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Q2 revenue was about $1.8M, up modestly from Q1 but down about 40% year over year. Operating loss was about $19.9M and net loss was about $39.7M, including non-cash derivative and earn-out remeasurement losses. Rigetti highlighted its 36-qubit multi-chip quantum processor progress."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "财报链接：https://finviz.com/news/225267/rigetti-computing-reports-third-quarter-2025-financial-results-provides-technology-roadmap-updates-for-2026-and-2027\n\n营收：US$ 1.9 million\n与去年比营收同比 下滑（约 –18% 左右）\n营业亏损（Operating loss） US$ 20.5 million\n净亏损（GAAP Net Loss） US$ 201.0 million\n非 GAAP 净亏损（Non-GAAP Net Loss）US$ 10.7 million\n每股亏损（Non-GAAP EPS）-$0.03（非 GAAP）\n现金及可变现证券（截至 9/30/2025） US$ 558.9 million\n后续现金（含认股权证行权收益）约 US$ 600 million（截至 2025 11 06）\n\n（虽然营收极小（仅 ~1.9 百万美元），且同比下滑，但公司仍有大额现金储备（约 5.6 亿美元）提供研发与扩张缓冲。\n\nGAAP 净亏损数额巨大（20 亿以上美元）主要源于会计上的非现金项目（如衍生工具、公允价值重估等），非 GAAP 亏损较小，反映经营亏损仍可控。\n\n营收缺乏规模化，商业化路径尚处早期）\n\n\n1. 技术路线：. 公司确认仍在推进其 “100＋ qubit 系统”目标，预计到 2025 年底实现 >100 qubit 系统（中位两量子比特门保真度目标为 99.5%） \n\n长期展望包括：2026年底部署 150＋ qubit（保真度 99.7%），2027年底部署 1000＋ qubit（保真度 99.8%）\n\n2. 订单：本季度报告中，公司披露已取得约 US$ 5.7 million 的采购订单，用于两台 “Novera™” 9-qubit 系统，交付预计在 2026 上半年。 \n\n公司还获得一项约 US$ 5.8 million 的合同（与 Air Force Research Laboratory AFRL 合作）用于推进“超导量子网络（superconducting quantum networking）”技术",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $1.9M and operating loss was about $20.5M. GAAP net loss was about $201M, while non-GAAP net loss was about $10.7M. Cash and marketable securities were about $558.9M at quarter-end, later rising to about $600M including warrant exercise proceeds."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 收入方面\n（1）Q4季度收入：Q4 收入 $1.9 M，同比下降约 17%（2024Q4 为 $2.3 M），同时低于市场预期约 $2.3 M。\n（2）全年收入：FY2025 全年收入 $7.1 M。（FY2024 Revenue：$10.8 M（约 $10.79M））因此FY2025的收入相较于FY2024的收入有下滑\n（3）GAAP 净利润：Q4 GAAP 净亏损 $18.2 M。\n（4）调整后净亏损（Non-GAAP）：Q4 非 GAAP 净亏损 $11.3 M。\n（5）每股亏损：GAAP EPS：-$0.06 调整后 EPS：-$0.03（与市场预期基本一致）。\n（6）经营亏损（Operating Loss）：Q4 经营亏损 $22.6 M。\n（7）毛利率：Q4 毛利率 35%，较去年 44% 下降约 900bp。\n（8）现金及等价物：截至 2025 年末，公司持有 $589.8 M 现金及可出售证券，同比大幅增长。\n\n2. 商业化与产品落地\nRigetti 的技术路线是 超导量子计算（superconducting qubits），同时提供量子云服务。\n2.1 近期业务亮点\n（1）获得 印度先进计算发展中心（C-DAC）$8.4M 订单，用于部署 108-qubit 超导量子计算机系统。\n（2）此前获得 美国空军研究实验室约 $5.8M 合同。\n（3）推进下一代量子处理器 Cepheus-1-108 qubit 系统开发（计划 2026 年推出）。\n（4）持续改进量子门保真度以及多芯片量子处理器架构。\n总结：近期主要订单包括：\n$8.4 M：印度 C-DAC 超导量子计算机采购订单\n$5.7 M：此前获得的量子系统订单\n$5.8 M：美国空军研究实验室合同\n这些订单大部分 尚未在 FY2025 财报收入中确认，将随着系统交付逐步确认收入。\n\n3. 技术路线与战略重点\n（1）Rigetti 的技术路线：超导量子计算机+全栈量子计算平台（Rigetti Quantum Cloud Services (QCS)）\nRigetti 在云平台和客户部署中目前主要使用 Aspen-M 量子处理器（QPU），具有80 个超导量子比特，结构上是：2 × 40-qubit 芯片通过高速耦合器连接形成 multi-chip QPU。正在推动下一代Cepheus 系列108超导量子计算机的开发，预计发布时间为2026年下半年。\n（2）潜在风险：Google和IBM都是其强大的竞争对手。\n\n4. 2026年营收指引\n（1）市场分析师预计 2026 年收入约 $21 M 左右，明显高于 FY2025 收入水平。\n（2）公司未在 Q4 财报或电话会中提供 明确的季度收入指引。\n（3）公司也未提供 调整后 EBITDA 的明确指引区间，但预计仍处于亏损阶段。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Q4 revenue was about $1.9M, down roughly 17% year over year, and FY2025 revenue was about $7.1M versus about $10.8M in FY2024. GAAP net loss was about $18.2M and non-GAAP net loss was about $11.3M. Cash and marketable securities reached about $589.8M, supporting the superconducting-hardware roadmap."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术路线：超导量子比特与多芯片架构\n(1.1) 原理：Rigetti 采用超导量子比特技术，通过微波脉冲在稀释制冷机环境下操控量子态。为克服单芯片规模扩展的物理限制，公司研发多芯片（chiplet）架构，将多个较小的量子处理器通过高速互联组合成更大系统。\n(1.2) 技术优势：超导路线成熟、制造成本较低，能与现有半导体工艺兼容；多芯片方案有助于在不牺牲门保真度的前提下扩展量子比特数量；自建 Fab-1 制造设施加速了从设计到实验的迭代周期。\n(1.3) 数据：Rigetti 最新一代处理器（如 Cepheus-1-36Q （36 量子比特） 与 Ankaa-3 （84 量子比特））在两比特门上实现约 99.4-99.5% 的保真度，单比特门保真度达 99.9%，硬件性能显著提升。\n\n2. Quantum Cloud Services (QCS) 平台\n(2.1) 功能：允许用户通过 API 远程访问 Rigetti 的量子处理器或在本地高性能模拟器上运行算法，内置量子编程语言 Quil 和 pyQuil（Python SDK），支持编程、调试与混合经典-量子工作流。\n(2.2) 应用领域：面向量子化学、组合优化、金融建模、材料科学等。\n\n3. 集成与生态\n(3.1) 商业与政府合作：与 AWS Braket、DARPA、美国能源部国家实验室等合作，将其量子处理器接入主流云与科研生态；为美国政府及国防相关项目提供量子计算服务与技术验证。\n(3.2) 商业模式：（a）以云订阅/按使用量计费为主（QCS 平台访问），\n                          (b)  承接政府和企业研发合同，获得短期收入和验证技术应用。例如在2025年Q1阶段\n                                (b.1) AFOSR (美国空军科学研究办公室) 探索芯片制造技术，改进超导量子比特的性能。 USD$5.48 million。 （消息源：https://thequantuminsider.com/2025/04/28/rigetti-granted-air-force-office-of-scientific-research-award-to-further-develop-chip-fabrication-technology/?utm）\n                              （b.2）Air Force Research Laboratory + QphoX 合同 : 实现基于超导量子比特的量子网络节点间的连接与通信。3年合约USD$5.8 million （消息源：https://investors.rigetti.com/news-releases/news-release-details/rigetti-collaboration-qphox-awarded-58m-afrl-contract-advance?utm_source=chatgpt.com）\n                              （b.3）在英国获得量子任务试点（Quantum Missions Pilot）类资助，约USD$4.45 million (消息源：Q1 财报 https://mlq.ai/news/rigetti-computing-reports-q1-2025-earnings-posts-surprise-net-income-secures-major-government-contracts-and-investment/?utm_source=chatgpt.com)",
+    "financial": "市值：92.45亿\nP/S：1166",
+    "latestQuarter": "1. 收入方面\n（1）Q4季度收入：Q4 收入 $1.9 M，同比下降约 17%（2024Q4 为 $2.3 M），同时低于市场预期约 $2.3 M。\n（2）全年收入：FY2025 全年收入 $7.1 M。（FY2024 Revenue：$10.8 M（约 $10.79M））因此FY2025的收入相较于FY2024的收入有下滑\n（3）GAAP 净利润：Q4 GAAP 净亏损 $18.2 M。\n（4）调整后净亏损（Non-GAAP）：Q4 非 GAAP 净亏损 $11.3 M。\n（5）每股亏损：GAAP EPS：-$0.06 调整后 EPS：-$0.03（与市场预期基本一致）。\n（6）经营亏损（Operating Loss）：Q4 经营亏损 $22.6 M。\n（7）毛利率：Q4 毛利率 35%，较去年 44% 下降约 900bp。\n（8）现金及等价物：截至 2025 年末，公司持有 $589.8 M 现金及可出售证券，同比大幅增长。\n\n2. 商业化与产品落地\nRigetti 的技术路线是 超导量子计算（superconducting qubits），同时提供量子云服务。\n2.1 近期业务亮点\n（1）获得 印度先进计算发展中心（C-DAC）$8.4M 订单，用于部署 108-qubit 超导量子计算机系统。\n（2）此前获得 美国空军研究实验室约 $5.8M 合同。\n（3）推进下一代量子处理器 Cepheus-1-108 qubit 系统开发（计划 2026 年推出）。\n（4）持续改进量子门保真度以及多芯片量子处理器架构。\n总结：近期主要订单包括：\n$8.4 M：印度 C-DAC 超导量子计算机采购订单\n$5.7 M：此前获得的量子系统订单\n$5.8 M：美国空军研究实验室合同\n这些订单大部分 尚未在 FY2025 财报收入中确认，将随着系统交付逐步确认收入。\n\n3. 技术路线与战略重点\n（1）Rigetti 的技术路线：超导量子计算机+全栈量子计算平台（Rigetti Quantum Cloud Services (QCS)）\nRigetti 在云平台和客户部署中目前主要使用 Aspen-M 量子处理器（QPU），具有80 个超导量子比特，结构上是：2 × 40-qubit 芯片通过高速耦合器连接形成 multi-chip QPU。正在推动下一代Cepheus 系列108超导量子计算机的开发，预计发布时间为2026年下半年。\n（2）潜在风险：Google和IBM都是其强大的竞争对手。\n\n4. 2026年营收指引\n（1）市场分析师预计 2026 年收入约 $21 M 左右，明显高于 FY2025 收入水平。\n（2）公司未在 Q4 财报或电话会中提供 明确的季度收入指引。\n（3）公司也未提供 调整后 EBITDA 的明确指引区间，但预计仍处于亏损阶段。",
+    "ceoMedia": "2025年9月18日，Rigetti 获得了美国空军研究实验室的一项合同，金额为 US$5.8 百万美元（为期三年），用于开发超导-光学混合的量子网络节点。https://investors.rigetti.com/news-releases/news-release-details/rigetti-collaboration-qphox-awarded-58m-afrl-contract-advance",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Superconducting quantum processors and QPUs for cloud and direct system deployments.\n2. Quantum cloud access, software tools and integration with research/enterprise workflows.\n3. International system sales and partnerships, including announced orders and deployments of larger-qubit systems.",
+      "financial": "Rigetti remains loss-making and investment-intensive. The source material references a large annual loss while the company continues expanding quantum-system deployments.",
+      "latestQuarter": "Recent updates include general availability of a 108-qubit system, international deployments and investment plans. The core execution issue is whether technical progress can translate into durable revenue and improved margins.",
+      "ceoMedia": "Rigetti's messaging focuses on superconducting hardware progress, QPU deployments, system orders and its vision for full-stack quantum computing.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://finviz.com/news/225267/rigetti-computing-reports-third-quarter-2025-financial-results-provides-technology-roadmap-updates-for-2026-and-2027",
+    "https://investors.rigetti.com/news-releases/news-release-details/rigetti-collaboration-qphox-awarded-58m-afrl-contract-advance",
+    "https://investors.rigetti.com/news-releases/news-release-details/rigetti-collaboration-qphox-awarded-58m-afrl-contract-advance?utm_source=chatgpt.com）",
+    "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-first-quarter-2025-financial-results?utm",
+    "https://investors.rigetti.com/news-releases/news-release-details/rigetti-computing-reports-second-quarter-2025-financial-results?utm",
+    "https://mlq.ai/news/rigetti-computing-reports-q1-2025-earnings-posts-surprise-net-income-secures-major-government-contracts-and-investment/?utm_source=chatgpt.com",
+    "https://seekingalpha.com/article/4812920-rigetti-computing-inc-rgti-q2-2025-earnings-call-transcript?utm",
+    "https://thequantuminsider.com/2025/04/28/rigetti-granted-air-force-office-of-scientific-research-award-to-further-develop-chip-fabrication-technology/?utm）"
+  ]
+}

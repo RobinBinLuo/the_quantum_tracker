@@ -1,0 +1,331 @@
+{
+  "id": "c06-d-wave-quantum-qbts",
+  "name": "D-Wave Quantum (QBTS)",
+  "industry": null,
+  "summary": "D-Wave 是量子退火路线的代表公司，重点不是通用门模型，而是面向优化问题的专用系统、云服务和行业方案。它已经能产生真实商业收入和订单，但市场仍需要判断退火路线的适用边界和长期规模化空间。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "D-Wave is a quantum company focused on quantum annealing and optimization, with a long operating history compared with many peers. It sells cloud access, QCaaS and enterprise optimization solutions rather than pursuing only a universal gate-model roadmap."
+    }
+  },
+  "ticker": "NYSE:QBTS",
+  "newsQuery": "(D-Wave OR D-Wave Quantum OR quantum annealing)",
+  "newsSearchTerm": "D-Wave",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "quantum-annealing",
+    "label": "量子退火 Quantum Annealing",
+    "shortLabel": "量子退火",
+    "summary": "聚焦特定优化问题求解，以专用系统先行落地商业场景，和通用门模型路线并不完全相同。",
+    "tags": [
+      "优化",
+      "退火机",
+      "专用系统",
+      "商业落地"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Quantum Annealing",
+        "shortLabel": "Quantum Annealing",
+        "summary": "Focuses on solving specific optimization problems with purpose-built systems. It is distinct from universal gate-model quantum computing.",
+        "tags": [
+          "Optimization",
+          "Annealing systems",
+          "Specialized hardware",
+          "Commercial deployment"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "7.99B",
+    "revenue2024": 0.008,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "320.91",
+    "evSales": "286.71",
+    "pe": "n/a",
+    "pb": "9.13",
+    "netCash": "841.02M"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "7.99B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "7.99B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "7.05B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "7.05B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "24.59M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "24.59M"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "20.31M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "20.31M"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "82.59%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "82.59%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "320.91",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "320.91"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "286.71",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "286.71"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "9.13",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "9.13"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "43.46M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "43.46M"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "841.02M",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "841.02M"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "$8.827M\n构成：QCaaS $6.745M、专业服务 $1.938M、其他 $0.144M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "FY2024 revenue was $8.827M, including QCaaS $6.745M, professional services $1.938M and other revenue $0.144M."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "Cost of revenue $3.264M；总运营费用 $82.786M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "Cost of revenue was $3.264M; total operating expenses were $82.786M."
+        }
+      }
+    },
+    {
+      "key": "revenue_2024",
+      "label": "2024 收入",
+      "value": "0.008",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Revenue",
+          "value": "0.008"
+        }
+      }
+    },
+    {
+      "key": "cash_and_equivalents",
+      "label": "总资产 / 现金及等价物",
+      "value": "$32.061M",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Total Assets / Cash and Equivalents",
+          "value": "$32.061M"
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/qbts/statistics/",
+    "ticker": "QBTS"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "1）截至年末，公司现金及现金等价物超过 3亿美元。这个现金储备被管理层认为足以支持其走向盈利。（认为目前无需融资）\n2）公司正在与多个客户合作，将量子和混合量子-经典应用用于真实问题，例如日本烟草公司。在药物发现，意大利保险集团 Unipol 在投资组合优化，英国 /北威尔士警察局在车辆部署优化等。\n3）公司推出 Advantage2™ 的新一代 annealing 量子处理器，并校准了第三枚 4,400 qubit 的 Advantage2 芯片",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "D-Wave ended 2024 with more than $300M of cash and emphasized customer work in optimization use cases such as drug discovery, portfolio optimization and vehicle deployment. The company also advanced Advantage2, its next-generation annealing processor."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://ir.dwavesys.com/news/news-details/2025/D-Wave-Reports-First-Quarter-2025-Results/?utm\n\n电话会：https://seekingalpha.com/article/4783642-d-wave-quantum-inc-qbts-q1-2025-earnings-call-transcript?utm\n\n业绩创纪录：Q1 营收 $15.0M，同比 +509%；GAAP 毛利 $13.9M；期末现金 $304.3M。营收激增的主要驱动是首次整机系统销售（Advantage 系统），并带来异常高的毛利率（GAAP 92.5%，非 GAAP 93.6%）。同时，Q1 订单（Bookings）$1.6M（同比下降）；过去四个季度客户总数 133（其中国际 500 强 25 家中的 69 个商业客户），净亏损 $5.4M，调整后 EBITDA 亏损 $6.1M。\n\n“量子优势/超越”主张：宣布在有用的真实问题（磁性材料模拟）上实现“量子超越”，并称研究已以《Science》论文形式发表，宣称退火机在数分钟内完成，经典超算（Frontier）需“近百万年”。\n\n客户与落地：披露Ford Otosan把量子混合调度投入生产（1,000辆车排产由30分钟降至<5分钟），日本烟草医药部门完成与AI结合的药物发现PoC；Jülich 超算中心完成首台系统交付并确认收入，计划与欧洲首台百亿亿次超算 JUPITER 互联。\n\n产品与路线图：Advantage2 在美国阿拉巴马州 Davidson Technologies 现场完成物理组装与校准；推出非线性混合求解器新能力与新用例；发布“区块链量子工作量证明”研究。\n\n电话会中，CEO表示资金充足的公司，现金超过 3 亿美元，有足够资本来使公司达到盈利状态。（预期未来无需融资/增发）",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 revenue was about $15.0M, up more than 500% year over year, driven mainly by a first full-system Advantage sale. GAAP gross margin was above 90%, bookings were about $1.6M and adjusted EBITDA remained negative. D-Wave also emphasized a claimed quantum-advantage result in materials simulation."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报：https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-second-quarter-2025-results/?utm\n\n电话会：https://seekingalpha.com/article/4810480-d-wave-quantum-inc-qbts-q2-2025-earnings-call-transcript?utm_source\n\n2025 年 Q2，D-Wave 营收 3.1 百万美元（同比 +42%，环比大幅低于 Q1 的 15 百万美元），导致 GAAP 净亏损扩大至约 167 百万美元（包含大额非现金认股权重估），而上半年累计营收已达 18.1 百万美元（同比 +289%），GAAP 毛利率高达 87.6%、Non-GAAP 毛利率 89.9%。公司在二季度完成 4 亿美元 ATM 股票发行，期末持有现金与等价物约 819 百万美元，为后续研发和部署提供充足弹药。技术方面，正式宣布第六代量子退火机 Advantage2 general availability：4,400+ 量子比特芯片，连接度从 15→20，相干时间翻倍，能量尺度提升 40%，并引入 Fast Anneal 与误差缓解改进；该系统已在美国阿拉巴马州 Davidson Technologies 完成组装与校准，并与韩国延世大学/仁川市签署部署 MOU。公司还发布面向量子 AI/ML 的新开发者工具，继续推进“整机 + 云平台 + 混合求解器”商业模式。虽然订单同比增长 92% 显示需求强劲，但整机销售周期长、收入集中于少数大单，盈利前景仍取决于能否复制 Q1 的 12.6 百万美元 Advantage2 系统销售并扩大生产级客户落地。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Q2 revenue was about $3.1M, up roughly 42% year over year but down sharply from Q1's system-sale-driven level. The company completed a $400M ATM equity raise and ended the quarter with about $819M in cash and equivalents. Advantage2 general availability was the key technology milestone."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "财务状况：\nQ3 2025 营收约 US$3.7 million，同比增长约 100%。 \nQ3 2025 订单（Bookings）约 US$2.4 million，环比比上一季度约 80% 增长。 \n毛利率：GAAP 毛利率约 71.4%，高于去年同期 ~55.8%。 \n营业费用（Operating Expenses）显著上升：Q3 2025 GAAP 经营费用约 US$30.4 million，同比增长约 40%。 \n\n净亏损（GAAP）约 US$140.0 million，每股亏损约 US$0.41。主要原因是约 US$121.9 million 的非现金、非经营性“认股权证负债重估 (warrant liability remeasurement)”费用。 \n\n“调整后净亏损 (Adjusted Net Loss)”约 US$18.1 million，每股约 US$0.05。 \n\n现金及现金等价物：截至 Q3 末，公司现金余额超过 US$836 million（创历史新高）。\n\n财报链接：https://ir.dwavesys.com/news/news-details/2025/D-Wave-Reports-Third-Quarter-2025-Results/\n\n电话会主要内容：\n1. 商业进展：\n（1）完成 意大利 Q-Alliance 交易：价值 1000万欧元，为 Advantage2 系统提供 5 年 50% 容量，可选择未来整机购买。这是海外政府级部署的明确实质收入，而不是科研补助。\n（2）客户数过去四季度超过 100 个，其中约 24 家为全球 2000 强。客户结构继续向大型企业集中。新增/续约客户包括：大型国际航空公司、SkyWater 半导体、Japan Tobacco Pharma（量子+AI 药物发现）、Yapi Kredi 银行、韩国量子计算公司等\n2. 技术路线\n（1）明确强调 超导将最终胜出（基于门速度和可制造性），批评离子阱与原子阵列在长期扩展性上不足。（IonQ 也喷回了D-Wave说他们的退火机是玩具而已。）\n\n（2）D-Wave 同时推进：退火体系（Advantage → Advantage2 → Advantage3 → 10万量级 qubits 目标）和 门模型体系（Fluxonium + 低温控制）\n\n\n（3）工程进展：Advantage2 在美国国防承包商 Davidson 场址上线，准备进入涉密条件认证。Advantage3 原型制造完成，近期进入测试。\n\n3. 评估：\n核心商业模式仍以退火应用落地为主，门模型路线处于非常早期阶段，离商业实用至少仍有数年。\n\n意大利和德国交易表面上是“系统销售”，但本质仍是扩展 QCaaS + 本地化部署 + 政府/研究机构试点，可持续性仍需观察。\n\n尽管宣称“唯一展示实用量子优势”，但对比结果高度依赖具体问题结构，并非可泛化到所有有价值的优化场景。\n\n现金充裕给了多路线推进的能力，但成本曲线仍未出现可持续下降趋势。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $3.7M, up roughly 100% year over year, and bookings were about $2.4M. GAAP net loss was about $140M, mainly due to non-cash warrant-liability remeasurement. Cash exceeded $836M, giving the company a large runway for R&D and commercialization."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 收入与财务表现\n（1）Q4 季度收入：财年 2025 第四季度营收 $2.8M，同比增长约 19%（2024Q4 为 $2.3M）。\n（2）全年收入：财年 2025 全年收入 $24.6M，同比增长 179%（2024 全年收入 $8.8M）。\n（3）GAAP 净利润：Q4 净亏损 $42.3M，约 -$0.12/股，相比 Fiscal Year(FY, 财年的缩写)2024 同期的 -$86.1M 有明显收窄。FY2025 全年净亏损 $355.1M，约 -$1.11/股，较 FY2024 的 -$143.9M 扩大。\n（4）调整后净损（Adjusted Net Loss）：Q4 调整后净损 $31.8M 或 -$0.09/股（剔除非现金重估等项目）。FY2025 全年调整后净损 $84.5M 或 -$0.26/股。\n（5）调整后 EBITDA：Q4 EBITDA 亏损 $25.0M，较 2024Q4 扩大。FY2025 全年 EBITDA 亏损 $71.8M，较 FY2024 的 $56.0M 扩大。\n（6）毛利与毛利率：Q4 GAAP 毛利 $1.8M（毛利率 64.8%）。非 GAAP 毛利 $2.0M（非 GAAP 毛利率 ~71.8%）。FY2025 全年 GAAP 毛利 $20.3M（毛利率 82.6%），非 GAAP 毛利 $21.1M（非 GAAP 毛利率 86.0%）。\n（7）现金及等价物（Liquidity）：截至 2025 年末现金与可出售投资证券余额 $884.5M，为历史最高。季度内因认股权证行权为公司带来 $63.7M 现金流入。\n\n2. 商业化与业务动态\n\n2.1 订单与 Bookings\nQ4 Bookings $13.4M（相较 2025 Q3 的 $2.4M 大增 471%），但较 2024Q4 时包含大单的 $18.3M 略有下降。\n年度 Bookings $18.7M（较 FY2024 Bookings $23.9M 下降 ~22%），但财报后续 2026Q1 拥有明显增长势头（截至 2/25/26 年初 Bookings > $32.8M）。\n\n2.2 客户与市场覆盖\nFY2025 识别到收入的客户超过 135 个，包含 70+ 商业企业和 20+ Forbes Global 2000 公司。\n\n2.3 业务亮点与技术成就\n财报中公司强调多个业务与技术进展，包括：\n（1）签署对意大利研究中心的一项 €10M 24/7 退火计算机容量 booking。\n（2）Q4 之后的 $20M 系统采购（佛罗里达大学）与 $10M 财富100强企业 QCaaS 协议。\n（3）完成对 gate-model 量子公司 Quantum Circuits 的收购（扩展到 gate-model 量子系统能力）。\n（4）演示了芯片上低温门量子比特控制技术，让更大规模 qubits 控制更高效。\n（5）多项 annealing 技术改进，包括新 solver 能力、multicolor annealing 和 fast-reverse anneal 功能。\n（6）与国防及混合应用伙伴（如 Davidson Technology 和 Anduril Industries）启动复杂优化问题联合研究。\n（7）新成立专注美国政府市场的业务单元。\n\n3. 2026年营收指引\n（1）指导全年预计营收：未提及\n（2）预计第一季度营收至少 $32 M，相较于2025 Q1 翻倍。（因为上面佛罗里达大学和财富100强企业订单有关）\n\n财报链接：https://ir.dwavequantum.com/news/news-details/2026/D-Wave-Reports-Fourth-Quarter-and-Year-End-2025-Results/default.aspx?utm_source=chatgpt.com",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Q4 revenue was about $2.8M, up roughly 19% year over year, and FY2025 revenue reached about $24.6M, up 179%. GAAP net loss widened for the full year, while gross margin remained high. The main debate is whether annealing and hybrid optimization demand can scale into recurring enterprise revenue."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {
+    "market_cap": 9.99,
+    "revenue_2024": 0.008
+  },
+  "fundamentalAnalysis": {
+    "business": "目前主要业务\n1. 核心技术：基于超导量子比特的量子退火与混合量子计算解决方案\n(1.1) 技术优势：作为全球最早实现商业化量子退火机的公司，D-Wave 在组合优化、物流调度、金融风险分析、材料科学等问题中积累了超过 20 年经验。其Advantage 系统具备超过 5000+ 量子比特和高连通度拓扑，Advantage2 进一步提升量子隧穿效率和可用性（官方宣称 99.9% uptime）。D-Wave 正在研发门模型技术，目标是提供兼容退火与通用量子运算的多模架构，以覆盖更广泛的量子算法。\n(1.2) 项目与合作\n已有 100+ 组织通过 D-Wave 平台运行超过 2 亿个优化问题，也与政府、科研机构及大型企业合作，推进量子计算在汽车、制造、供应链、交通优化、能源调度、金融组合优化等领域的试点。\n\n2. 产品与平台\n(2.1) Advantage 系列与 Advantage2 量子计算机：Advantage 系列是 D-Wave 的旗舰退火型量子计算平台，Advantage2 为最新一代，具备更高的比特数、连通性和退火性能。支持复杂优化、采样与量子模拟任务，重点面向短期可商业化落地的行业应用。（注意，D-wave的量子计算机是只适用量子退火模型，而不是通用量子计算机，与IBM，Google， IONQ有本质区别，更具体地说就是D-Wave 的量子计算机不能运行除了量子退火以外的其他量子算法，而量子退火只是一类启发式算法框架。）\n\n(2.2) D-Wave 云平台（Leap™）与全栈工具链\n提供基于云的量子计算访问，让开发者、科研机构和企业无需自建硬件即可提交任务。\n提供 SDK、API 和量子-经典混合求解器（Hybrid Solver Service），降低开发门槛。\n支持 Python 生态及多种优化问题建模接口（如QUBO、Ising模型）。\n\n(2.3) 专业服务与行业解决方案\n提供咨询、培训与共创项目，帮助客户将实际业务问题映射到量子退火框架。\n在物流（车辆路径优化、仓储调度）、金融（投资组合优化）、制造（产线排程）等行业建立了示范性案例。\n\n3. 软件与生态\n(3.1) 开发生态与社区：建立了活跃的开发者社区，通过黑客松、开放源码示例、在线文档等推广量子退火编程。提供 Ocean SDK 等软件工具，帮助用户在经典计算环境中预处理与后处理量子结果。\n(3.2) 混合求解器：允许用户自动利用经典与量子资源，在硬件受限时依然获得高质量解。支持自动缩放至更大问题规模，使非量子专家也能在实际工业优化问题中受益。",
+    "financial": "市值：$92 亿\nP/S：412.73",
+    "latestQuarter": "1. 收入与财务表现\n（1）Q4 季度收入：财年 2025 第四季度营收 $2.8M，同比增长约 19%（2024Q4 为 $2.3M）。\n（2）全年收入：财年 2025 全年收入 $24.6M，同比增长 179%（2024 全年收入 $8.8M）。\n（3）GAAP 净利润：Q4 净亏损 $42.3M，约 -$0.12/股，相比 Fiscal Year(FY, 财年的缩写)2024 同期的 -$86.1M 有明显收窄。FY2025 全年净亏损 $355.1M，约 -$1.11/股，较 FY2024 的 -$143.9M 扩大。\n（4）调整后净损（Adjusted Net Loss）：Q4 调整后净损 $31.8M 或 -$0.09/股（剔除非现金重估等项目）。FY2025 全年调整后净损 $84.5M 或 -$0.26/股。\n（5）调整后 EBITDA：Q4 EBITDA 亏损 $25.0M，较 2024Q4 扩大。FY2025 全年 EBITDA 亏损 $71.8M，较 FY2024 的 $56.0M 扩大。\n（6）毛利与毛利率：Q4 GAAP 毛利 $1.8M（毛利率 64.8%）。非 GAAP 毛利 $2.0M（非 GAAP 毛利率 ~71.8%）。FY2025 全年 GAAP 毛利 $20.3M（毛利率 82.6%），非 GAAP 毛利 $21.1M（非 GAAP 毛利率 86.0%）。\n（7）现金及等价物（Liquidity）：截至 2025 年末现金与可出售投资证券余额 $884.5M，为历史最高。季度内因认股权证行权为公司带来 $63.7M 现金流入。\n\n2. 商业化与业务动态\n\n2.1 订单与 Bookings\nQ4 Bookings $13.4M（相较 2025 Q3 的 $2.4M 大增 471%），但较 2024Q4 时包含大单的 $18.3M 略有下降。\n年度 Bookings $18.7M（较 FY2024 Bookings $23.9M 下降 ~22%），但财报后续 2026Q1 拥有明显增长势头（截至 2/25/26 年初 Bookings > $32.8M）。\n\n2.2 客户与市场覆盖\nFY2025 识别到收入的客户超过 135 个，包含 70+ 商业企业和 20+ Forbes Global 2000 公司。\n\n2.3 业务亮点与技术成就\n财报中公司强调多个业务与技术进展，包括：\n（1）签署对意大利研究中心的一项 €10M 24/7 退火计算机容量 booking。\n（2）Q4 之后的 $20M 系统采购（佛罗里达大学）与 $10M 财富100强企业 QCaaS 协议。\n（3）完成对 gate-model 量子公司 Quantum Circuits 的收购（扩展到 gate-model 量子系统能力）。\n（4）演示了芯片上低温门量子比特控制技术，让更大规模 qubits 控制更高效。\n（5）多项 annealing 技术改进，包括新 solver 能力、multicolor annealing 和 fast-reverse anneal 功能。\n（6）与国防及混合应用伙伴（如 Davidson Technology 和 Anduril Industries）启动复杂优化问题联合研究。\n（7）新成立专注美国政府市场的业务单元。\n\n3. 2026年营收指引\n（1）指导全年预计营收：未提及\n（2）预计第一季度营收至少 $32 M，相较于2025 Q1 翻倍。（因为上面佛罗里达大学和财富100强企业订单有关）\n\n财报链接：https://ir.dwavequantum.com/news/news-details/2026/D-Wave-Reports-Fourth-Quarter-and-Year-End-2025-Results/default.aspx?utm_source=chatgpt.com",
+    "ceoMedia": "2025 年 7 月，D-Wave 宣布一个新的战略发展项目 (“Strategic Development Initiative for Advanced Cryogenic Packaging”)。目标是提升其处理器的封装能力，以加速 gate-model 和 annealing 两类量子处理器的发展。 \n\n在这个项目里，D-Wave 与 NASA Jet Propulsion Laboratory (JPL) 合作，使用 JPL 的超导 bump-bond 过程，以实现芯片之间的超导互联。这样的封装技术被认为是未来扩大量子比特数并保证连通性与性能的重要组成部分。\nhttps://www.dwavequantum.com/company/newsroom/press-release/d-wave-quantum-announces-strategic-development-initiative-for-advanced-cryogenic-packaging/?utm_source=chatgpt.com",
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": "2025-06-30 季度"
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Quantum annealing systems for optimization problems and hybrid quantum-classical workflows.\n2. Leap cloud access and QCaaS contracts for enterprise and government customers.\n3. Industry solutions in logistics, defense planning, scheduling and other optimization-heavy use cases.",
+      "financial": "D-Wave reports commercial revenue and bookings, but remains in a growth and investment phase. The source material highlights strong revenue growth and accelerating bookings.",
+      "latestQuarter": "Recent reporting points to a 179% revenue jump in 2025, stronger bookings, a major QCaaS contract and expanded headquarters/R&D activity. The central question is whether optimization use cases can scale into durable enterprise demand.",
+      "ceoMedia": "D-Wave communications emphasize real-world optimization deployments, customer contracts, defense and enterprise use cases, and the distinction between annealing systems and gate-model quantum computing.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://ir.dwavequantum.com/news/news-details/2026/D-Wave-Reports-Fourth-Quarter-and-Year-End-2025-Results/default.aspx?utm_source=chatgpt.com",
+    "https://ir.dwavesys.com/news/news-details/2025/D-Wave-Reports-First-Quarter-2025-Results/?utm",
+    "https://ir.dwavesys.com/news/news-details/2025/D-Wave-Reports-Third-Quarter-2025-Results/",
+    "https://seekingalpha.com/article/4783642-d-wave-quantum-inc-qbts-q1-2025-earnings-call-transcript?utm",
+    "https://seekingalpha.com/article/4810480-d-wave-quantum-inc-qbts-q2-2025-earnings-call-transcript?utm_source",
+    "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-quantum-announces-strategic-development-initiative-for-advanced-cryogenic-packaging/?utm_source=chatgpt.com",
+    "https://www.dwavequantum.com/company/newsroom/press-release/d-wave-reports-second-quarter-2025-results/?utm"
+  ]
+}

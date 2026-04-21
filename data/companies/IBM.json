@@ -1,0 +1,511 @@
+{
+  "id": "c02-ibm",
+  "name": "IBM",
+  "industry": null,
+  "summary": "IBM Quantum 是最早把量子计算做成企业级平台的公司之一，围绕超导处理器、Qiskit 和 IBM Quantum Network 建立完整生态。它的优势在于软硬件一体化、云端访问和企业合作网络，但量子业务仍嵌入 IBM 整体软件与基础设施战略中。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "IBM Quantum is one of the most established enterprise quantum platforms, combining superconducting hardware, Qiskit software and cloud access. Its strategy is to build a full-stack ecosystem for research, enterprise pilots and long-term fault-tolerant systems."
+    }
+  },
+  "ticker": "NYSE:IBM",
+  "newsQuery": "(IBM Quantum OR IBM quantum computing OR Qiskit)",
+  "newsSearchTerm": "IBM Quantum",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "superconducting",
+    "label": "超导 Superconducting",
+    "shortLabel": "超导",
+    "summary": "目前最成熟、产业化推进最快的通用量子计算路线之一，依赖低温超导量子比特、微波控制和大规模工程集成。",
+    "tags": [
+      "低温超导",
+      "Gate-based",
+      "Cloud",
+      "容错路线"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Superconducting",
+        "shortLabel": "Superconducting",
+        "summary": "One of the most mature and fastest-commercializing paths for general-purpose quantum computing, built around cryogenic superconducting qubits, microwave control and large-scale systems engineering.",
+        "tags": [
+          "Cryogenic superconducting",
+          "Gate-based",
+          "Cloud",
+          "Fault tolerance"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "238.33B",
+    "revenue2024": 628,
+    "guidance2025": ">= 5% (2025 年Q2 新闻稿)",
+    "growth2025": ">= 5%",
+    "ps": "3.52",
+    "evSales": "4.27",
+    "pe": "22.75",
+    "pb": "7.27",
+    "netCash": "-50.19B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "238.33B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "238.33B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "288.05B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "288.05B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "67.54B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "67.54B"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "39.30B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "39.30B"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "58.19%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "58.19%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "3.52",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "3.52"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "4.27",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "4.27"
+        }
+      }
+    },
+    {
+      "key": "pe",
+      "label": "滚动 P/E",
+      "value": "22.75",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM P/E",
+          "value": "22.75"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "7.27",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "7.27"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "64.61B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "64.61B"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "-50.19B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "-50.19B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "IBM 在2025年5月发布消息声称其量子业务 (“quantum business”) 的累计签约／bookings 自 2017 年第一季度以来已达到 10 亿美元 (US$1B)。若将IBM的10亿美元数据平均分配至34个季度——大致相当于该公司推出首款量子产品以来的财报季度数——则每个季度的平均值约为2940万美元，每年的平均值约为1.176亿美元。\n\n消息源：https://www.datacenterdynamics.com/en/news/ibm-claims-to-have-booked-1bn-of-cumulative-quantum-business/?utm",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "IBM stated in May 2025 that cumulative quantum-business signings/bookings had reached about $1B since Q1 2017. This is cumulative bookings, not annual revenue."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "None disclosed."
+        }
+      }
+    },
+    {
+      "key": "revenue_2024",
+      "label": "2024 收入",
+      "value": "628",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Revenue",
+          "value": "628"
+        }
+      }
+    },
+    {
+      "key": "gross_margin_non_gaap",
+      "label": "毛利率 Non-GAAP",
+      "value": "0.601",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Gross Margin Non-GAAP",
+          "value": "0.601"
+        }
+      }
+    },
+    {
+      "key": "gross_margin_gaap",
+      "label": "毛利率 GAAP",
+      "value": "0.588",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Gross Margin GAAP",
+          "value": "0.588"
+        }
+      }
+    },
+    {
+      "key": "revenue_2025_guidance",
+      "label": "2025 收入指引",
+      "value": ">= 5% (2025 年Q2 新闻稿)",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Revenue Guidance",
+          "value": "At least 5%, based on the Q2 2025 press-release guidance."
+        }
+      }
+    },
+    {
+      "key": "revenue_2025_growth",
+      "label": "2025 收入增速",
+      "value": ">= 5%",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Revenue Growth",
+          "value": ">= 5%"
+        }
+      }
+    },
+    {
+      "key": "estimated_spend_2025",
+      "label": "预估 2025 支出",
+      "value": "1.4",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Estimated 2025 Spend",
+          "value": "1.4"
+        }
+      }
+    },
+    {
+      "key": "completed_spend_2025",
+      "label": "2025 已完成支出",
+      "value": "0.657",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2025 Completed Spend",
+          "value": "0.657"
+        }
+      }
+    },
+    {
+      "key": "remaining_spend_2025",
+      "label": "本年度剩余支出估算",
+      "value": "0.743",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Estimated Remaining Spend",
+          "value": "0.743"
+        }
+      }
+    },
+    {
+      "key": "net_assets",
+      "label": "净资产",
+      "value": "27.59",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Net Assets",
+          "value": "27.59"
+        }
+      }
+    },
+    {
+      "key": "short_term_financing_debt",
+      "label": "短期融资性债务",
+      "value": "8.945",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Short-term Financing Debt",
+          "value": "8.945"
+        }
+      }
+    },
+    {
+      "key": "long_term_financing_debt",
+      "label": "长期融资性债务",
+      "value": "55.219",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Long-term Financing Debt",
+          "value": "55.219"
+        }
+      }
+    },
+    {
+      "key": "cash_and_equivalents",
+      "label": "总资产 / 现金及等价物",
+      "value": "11.943 （另：受限现金 $83M；可售证券 $3.504B）",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Total Assets / Cash and Equivalents",
+          "value": "11.943 (also: restricted cash $83M; marketable securities $3.504B)"
+        }
+      }
+    },
+    {
+      "key": "other_current_assets",
+      "label": "其他流动资产",
+      "value": "22.31",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Other Current Assets",
+          "value": "22.31"
+        }
+      }
+    },
+    {
+      "key": "non_current_assets",
+      "label": "非流动资产",
+      "value": "114.33",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "Non-current Assets",
+          "value": "114.33"
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/ibm/statistics/",
+    "ticker": "IBM"
+  },
+  "earningsReports": [
+    {
+      "key": "fy2024_notes",
+      "label": "2024 年报",
+      "content": "年报提到第四季度发布新产品Guardium Quantum Safe，旨在帮助企业实现量子安全加密治理。https://www.ibm.com/products/guardium-quantum-safe\n它的核心目标是：1）识别企业中使用的加密算法与密钥  2）评估这些加密资产在量子时代的脆弱性  3）制定并执行加密升级与替换策略  4）实现“加密敏捷性”以应对未来量子攻击\n（是否是LAES的主要业务？）",
+      "i18n": {
+        "en": {
+          "label": "FY2024 Annual Report",
+          "content": "IBM's 2024 annual materials highlighted Guardium Quantum Safe, a product designed to help enterprises identify cryptographic assets, assess quantum-era vulnerabilities and plan encryption upgrades. This reinforces IBM's positioning in both quantum computing and quantum-safe security."
+        }
+      }
+    },
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报链接：https://www.ibm.com/investor/events/earnings-1q25?utm\n财报没有提及量子\n\n\n电话会链接：https://www.rev.com/transcripts/ibm-q1-2025-earnings-conference-call?utm\n电话会有提及量子：在西班牙部署了欧洲的第一台量子计算机 IBM Quantum System Two（配备 Heron 处理器，156 个量子比特），安装预计在 2025 年年末完成。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Q1 2025 financial materials did not disclose standalone quantum revenue. The earnings call referenced deployment of Europe's first IBM Quantum System Two in Spain, using a 156-qubit Heron processor, with installation expected around year-end 2025."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报链接：https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd\n财报没有提及量子\n\n电话会链接：https://www.ibm.com/downloads/documents/us-en/137a1e23d85ba686\n电话会有提及量子：在日本神户与RIKEN公司合作成功部署并上线了IBM Quantum System Two（配备 Heron 处理器，156 个量子比特）。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Q2 2025 financial materials did not disclose standalone quantum revenue. The call noted IBM Quantum System Two deployment with RIKEN in Kobe, Japan, also using a 156-qubit Heron processor."
+        }
+      }
+    },
+    {
+      "key": "q3_2025",
+      "label": "2025 Q3",
+      "content": "财务概况\n营收：约 165 亿美元，同比增长约 9%，按固定汇率增长约 7%。\n \n各业务板块表现：\n软件（Software）收入约 72 亿美元，同比增长约 10%（固定汇率约 9%） \n咨询（Consulting）收入约 53 亿美元，同比增长约 3%（固定汇率约 2%） \n基础设施（Infrastructure）收入约 36 亿美元，同比增长约 17%（固定汇率约 15%） \n\n利润指标：\nGAAP 毛利率约 57.3%，比去年同期上升约 1.1 个百分点。 \nNon-GAAP（经调整）毛利率约 58.7%，比去年同期上升约 1.2 个百分点。 \nGAAP 税前收入率约为 14.9%。 \n非 GAAP 税前收入率约为 18.6%。 \n\n现金流与资本结构：\n\n本季度经营活动净现金流约 31 亿美元。 \n本季度自由现金流约 24 亿美元。 \n\n截至本季度末，现金及可变现证券约 149 亿美元；包括融资债务的总负债约 631 亿美元。\n财报链接：https://www.ibm.com/downloads/documents/us-en/131cf87ab633199f\n\n电话会链接：https://www.ibm.com/downloads/documents/us-en/1443d5f7d84f50bb\n\n电话会内提及量子：\n1. 公司仍然在为2028年建成全球第一个可容错纠错的量子计算机而努力。\n2. IBM最近和不同的公司建立了一定的合作，其中包括（1）汇丰银行借助IBM的Heron量子处理器，在债券交易预测方面取得了显著提升。（2）先锋集团宣布在优化投资组合构建方面取得突破，采用了IBM的量子计算即服务。（3）我们近期宣布与AMD建立合作伙伴关系，将依托IBM的量子技术专长与AMD的CPU、GPU及其他加速器技术，共同构建以量子计算为核心的超级计算架构。（4）IBM与西班牙Basque Government共同揭幕了欧洲首台IBM quantum system two。\n3. IBM Q3业绩亮眼，其中很大原因是基础设施业务再次交出亮眼成绩单，实现15%的增长。混合基础设施业务增长26%，\n基础设施支持业务持平。在混合基础设施领域，IBM Z创下近二十年来第三季度最高营收纪录——同比增长59%，主要得益于专为人工智能和混合云打造的z17平台取得早期成功，该平台在实时推理、量子安全防护及人工智能驱动的运营效率方面具备突破性能力。客户选择投资z17不仅因其可靠性和可扩展性，更因其能为数字化转型战略核心提供安全高效的计算支持。分布式基础设施业务增长8%，反映出存储产品线全面增长态势——客户正通过扩容应对日益增长的数据与AI需求。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q3",
+          "content": "Q3 revenue was about $16.5B, up roughly 9% year over year, with software, consulting and infrastructure all contributing. The quarter emphasized IBM's broader software and AI momentum while quantum remained embedded in the long-term platform roadmap."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 收入与财务表现\n（1）Q4季度收入：Q4 收入 $19.7B，同比增长约 12.8%，高于市场预期约 $19.2B。\n（2）全年收入：FY2025 收入 $67.5B，同比增长约 8%。\n（3）Q4净利润：GAAP 净利润 $5.6B，每股 $5.88。\n（4）调整后 EPS：Non-GAAP EPS $4.52，高于市场预期 $4.29。\n（5）自由现金流（FCF）：FY2025 自由现金流 $14.7B，创十多年新高。\n\n2. 业务结构\n2.1: IBM 的收入主要来自三个核心业务：\nSoftware                  $29.96B\nConsulting\t$21.16B\nInfrastructure\t$15.72B\n其中 Q4 增长：\n（1）Software：+14%\n（2）Infrastructure：+21%\n（3）Consulting：+3%\n2.2. AI 与订单\nIBM 在电话会中强调：GenAI book of business 累计达到$12.5B，其中：Consulting：$10.5B+，Software：$2B+。这说明 IBM 的 AI 业务已经形成较大的企业合同规模。\n\n3. 量子计算相关进展（重点）\nIBM 财报不会单独披露量子收入，但电话会和技术更新中有几条重要信息。\n3.1 新量子处理器发布\nIBM 在 Q4 推出了新的量子处理器：IBM Quantum Nighthawk （120 qubits），相比上一代性能提升约 30%，拥有 218 个可调耦合器\n目标：提高量子电路执行能力，为更大规模系统奠定基础。\n3.2 IBM Quantum System Two 扩展： IBM 正在大力推广可以整机售卖的 IBM Quantum System Two，这是其模块化量子计算系统。特点：可容纳多个量子处理器，可升级新 QPU，设计用于 utility-scale quantum computing。\n3.3 量子硬件规模：截至 Q4：IBM Quantum 平台，一共有17 台量子处理器在线，总 qubit 2,477，每秒可执行的量子电路层操作数（CLOPS） > 330K。\n3.4 量子生态：IBM 目前仍是全球最大量子生态之一：Qiskit 开发框架，超 5600 篇研究论文，多个国家量子中心部署\n\n5. 量子路线图（IBM roadmap）\nIBM 在财报和技术路线中再次确认：\n时间\t目标\n2026\tKookaburra processor\n2028\t1000+ qubit system\n2029\tStarling 容错量子计算机（fault-tolerant quantum computer）\n2033\tBlue Jay (~2000 logical qubits)\n\n6. 2026年指引\nIBM 给出的 FY2026 指引：\n（1）收入增长：预计 >5% constant currency growth。\n（2）自由现金流：预计 + $1B。\n（3）软件增长：预计约 10%。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Q4 revenue was about $19.7B, and FY2025 revenue was about $67.5B, up roughly 8%. Software and infrastructure were the strongest growth areas, and IBM's GenAI book of business reached about $12.5B. Quantum remained strategically important but was not separated as an independent revenue line."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {
+    "market_cap": 2670.0,
+    "revenue_2024": 628.0,
+    "gross_margin_non_gaap": 0.601,
+    "gross_margin_gaap": 0.588,
+    "ev_sales": 4.79,
+    "ttm_pe": 46.2,
+    "pb_ratio": 9.71,
+    "net_assets": 27.59
+  },
+  "fundamentalAnalysis": {
+    "business": "目前主要业务：\n1. 硬件上设计与制造量子处理器：\n  目标是通用容错量子计算机\n  技术路线：基于低温超导量子比特\n  （1.1）2023 年末：Heron 133-156 量子比特： 提升量子门保真度与控制架构，为容错奠基。\n  （1.2）2023 年末：Condor 1121 量子比特：验证硬件规模实现上千比特集成可行性，容错性能无法保证。（属于肌肉大但是没力气）\n     2027–2028：实现 15,000 门电路运行，进入“量子优势”阶段；\n     计划于2029年交付一台具备容错能力的大规模量子计算机，能够：准确运行 1 亿个Gates，在 200 个逻辑量子比特上运行\n     2033年计划: IBM Quantum Blue Jay 2,000 个逻辑 qubit 可运行超过 10 亿个量子门操作\n2. 软件上构建基于Qiskit 框架的开发生态圈并搭建量子计算云平台\n  （2.1） 维护Qiskit （开源量子编程框架）及相关工具，是业内公认的最好用的量子编程框架，具有很大的影响力。很多大公司 例如英伟达，腾讯等的量子编程语言都是基于Qiskit进行开发。Qiskit 属于初学者必学之一的量子编程语言。它也可以用来编写和模拟量子电路，运行量子算法，支持 IBM的 量子处理器和其他后端。可本地模拟或通过 IBM Quantum service 连接实际量子处理器 (均拥有大约130 量子比特的量子处理器。每个账户只有一个月免费试用期，试用期内总使用时长只有10分钟，后续需要收费。本人用过好几次云端服务，体验感很好。)\n  （2.2）IBM Quantum Services 提供云端访问不同规模的量子处理器，为高校，研究机构和企业提供早期应用测试场景，并与 IBM Cloud、混合云战略协同。\n\n3. 设计，开发，部署以及出售模块化封装的商用量子系统。\n  （3.1）目前最新的商用量子系统是IBM Quantum System Two, 采取模块化设计，可替换量子处理器插槽和可升级控制电子设备，支持从百比特级处理器到未来数千比特级处理器，包括 Heron (100+ 量子比特) 以及 Condor （1000+ 量子比特）等处理器。\n  （3.2）特点与价值：（a）把处理器、制冷、控制和屏蔽集成为一个独立单元，便于数据中心或研究机构部署。(b) 与IBM Cloud 直连，通过 Qiskit 和 IBM Quantum Services 提供远程访问。（c）具有混合工作流，与 IBM Cloud、Hybrid Cloud、HPC 系统集成，提供 AI+量子、经典+量子联合工作负载。\n  （3.3）部署情况：涉及北美，欧洲，亚洲\n      （IBM Quantum System One）：2019 年： 第一台部署于纽约。\n                                                           2021 年：德国 Fraunhofer-Gesellschaft 部署欧洲首台，\n                                                                           日本东京理科大学与 RIKEN 部署亚洲首台，\n                                                                           意大利 CINECA 超算中心。\n     （IBM Quantum System Two):       2023–2024 年：首批 System Two 在纽约上线内部测试。\n                                                            2025 年：日本神户：IBM + RIKEN 部署第一台美国以外的 System Two；\n                                                                             在西班牙Basque部署欧洲首台 System Two。",
+    "financial": "市值：2481.57忆\nP/E（TTM）：43.11 （较高的PE但2024年营收增长只有7%）",
+    "latestQuarter": "1. 收入与财务表现\n（1）Q4季度收入：Q4 收入 $19.7B，同比增长约 12.8%，高于市场预期约 $19.2B。\n（2）全年收入：FY2025 收入 $67.5B，同比增长约 8%。\n（3）Q4净利润：GAAP 净利润 $5.6B，每股 $5.88。\n（4）调整后 EPS：Non-GAAP EPS $4.52，高于市场预期 $4.29。\n（5）自由现金流（FCF）：FY2025 自由现金流 $14.7B，创十多年新高。\n\n2. 业务结构\n2.1: IBM 的收入主要来自三个核心业务：\nSoftware                  $29.96B\nConsulting\t$21.16B\nInfrastructure\t$15.72B\n其中 Q4 增长：\n（1）Software：+14%\n（2）Infrastructure：+21%\n（3）Consulting：+3%\n2.2. AI 与订单\nIBM 在电话会中强调：GenAI book of business 累计达到$12.5B，其中：Consulting：$10.5B+，Software：$2B+。这说明 IBM 的 AI 业务已经形成较大的企业合同规模。\n\n3. 量子计算相关进展（重点）\nIBM 财报不会单独披露量子收入，但电话会和技术更新中有几条重要信息。\n3.1 新量子处理器发布\nIBM 在 Q4 推出了新的量子处理器：IBM Quantum Nighthawk （120 qubits），相比上一代性能提升约 30%，拥有 218 个可调耦合器\n目标：提高量子电路执行能力，为更大规模系统奠定基础。\n3.2 IBM Quantum System Two 扩展： IBM 正在大力推广可以整机售卖的 IBM Quantum System Two，这是其模块化量子计算系统。特点：可容纳多个量子处理器，可升级新 QPU，设计用于 utility-scale quantum computing。\n3.3 量子硬件规模：截至 Q4：IBM Quantum 平台，一共有17 台量子处理器在线，总 qubit 2,477，每秒可执行的量子电路层操作数（CLOPS） > 330K。\n3.4 量子生态：IBM 目前仍是全球最大量子生态之一：Qiskit 开发框架，超 5600 篇研究论文，多个国家量子中心部署\n\n5. 量子路线图（IBM roadmap）\nIBM 在财报和技术路线中再次确认：\n时间\t目标\n2026\tKookaburra processor\n2028\t1000+ qubit system\n2029\tStarling 容错量子计算机（fault-tolerant quantum computer）\n2033\tBlue Jay (~2000 logical qubits)\n\n6. 2026年指引\nIBM 给出的 FY2026 指引：\n（1）收入增长：预计 >5% constant currency growth。\n（2）自由现金流：预计 + $1B。\n（3）软件增长：预计约 10%。",
+    "ceoMedia": "2025年9月15日，IBM 和 AMD联合发布战略合作声明，计划共同打造下一代量子中心超级计算架构。\n\n2025年8月1日，IBM表示未来五年是量子计算从实验走向实用化的关键阶段\n\n2025年4月7日，与 Cleveland Clinic 的 10 年“Discovery Accelerator”持续推进；诊所内部署了全球首台专用于医疗研究的 IBM Quantum System One，并在 2025 年继续面向初创与研究者开放项目批次。（https://newsroom.clevelandclinic.org/2025/04/07/cas-and-cleveland-clinic-collaborate-to-accelerate-research-through-advanced-ai-and-quantum-computing?utm_source=chatgpt.com）",
+    "notes": null,
+    "latestEarnings": "https://newsroom.ibm.com/2025-07-23-IBM-RELEASES-SECOND-QUARTER-RESULTS",
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": "https://newsroom.ibm.com/2025-01-29-IBM-RELEASES-FOURTH-QUARTER-RESULTS"
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Superconducting quantum processors and modular quantum systems, including cloud-accessible processors and enterprise-facing system deployments.\n2. Qiskit and the broader software stack for circuit design, compilation, error mitigation and workflow integration.\n3. IBM Quantum Network, partnerships and industry programs that connect universities, labs and enterprise customers to IBM's quantum roadmap.",
+      "financial": "Quantum is not disclosed as a standalone revenue line. IBM's reported financials are driven by software, consulting and infrastructure, with quantum positioned as a strategic technology platform.",
+      "latestQuarter": "The latest quarter material focuses on IBM's broader business rather than standalone quantum revenue. Quantum remains embedded in IBM's long-term platform, cloud and research strategy.",
+      "ceoMedia": "IBM continues to communicate its quantum roadmap through IBM Quantum announcements, Qiskit updates, research publications and ecosystem partnerships. Management positions quantum as part of IBM's long-term hybrid-cloud and high-performance computing strategy.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://newsroom.clevelandclinic.org/2025/04/07/cas-and-cleveland-clinic-collaborate-to-accelerate-research-through-advanced-ai-and-quantum-computing?utm_source=chatgpt.com）",
+    "https://newsroom.ibm.com/2025-01-29-IBM-RELEASES-FOURTH-QUARTER-RESULTS",
+    "https://newsroom.ibm.com/2025-07-23-IBM-RELEASES-SECOND-QUARTER-RESULTS",
+    "https://www.datacenterdynamics.com/en/news/ibm-claims-to-have-booked-1bn-of-cumulative-quantum-business/?utm",
+    "https://www.ibm.com/downloads/documents/us-en/131cf87ab633199f",
+    "https://www.ibm.com/downloads/documents/us-en/131cf8a39db327fd",
+    "https://www.ibm.com/downloads/documents/us-en/137a1e23d85ba686",
+    "https://www.ibm.com/downloads/documents/us-en/1443d5f7d84f50bb",
+    "https://www.ibm.com/investor/events/earnings-1q25?utm",
+    "https://www.ibm.com/products/guardium-quantum-safe",
+    "https://www.reuters.com/business/ibm-invest-150-billion-us-over-next-five-years-2025-04-28/?utm_source=chatgpt.com",
+    "https://www.rev.com/transcripts/ibm-q1-2025-earnings-conference-call?utm"
+  ]
+}

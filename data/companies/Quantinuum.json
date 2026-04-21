@@ -1,0 +1,288 @@
+{
+  "id": "c11-quantinuum",
+  "name": "Quantinuum",
+  "industry": null,
+  "summary": "Quantinuum 是离子阱路线的头部公司，由 Honeywell Quantum Solutions 与 Cambridge Quantum 组合而来，覆盖硬件、软件和量子安全。它目前仍非独立上市公司，但融资、Helios 系统和潜在 IPO 让其成为最值得跟踪的私有量子公司之一。",
+  "i18n": {
+    "en": {
+      "industry": "Quantum",
+      "summary": "Quantinuum is a leading trapped-ion quantum company formed from Honeywell Quantum Solutions and Cambridge Quantum. It combines hardware, software and cybersecurity products, while remaining linked to Honeywell ownership and potential IPO plans."
+    }
+  },
+  "ticker": "NASDAQ:HON",
+  "newsQuery": "(Quantinuum OR Honeywell quantum OR trapped-ion quantum)",
+  "newsSearchTerm": "Quantinuum",
+  "latestQuarterKey": "q4_2025",
+  "latestQuarterLabel": "2025 Q4",
+  "route": {
+    "slug": "trapped-ion",
+    "label": "离子阱 Trapped-Ion",
+    "shortLabel": "离子阱",
+    "summary": "以单原子离子作为量子比特，拥有高保真和全连接优势，是高质量门操作路线的重要代表。",
+    "tags": [
+      "高保真",
+      "全连接",
+      "离子阱",
+      "Gate-based"
+    ],
+    "i18n": {
+      "en": {
+        "label": "Trapped-Ion",
+        "shortLabel": "Trapped-Ion",
+        "summary": "Uses individual trapped ions as qubits. The route is known for high fidelity and strong connectivity, making it an important high-quality gate-model architecture.",
+        "tags": [
+          "High fidelity",
+          "All-to-all connectivity",
+          "Trapped ions",
+          "Gate-based"
+        ]
+      }
+    }
+  },
+  "metrics": {
+    "marketCap": "146.79B",
+    "revenue2024": null,
+    "guidance2025": null,
+    "growth2025": null,
+    "ps": "3.95",
+    "evSales": "4.56",
+    "pe": "33.91",
+    "pb": "10.67",
+    "netCash": "-22.63B"
+  },
+  "financialMetrics": [
+    {
+      "key": "marketCap",
+      "label": "当前市值",
+      "value": "146.79B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Market Cap",
+          "value": "146.79B"
+        }
+      }
+    },
+    {
+      "key": "enterpriseValue",
+      "label": "企业价值 EV",
+      "value": "170.62B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Enterprise Value",
+          "value": "170.62B"
+        }
+      }
+    },
+    {
+      "key": "ttmRevenue",
+      "label": "TTM 收入",
+      "value": "37.44B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Revenue",
+          "value": "37.44B"
+        }
+      }
+    },
+    {
+      "key": "grossProfit",
+      "label": "TTM 毛利",
+      "value": "13.83B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Profit",
+          "value": "13.83B"
+        }
+      }
+    },
+    {
+      "key": "grossMargin",
+      "label": "TTM 毛利率",
+      "value": "36.93%",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM Gross Margin",
+          "value": "36.93%"
+        }
+      }
+    },
+    {
+      "key": "ps",
+      "label": "P/S",
+      "value": "3.95",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/S",
+          "value": "3.95"
+        }
+      }
+    },
+    {
+      "key": "evSales",
+      "label": "EV/Sales",
+      "value": "4.56",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "EV/Sales",
+          "value": "4.56"
+        }
+      }
+    },
+    {
+      "key": "pe",
+      "label": "滚动 P/E",
+      "value": "33.91",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "TTM P/E",
+          "value": "33.91"
+        }
+      }
+    },
+    {
+      "key": "pb",
+      "label": "P/B",
+      "value": "10.67",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "P/B",
+          "value": "10.67"
+        }
+      }
+    },
+    {
+      "key": "totalDebt",
+      "label": "总债务",
+      "value": "35.56B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Total Debt",
+          "value": "35.56B"
+        }
+      }
+    },
+    {
+      "key": "netCash",
+      "label": "净现金",
+      "value": "-22.63B",
+      "source": "StockAnalysis",
+      "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+      "i18n": {
+        "en": {
+          "label": "Net Cash",
+          "value": "-22.63B"
+        }
+      }
+    },
+    {
+      "key": "quantum_revenue_2024",
+      "label": "2024 量子业务收入",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Revenue",
+          "value": "None disclosed."
+        }
+      }
+    },
+    {
+      "key": "quantum_spend_2024",
+      "label": "2024 量子业务支出",
+      "value": "无",
+      "source": "Excel",
+      "sourceUrl": null,
+      "i18n": {
+        "en": {
+          "label": "2024 Quantum Spend",
+          "value": "None disclosed."
+        }
+      }
+    }
+  ],
+  "marketMetricsSource": {
+    "source": "StockAnalysis",
+    "sourceUrl": "https://stockanalysis.com/stocks/hon/statistics/",
+    "ticker": "HON"
+  },
+  "earningsReports": [
+    {
+      "key": "q1_2025",
+      "label": "2025 Q1",
+      "content": "财报：https://investor.honeywell.com/static-files/3974e8f4-7faa-4987-a174-d20dd4e0a171\n\n在量子的业务只提到寄希望于未来 Quantinuum 成为全球领先的量子计算IPO。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q1",
+          "content": "Honeywell's Q1 materials mentioned quantum mainly through the expectation that Quantinuum could become a leading quantum-computing IPO candidate over time. No standalone Quantinuum financial detail was disclosed."
+        }
+      }
+    },
+    {
+      "key": "q2_2025",
+      "label": "2025 Q2",
+      "content": "财报：https://investor.honeywell.com/news-releases/news-release-details/honeywell-reports-second-quarter-results-updates-2025-guidance",
+      "i18n": {
+        "en": {
+          "label": "2025 Q2",
+          "content": "Honeywell's Q2 materials provided limited quantum-specific disclosure. Quantinuum remained part of Honeywell's long-term technology and portfolio strategy rather than a separately reported public company."
+        }
+      }
+    },
+    {
+      "key": "q4_2025",
+      "label": "2025 Q4",
+      "content": "1. 财报电话会中提到 Quantinuum 的核心信息\n在 Honeywell Q4 2025 earnings call 中，公司专门更新了 Quantinuum 的进展，主要包括：\n（1）Quantinuum 融资与估值\n公司披露：Quantinuum 融资约 $840M，融资前估值约 $10B，这表明 Honeywell 正在把 Quantinuum 打造成一个独立量子计算公司。\n\n（2）新量子计算机 Helios\n电话会中还提到：Quantinuum 推出新系统 “Helios”，qubit 数量相比上一代系统翻倍，拥有64+量子比特，这是 Quantinuum H-系列 trapped-ion 量子计算机的下一代版本。行业内对Helios是高度认可的，他的运行速度有显著的提升。\n\n（3）新的商业合作伙伴：\nHoneywell 表示 Quantinuum 已建立多项合作，包括：Quanta Computer，NVIDIA，JPMorgan，Amgen，Mitsui。这些合作主要用于：金融建模，药物发现，AI / HPC 集成\n\n2. Quantinuum 信息\n2.1 Quantinuum 是 Honeywell 量子业务的核心平台。其背景是在2021 年由Honeywell Quantum Solutions + Cambridge Quantum 合并成立，Honeywell 仍是最大股东。\n\n2.2. 财报及市场报道透露：Quantinuum 正在进行多轮融资，目标估值 约 $10B。Honeywell 计划未来 IPO 或 spin-off。IPO 时间可能为2026-2027 年。\nQuantinuum 也有开始推动商业合作，例如：在2025年5月时与 卡塔尔投资机构合作建立量子计算应用中心。项目规模约 $1B、10 年合作协议。应用领域包括：金融建模，精准医疗，新材料研发，AI 优化等。\n\n总结：Honeywell 在 Q4 财报电话会中强调，Quantinuum正在通过 新量子计算机 Helios、$840M 融资和多家企业合作加速商业化，并可能在未来2026-2027独立上市。",
+      "i18n": {
+        "en": {
+          "label": "2025 Q4",
+          "content": "Honeywell's Q4 2025 call provided a substantive Quantinuum update: roughly $840M of financing, an approximately $10B pre-money valuation, the Helios trapped-ion system with 64+ qubits and partnerships with Quanta Computer, NVIDIA, JPMorgan, Amgen and Mitsui. The update supports the view that Honeywell is preparing Quantinuum as a more independent quantum platform."
+        }
+      }
+    }
+  ],
+  "numericMetrics": {},
+  "fundamentalAnalysis": {
+    "business": "目前主要业务：\n1. 硬件：设计与制造量子处理器，开发具备容错能力的量子计算机，推动量子计算的商用化。\n    技术路线：基于离子阱量子比特。\n（1.1）System Model H1：量子比特数量 10，2020年推出。\n（1.2）System Model H2：量子比特数量 20，\n（1.3）Helios：预计 2025年推出，量子比特数量 100+。\n2. 量子纠错与容错架构（硬件和软件都涉及）\n（2.1）算法开发：采用变分量子优化（VQE）算法，探索量子误差缓解技术。\n（2.2）硬件设计：开发高精度量子控制电路、读出器、冷却系统与封装技术，提升量子计算高效性与可扩展性。\n3. 软件：量子算法与生态系统构建\n（3.1）量子编程框架：提供自家设计的TKET软件平台，是目前全球最成熟的量子编译器与软件栈之一。支持量子算法开发与仿真。\n（3.2）量子算法开发：开发量子优化、量子机器学习等算法，推动量子计算在多个领域的应用。\n（3.3）量子云服务：通过“Quantum Access”提供量子处理器的云端访问，支持科研与企业客户的量子计算需求。\n4. 市场布局\n（4.1）Quantinuum与NVIDIA、RIKEN、软银、英飞凌等建立合作关系，推动量子计算发展。\n（4.2）Quantinuum已在卡塔尔和新加坡开展量子计算合作，特别是在卡塔尔，计划参与10亿美元的量子投资项目。",
+    "financial": "Honeywell’s $1329亿；\n\n\nQuantinuum：在 2025 年 9 月完成了一轮约 6亿美元 的股权融资 (equity raise)，估值为 前估值 (pre-money) 100 亿美元。（注意目前是私有公司的估值，不是上市公司市值那种公开市价）",
+    "latestQuarter": "1. 财报电话会中提到 Quantinuum 的核心信息\n在 Honeywell Q4 2025 earnings call 中，公司专门更新了 Quantinuum 的进展，主要包括：\n（1）Quantinuum 融资与估值\n公司披露：Quantinuum 融资约 $840M，融资前估值约 $10B，这表明 Honeywell 正在把 Quantinuum 打造成一个独立量子计算公司。\n\n（2）新量子计算机 Helios\n电话会中还提到：Quantinuum 推出新系统 “Helios”，qubit 数量相比上一代系统翻倍，拥有64+量子比特，这是 Quantinuum H-系列 trapped-ion 量子计算机的下一代版本。行业内对Helios是高度认可的，他的运行速度有显著的提升。\n\n（3）新的商业合作伙伴：\nHoneywell 表示 Quantinuum 已建立多项合作，包括：Quanta Computer，NVIDIA，JPMorgan，Amgen，Mitsui。这些合作主要用于：金融建模，药物发现，AI / HPC 集成\n\n2. Quantinuum 信息\n2.1 Quantinuum 是 Honeywell 量子业务的核心平台。其背景是在2021 年由Honeywell Quantum Solutions + Cambridge Quantum 合并成立，Honeywell 仍是最大股东。\n\n2.2. 财报及市场报道透露：Quantinuum 正在进行多轮融资，目标估值 约 $10B。Honeywell 计划未来 IPO 或 spin-off。IPO 时间可能为2026-2027 年。\nQuantinuum 也有开始推动商业合作，例如：在2025年5月时与 卡塔尔投资机构合作建立量子计算应用中心。项目规模约 $1B、10 年合作协议。应用领域包括：金融建模，精准医疗，新材料研发，AI 优化等。\n\n总结：Honeywell 在 Q4 财报电话会中强调，Quantinuum正在通过 新量子计算机 Helios、$840M 融资和多家企业合作加速商业化，并可能在未来2026-2027独立上市。",
+    "ceoMedia": null,
+    "notes": null,
+    "latestEarnings": null,
+    "latestQuarterlyReport": null,
+    "latestAnnualReport": null
+  },
+  "fundamentalAnalysisI18n": {
+    "en": {
+      "business": "Business and product focus\n1. Trapped-ion quantum computers and protected logical-qubit research.\n2. Quantum software, algorithms and AI-assisted quantum algorithm development.\n3. Cybersecurity and quantum-resilient products, along with international R&D expansion.",
+      "financial": "Quantinuum is not separately listed in public markets. Honeywell has indicated that Quantinuum filed confidential paperwork for a possible IPO, so future disclosures may become more detailed.",
+      "latestQuarter": "Recent updates include global expansion to Singapore, protected logical-qubit demonstrations, AI-assisted quantum algorithm work and discussion of a possible IPO.",
+      "ceoMedia": "Quantinuum public updates focus on the Helios system, logical-qubit progress, international partnerships and commercialization of both hardware and software.",
+      "notes": null
+    }
+  },
+  "links": [
+    "https://investor.honeywell.com/news-releases/news-release-details/honeywell-reports-second-quarter-results-updates-2025-guidance",
+    "https://investor.honeywell.com/static-files/3974e8f4-7faa-4987-a174-d20dd4e0a171"
+  ]
+}
