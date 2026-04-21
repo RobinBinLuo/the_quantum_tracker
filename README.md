@@ -49,14 +49,7 @@ http://localhost:8000
 
 ## 前端简单密码页
 
-当前网站已经接入一个低安全需求的前端门禁。默认账号和密码写在 `auth.js`：
-
-```js
-const ACCESS_USERNAME = "quantum";
-const ACCESS_PASSWORD = "quantum2026";
-```
-
-如果要修改访问口令，直接改这两个值即可。登录状态保存在浏览器当前标签页的 `sessionStorage` 中；如果想退出，可以在网址后面加：
+当前网站已经接入一个低安全需求的前端门禁。访问口令维护在 `auth.js` 中；如果要修改口令，直接修改该文件里的访问配置即可。登录状态保存在浏览器当前标签页的 `sessionStorage` 中；如果想退出，可以在网址后面加：
 
 ```text
 ?logout=1
