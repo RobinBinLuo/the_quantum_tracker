@@ -797,6 +797,20 @@ h3 {
   margin: 18px 0;
 }
 
+.live-panel .section-head {
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.live-panel h2,
+.detail-block-first h2,
+.earnings-block h3,
+.financial-side-panel h3,
+.mini-panel h3 {
+  max-width: none;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
 .price-widget-shell {
   min-height: 460px;
 }
