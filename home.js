@@ -23,6 +23,7 @@ const companyGridEl = document.querySelector("#company-grid");
 const searchInputEl = document.querySelector("#search-input");
 const globalNewsGridEl = document.querySelector("#global-news-grid");
 const globalNewsActionsEl = document.querySelector("#global-news-actions");
+const companyQuickLinksEl = document.querySelector("#company-quick-links");
 
 init();
 
@@ -34,6 +35,7 @@ async function init() {
 
   renderStaticCopy();
   renderRouteGrid(payload.routes);
+  renderCompanyQuickLinks(payload.companies);
   renderCompanyGrid();
   renderGlobalNews();
   bindEvents();
@@ -121,6 +123,18 @@ function renderRouteGrid(routes) {
         </article>
       `;
       }
+    )
+    .join("");
+}
+
+function renderCompanyQuickLinks(companies) {
+  companyQuickLinksEl.innerHTML = companies
+    .map(
+      (company) => `
+        <a class="company-chip" href="./company.html?id=${encodeURIComponent(company.id)}">
+          ${escapeHtml(company.name)}
+        </a>
+      `
     )
     .join("");
 }
