@@ -68,8 +68,8 @@ function renderStaticCopy() {
     : "先看路线，再进入公司";
   document.querySelector("[data-i18n='news-title']").textContent = isEn ? "Latest Quantum Industry News" : "量子行业最新新闻";
   document.querySelector("[data-i18n='news-note']").textContent = isEn
-    ? "A curated feed of recent quantum-computing, quantum-technology and company-related news to complement the route and company pages."
-    : "自动汇总近期与量子计算、量子技术和重点公司相关的新闻，用来补充路线页与公司页的研究视角。";
+    ? "Daily coverage of quantum computing, quantum technology and key company-related news."
+    : "汇总每日量子计算、量子技术和重点公司相关的新闻。";
   document.querySelector("[data-i18n='routes-title']").textContent = isEn ? "Browse Companies by Technology Route" : "按技术路线浏览公司";
   document.querySelector("[data-i18n='routes-note']").textContent = isEn
     ? "Open any route card to review its trade-offs and related companies."
