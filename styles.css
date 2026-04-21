@@ -790,6 +790,32 @@ h3 {
   margin-top: 24px;
 }
 
+.route-page-hero h1 {
+  max-width: 14ch;
+  font-size: clamp(2.6rem, 5.2vw, 4.4rem);
+  line-height: 1;
+}
+
+.route-companies-panel .section-head {
+  grid-template-columns: minmax(180px, auto) minmax(360px, 1fr);
+  align-items: center;
+}
+
+.route-companies-panel h2 {
+  max-width: none;
+  font-size: clamp(1.45rem, 2.4vw, 2rem);
+  line-height: 1.15;
+  word-break: keep-all;
+  overflow-wrap: normal;
+}
+
+.route-company-note {
+  justify-self: end;
+  margin: 0;
+  text-align: right;
+  white-space: nowrap;
+}
+
 .live-grid {
   display: grid;
   grid-template-columns: 0.95fr 1.05fr;

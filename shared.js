@@ -1,6 +1,6 @@
 export const DATA_PATH = "./data/companies.json";
 export const NEWS_PATH = "./data/news.json";
-const DATA_VERSION = "20260421-7";
+const DATA_VERSION = "20260421-8";
 const LANGUAGE_KEY = "quantum-frontier-language";
 
 const UI_TEXT = {
@@ -253,7 +253,7 @@ export function renderMarkdown(content) {
 export function renderCompanyCard(company) {
   const route = company.route ?? {};
   const routeShortLabel = localized(route, "shortLabel") ?? localized(route, "label") ?? localized(company, "industry") ?? "Quantum";
-  const routeLabel = localized(route, "label") ?? t("quantum");
+  const routeLabel = cleanRouteLabel(localized(route, "label") ?? t("quantum"));
   const summary = localized(company, "summary");
   return `
     <article class="company-card link-card">
@@ -278,6 +278,13 @@ export function renderCompanyCard(company) {
       </div>
     </article>
   `;
+}
+
+function cleanRouteLabel(label) {
+  if (getLanguage() === "en") {
+    return label;
+  }
+  return String(label).replace(/\s+[A-Za-z][A-Za-z\s/-]*$/g, "").trim();
 }
 
 export function renderDetailBlocks(company) {

@@ -28,23 +28,24 @@ async function init() {
   }
 
   const routeLabel = localized(route, "label");
+  const routeDisplayName = displayRouteName(routeLabel, isEn);
   const routeSummary = localized(route, "summary");
   const routeAdvantages = localized(route, "advantages") ?? route.advantages;
   const routeDrawbacks = localized(route, "drawbacks") ?? route.drawbacks;
-  const routeTags = localized(route, "tags") ?? route.tags;
+  const routeTags = displayRouteTags(localized(route, "tags") ?? route.tags, isEn);
   const routeMaturity = localized(route, "maturity") ?? route.maturity;
   const routeBestFor = localized(route, "bestFor") ?? route.bestFor;
   const routeMainChallenge = localized(route, "mainChallenge") ?? route.mainChallenge;
 
-  titleEl.textContent = `${routeLabel} | Quantum Frontier Atlas`;
+  titleEl.textContent = `${routeDisplayName} | Quantum Frontier Atlas`;
   document.documentElement.lang = isEn ? "en" : "zh-CN";
   shellEl.innerHTML = `
-    <section class="panel page-hero">
-      <div class="breadcrumb"><a href="./index.html">${isEn ? "Home" : "首页"}</a><span>/</span><strong>${escapeHtml(routeLabel)}</strong></div>
+    <section class="panel page-hero route-page-hero">
+      <div class="breadcrumb"><a href="./index.html">${isEn ? "Home" : "首页"}</a><span>/</span><strong>${escapeHtml(routeDisplayName)}</strong></div>
       <div class="page-hero-head">
         <div>
           <p class="eyebrow">Technology Route</p>
-          <h1>${escapeHtml(routeLabel)}</h1>
+          <h1>${escapeHtml(routeDisplayName)}</h1>
           <p class="hero-text">${escapeHtml(routeSummary)}</p>
         </div>
         <div class="hero-side">
@@ -86,17 +87,28 @@ async function init() {
       </div>
     </section>
 
-    <section class="panel companies-panel">
+    <section class="panel companies-panel route-companies-panel">
       <div class="section-head">
         <div>
           <p class="eyebrow">Companies</p>
-          <h2>${isEn ? `${escapeHtml(routeLabel)} Companies` : `${escapeHtml(routeLabel)} 相关公司`}</h2>
+          <h2>${isEn ? `${escapeHtml(routeDisplayName)} Companies` : "相关公司"}</h2>
         </div>
-        <p class="section-note">${isEn ? "Click any company card to open its dedicated research page." : "点击任一公司卡片进入独立公司介绍页。"}</p>
+        <p class="section-note route-company-note">${isEn ? "Click any company card to open its dedicated research page." : "点击任一公司卡片进入独立公司介绍页。"}</p>
       </div>
       <div class="company-grid">${route.companies.map((company) => renderCompanyCard(company)).join("")}</div>
     </section>
   `;
+}
+
+function displayRouteName(label, isEn) {
+  if (isEn) return label;
+  return String(label).replace(/\s+[A-Za-z][A-Za-z\s/-]*$/g, "").trim();
+}
+
+function displayRouteTags(tags, isEn) {
+  if (isEn) return tags;
+  const zhTags = tags.filter((tag) => /[\u4e00-\u9fff]/.test(String(tag)));
+  return zhTags.length ? zhTags : tags;
 }
 
 function renderNotFound(message) {
