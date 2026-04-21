@@ -4,6 +4,7 @@ import json
 import re
 import hashlib
 import os
+import shutil
 from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
@@ -16,12 +17,21 @@ ROOT = Path(__file__).resolve().parents[1]
 COMPANIES_JSON = ROOT / "data" / "companies.json"
 OUTPUT_JSON = ROOT / "data" / "news.json"
 IMAGE_DIR = ROOT / "data" / "news-images"
+DAILY_IMAGE_DIR = IMAGE_DIR / "daily"
+COMPANY_IMAGE_DIR = IMAGE_DIR / "companies"
 
 BASE_URL = "https://thequantuminsider.com"
 DAILY_URL = f"{BASE_URL}/category/daily/"
 USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
 OPENAI_RESPONSES_URL = "https://api.openai.com/v1/responses"
 DEFAULT_TRANSLATION_MODEL = "gpt-5"
+GENERIC_DAILY_MATCH_TERMS = {
+    "quantum computing",
+    "quantum computing inc",
+    "azure quantum",
+    "intel quantum",
+    "skywater quantum",
+}
 
 
 def fetch_html(url: str) -> str:
@@ -89,6 +99,26 @@ def parse_articles(html: str, max_items: int = 12) -> list[dict[str, Any]]:
     return articles
 
 
+def date_slug(date_text: str) -> str:
+    for fmt in ("%B %d, %Y", "%b %d, %Y"):
+        try:
+            return datetime.strptime(date_text, fmt).strftime("%Y-%m-%d")
+        except ValueError:
+            continue
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def filter_latest_day_articles(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    if not articles:
+        return []
+
+    latest_date = articles[0].get("date", "")
+    if not latest_date:
+        return articles
+
+    return [article for article in articles if article.get("date") == latest_date]
+
+
 def extract_meta_image(html: str) -> str:
     patterns = [
         r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"',
@@ -114,38 +144,47 @@ def enrich_missing_images(articles: list[dict[str, Any]]) -> list[dict[str, Any]
     return articles
 
 
-def download_image(url: str) -> str:
-    if not url:
-        return ""
-
+def image_filename(url: str) -> str:
     parsed = urlparse(url)
     suffix = Path(parsed.path).suffix.lower()
     if suffix not in {".jpg", ".jpeg", ".png", ".webp", ".gif"}:
         suffix = ".jpg"
+    return f"{hashlib.sha1(url.encode('utf-8')).hexdigest()}{suffix}"
 
-    filename = f"{hashlib.sha1(url.encode('utf-8')).hexdigest()}{suffix}"
-    target = IMAGE_DIR / filename
+
+def download_image(url: str, target_dir: Path, public_prefix: str) -> str:
+    if not url:
+        return ""
+
+    filename = image_filename(url)
+    target = target_dir / filename
     if target.exists():
-        return f"./data/news-images/{filename}"
+        return f"{public_prefix}/{filename}"
 
-    IMAGE_DIR.mkdir(parents=True, exist_ok=True)
+    target_dir.mkdir(parents=True, exist_ok=True)
     request = Request(url, headers={"User-Agent": USER_AGENT, "Referer": BASE_URL})
     with urlopen(request, timeout=30) as response:
         target.write_bytes(response.read())
-    return f"./data/news-images/{filename}"
+    return f"{public_prefix}/{filename}"
 
 
-def localize_images(articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def localize_images(articles: list[dict[str, Any]], target_dir: Path, public_prefix: str) -> list[dict[str, Any]]:
     for article in articles:
         image_url = article.get("image", "")
         if not image_url:
             continue
         try:
             article["remoteImage"] = image_url
-            article["image"] = download_image(image_url)
+            article["image"] = download_image(image_url, target_dir, public_prefix)
         except Exception:
             article["remoteImage"] = image_url
     return articles
+
+
+def reset_daily_image_cache() -> None:
+    if DAILY_IMAGE_DIR.exists():
+        shutil.rmtree(DAILY_IMAGE_DIR)
+    DAILY_IMAGE_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def load_companies() -> list[dict[str, Any]]:
@@ -175,6 +214,25 @@ def load_existing_title_i18n() -> dict[str, dict[str, str]]:
                 "titleZh": article.get("titleZh", title),
             }
     return title_i18n
+
+
+def load_existing_company_news() -> dict[str, list[dict[str, Any]]]:
+    if not OUTPUT_JSON.exists():
+        return {}
+
+    try:
+        existing = json.loads(OUTPUT_JSON.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+    companies = existing.get("companies", {})
+    if not isinstance(companies, dict):
+        return {}
+    return {
+        str(company_id): articles
+        for company_id, articles in companies.items()
+        if isinstance(articles, list)
+    }
 
 
 def has_chinese(value: str) -> bool:
@@ -310,30 +368,148 @@ def apply_existing_title_i18n(articles: list[dict[str, Any]], title_i18n: dict[s
     return articles
 
 
+def article_key(article: dict[str, Any]) -> str:
+    return str(article.get("url") or article.get("title") or "")
+
+
+def merge_articles(new_articles: list[dict[str, Any]], existing_articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    merged = []
+    seen = set()
+    for article in [*new_articles, *existing_articles]:
+        key = article_key(article)
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        merged.append(article)
+    return merged
+
+
+def company_terms(company: dict[str, Any]) -> list[str]:
+    terms = {
+        company.get("name", ""),
+        company.get("newsSearchTerm", ""),
+    }
+    ticker = str(company.get("ticker", ""))
+    if ":" in ticker:
+        terms.add(ticker.split(":", 1)[1])
+    name_without_ticker = re.sub(r"\s*\([^)]*\)", "", company.get("name", "")).strip()
+    terms.add(name_without_ticker)
+    return [
+        term.lower()
+        for term in terms
+        if term and len(term) >= 3 and term.lower() not in GENERIC_DAILY_MATCH_TERMS
+    ]
+
+
+def daily_articles_for_company(articles: list[dict[str, Any]], company: dict[str, Any]) -> list[dict[str, Any]]:
+    terms = company_terms(company)
+    matched = []
+    for article in articles:
+        haystack = f"{article.get('title', '')} {article.get('url', '')}".lower()
+        if any(term in haystack for term in terms):
+            matched.append(dict(article))
+    return matched
+
+
+def copy_existing_local_image(article: dict[str, Any], target_dir: Path, public_prefix: str) -> str:
+    image_path = str(article.get("image", ""))
+    if not image_path.startswith("./data/news-images/"):
+        return image_path
+
+    source = ROOT / image_path.removeprefix("./")
+    if not source.exists() or not source.is_file():
+        return image_path
+
+    filename = source.name
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target = target_dir / filename
+    if not target.exists():
+        shutil.copy2(source, target)
+    return f"{public_prefix}/{filename}"
+
+
+def localize_company_articles(company_id: str, articles: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    target_dir = COMPANY_IMAGE_DIR / company_id
+    public_prefix = f"./data/news-images/companies/{company_id}"
+    for article in articles:
+        remote_image = article.get("remoteImage") or article.get("image", "")
+        if isinstance(remote_image, str) and remote_image.startswith("http"):
+            try:
+                article["remoteImage"] = remote_image
+                article["image"] = download_image(remote_image, target_dir, public_prefix)
+                continue
+            except Exception:
+                article["remoteImage"] = remote_image
+
+        article["image"] = copy_existing_local_image(article, target_dir, public_prefix)
+    return articles
+
+
 def fetch_latest_news() -> list[dict[str, Any]]:
     html = fetch_html(DAILY_URL)
-    return localize_images(enrich_missing_images(parse_articles(html, max_items=9)))
+    articles = filter_latest_day_articles(enrich_missing_images(parse_articles(html, max_items=60)))
+    if not articles:
+        return []
+    slug = date_slug(articles[0].get("date", ""))
+    return localize_images(
+        articles,
+        DAILY_IMAGE_DIR / slug,
+        f"./data/news-images/daily/{slug}",
+    )
 
 
-def fetch_company_news(search_term: str) -> list[dict[str, Any]]:
+def fetch_company_news(search_term: str, company_id: str) -> list[dict[str, Any]]:
     search_url = f"{BASE_URL}/?s={quote_plus(search_term)}"
     html = fetch_html(search_url)
-    return localize_images(enrich_missing_images(parse_articles(html, max_items=6)))
+    articles = enrich_missing_images(parse_articles(html, max_items=6))
+    return localize_company_articles(company_id, articles)
+
+
+def collect_referenced_images(payload: dict[str, Any]) -> set[Path]:
+    referenced = set()
+    groups = [payload.get("latest", [])]
+    groups.extend(payload.get("companies", {}).values())
+    for articles in groups:
+        for article in articles:
+            image = str(article.get("image", ""))
+            if image.startswith("./data/news-images/"):
+                referenced.add(ROOT / image.removeprefix("./"))
+    return referenced
+
+
+def prune_unreferenced_images(payload: dict[str, Any]) -> None:
+    if not IMAGE_DIR.exists():
+        return
+
+    referenced = collect_referenced_images(payload)
+    for path in IMAGE_DIR.rglob("*"):
+        if path.is_file() and path not in referenced:
+            path.unlink()
 
 
 def build_payload() -> dict[str, Any]:
     companies = load_companies()
     title_i18n = load_existing_title_i18n()
+    existing_company_news = load_existing_company_news()
     company_news = {}
+    reset_daily_image_cache()
+    latest_news = fetch_latest_news()
 
     for company in companies:
         term = company.get("newsSearchTerm") or company["name"]
         try:
-            company_news[company["id"]] = fetch_company_news(term)
+            fetched_articles = fetch_company_news(term, company["id"])
         except Exception:
-            company_news[company["id"]] = []
+            fetched_articles = []
+        matched_daily_articles = localize_company_articles(
+            company["id"],
+            daily_articles_for_company(latest_news, company),
+        )
+        company_news[company["id"]] = merge_articles(
+            [*matched_daily_articles, *fetched_articles],
+            localize_company_articles(company["id"], existing_company_news.get(company["id"], [])),
+        )
 
-    latest_news = fetch_latest_news()
     article_groups = [latest_news, *company_news.values()]
     title_i18n = translate_missing_titles(title_i18n, article_groups)
     latest_news = apply_existing_title_i18n(latest_news, title_i18n)
@@ -342,16 +518,18 @@ def build_payload() -> dict[str, Any]:
         for company_id, articles in company_news.items()
     }
 
-    return {
+    payload = {
         "meta": {
             "source": "The Quantum Insider",
             "sourceUrl": DAILY_URL,
             "generatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "notes": "新闻数据由脚本构建时抓取 The Quantum Insider 页面结构生成。",
+            "notes": "每日新闻每次更新为 The Quantum Insider 当日全部新闻；公司新闻按公司目录增量保留。",
         },
         "latest": latest_news,
         "companies": company_news,
     }
+    prune_unreferenced_images(payload)
+    return payload
 
 
 def main() -> None:

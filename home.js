@@ -14,12 +14,15 @@ import {
 const state = {
   payload: null,
   filteredCompanies: [],
+  newsArticles: [],
+  newsExpanded: false,
 };
 
 const routeGridEl = document.querySelector("#route-grid");
 const companyGridEl = document.querySelector("#company-grid");
 const searchInputEl = document.querySelector("#search-input");
 const globalNewsGridEl = document.querySelector("#global-news-grid");
+const globalNewsActionsEl = document.querySelector("#global-news-actions");
 
 init();
 
@@ -126,19 +129,59 @@ async function renderGlobalNews() {
   globalNewsGridEl.innerHTML = renderNewsLoading(
     getLanguage() === "en" ? "Loading The Quantum Insider news..." : "正在加载 The Quantum Insider 最新新闻..."
   );
+  globalNewsActionsEl.innerHTML = "";
 
   try {
     const newsPayload = await fetchNewsPayload();
-    const articles = newsPayload.latest ?? [];
-    globalNewsGridEl.innerHTML = renderNewsCards(
-      articles,
-      getLanguage() === "en" ? "No related news found yet." : "暂时没有检索到相关新闻。"
-    );
+    state.newsArticles = newsPayload.latest ?? [];
+    state.newsExpanded = false;
+    renderHomeNewsCards();
   } catch (error) {
     globalNewsGridEl.innerHTML = renderNewsError(
       getLanguage() === "en" ? "Latest news is temporarily unavailable. Please refresh later." : "最新新闻暂时无法加载，请稍后刷新页面。"
     );
   }
+}
+
+function renderHomeNewsCards() {
+  const articles = state.newsArticles;
+  if (!articles.length) {
+    globalNewsGridEl.className = "news-grid";
+    globalNewsGridEl.innerHTML = renderNewsCards(
+      [],
+      getLanguage() === "en" ? "No related news found yet." : "暂时没有检索到相关新闻。"
+    );
+    globalNewsActionsEl.innerHTML = "";
+    return;
+  }
+
+  const featuredArticles = articles.slice(0, 3);
+  const moreArticles = articles.slice(3);
+  globalNewsGridEl.className = "news-grid";
+  globalNewsGridEl.innerHTML = renderNewsCards(featuredArticles);
+
+  if (state.newsExpanded && moreArticles.length) {
+    globalNewsGridEl.insertAdjacentHTML(
+      "beforeend",
+      `<div class="news-grid news-grid-small">${renderNewsCards(moreArticles)}</div>`
+    );
+  }
+
+  if (!moreArticles.length) {
+    globalNewsActionsEl.innerHTML = "";
+    return;
+  }
+
+  const isEn = getLanguage() === "en";
+  globalNewsActionsEl.innerHTML = `
+    <button type="button" class="button ghost news-toggle-button">
+      ${escapeHtml(state.newsExpanded ? (isEn ? "Show fewer news" : "收起新闻") : (isEn ? `Show all ${articles.length} news` : `查看全部 ${articles.length} 条新闻`))}
+    </button>
+  `;
+  globalNewsActionsEl.querySelector("button")?.addEventListener("click", () => {
+    state.newsExpanded = !state.newsExpanded;
+    renderHomeNewsCards();
+  });
 }
 
 function renderCompanyGrid() {

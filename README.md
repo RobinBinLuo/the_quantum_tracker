@@ -24,7 +24,8 @@
 - `data/companies.json`：公司索引和路线索引。
 - `data/companies/*.json`：每家公司一个独立 JSON，方便单独检查和维护。
 - `data/news.json`：本地新闻数据。
-- `data/news-images/`：新闻图片缓存。
+- `data/news-images/daily/YYYY-MM-DD/`：每日新闻图片缓存，每次更新会只保留最新抓取日。
+- `data/news-images/companies/<company-id>/`：公司相关新闻图片缓存，按公司分文件夹增量保留。
 - `data/market_metrics.json`：公开市场财务指标缓存。
 - `scripts/extract_excel.py`：从 Excel 生成公司索引、路线数据和单公司 JSON。
 - `scripts/fetch_quantum_news.py`：抓取 The Quantum Insider 新闻，并可自动翻译新标题。
@@ -85,7 +86,10 @@ cd /Users/luobin/Documents/量子公司分析/website_development
 脚本会更新：
 
 - `data/news.json`
-- `data/news-images/`
+- `data/news-images/daily/YYYY-MM-DD/`
+- `data/news-images/companies/<company-id>/`
+
+每日新闻会抓取 The Quantum Insider `Daily` 页面中最新日期的全部新闻，并替换上一日的每日新闻资料与图片缓存。公司相关新闻会按公司目录保留；如果每日新闻同时匹配到追踪公司，也会复制到对应公司的新闻目录中。
 
 ### 自动翻译新标题
 

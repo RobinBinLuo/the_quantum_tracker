@@ -2,14 +2,14 @@
   "meta": {
     "source": "The Quantum Insider",
     "sourceUrl": "https://thequantuminsider.com/category/daily/",
-    "generatedAt": "2026-04-21T14:32:47+00:00",
-    "notes": "新闻数据由脚本构建时抓取 The Quantum Insider 页面结构生成。"
+    "generatedAt": "2026-04-21T14:51:06+00:00",
+    "notes": "每日新闻每次更新为 The Quantum Insider 当日全部新闻；公司新闻按公司目录增量保留。"
   },
   "latest": [
     {
       "title": "NPL Collaborates with NVIDIA to Use AI for Automated Quantum Computing Characterization",
       "url": "https://thequantuminsider.com/2026/04/21/npl-nvidia-ai-quantum-computing-characterisation/",
-      "image": "./data/news-images/1d642a77297c2d65e4bed2607b4a1f6192f1d8c4.png",
+      "image": "./data/news-images/daily/2026-04-21/1d642a77297c2d65e4bed2607b4a1f6192f1d8c4.png",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-13-at-1.47.27-PM.png",
@@ -19,7 +19,7 @@
     {
       "title": "Guest Post – Why The Real Quantum Race is Shifting From Hardware to Software",
       "url": "https://thequantuminsider.com/2026/04/21/guest-post-why-the-real-quantum-race-is-shifting-from-hardware-to-software/",
-      "image": "./data/news-images/fa9b7cde65334555389243bb40bf4a8c24a9f42e.jpg",
+      "image": "./data/news-images/daily/2026-04-21/fa9b7cde65334555389243bb40bf4a8c24a9f42e.jpg",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/9269924.jpg",
@@ -29,7 +29,7 @@
     {
       "title": "Quantum Elements, Rigetti Computing Exploring New Digital Twin Simulation Approach",
       "url": "https://thequantuminsider.com/2026/04/21/quantum-elements-rigetti-computing-exploring-new-digital-twin-simulation-approach/",
-      "image": "./data/news-images/e6216a751b3333fecce1dfad8723269cec2e8a2e.png",
+      "image": "./data/news-images/daily/2026-04-21/e6216a751b3333fecce1dfad8723269cec2e8a2e.png",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Quantum-Elements-1.png",
@@ -39,7 +39,7 @@
     {
       "title": "QuEra-led Study Points to Ultra-High-Rate Quantum Error Correction Moving Closer to Practical Hardware",
       "url": "https://thequantuminsider.com/2026/04/21/quera-led-study-points-to-ultra-high-rate-quantum-error-correction-moving-closer-to-practical-hardware/",
-      "image": "./data/news-images/63feb38064025b2e8f87f21aaa397a9e2f06a456.png",
+      "image": "./data/news-images/daily/2026-04-21/63feb38064025b2e8f87f21aaa397a9e2f06a456.png",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-7.05.54-AM.png",
@@ -49,7 +49,7 @@
     {
       "title": "Quantum Magnonics: Toward Interconnected Quantum Systems",
       "url": "https://thequantuminsider.com/2026/04/21/quantum-magnonics-toward-interconnected-quantum-systems/",
-      "image": "./data/news-images/0bbadbf49fc95e06ab78fb4491259673125c2833.jpg",
+      "image": "./data/news-images/daily/2026-04-21/0bbadbf49fc95e06ab78fb4491259673125c2833.jpg",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Bluefors.jpg",
@@ -59,7 +59,7 @@
     {
       "title": "OrangeQS Extends Seed Round to €15 Million And Partners With Rigetti, QuantWare and Peak Quantum",
       "url": "https://thequantuminsider.com/2026/04/21/orangeqs-extends-seed-round-to-e15-million-and-partners-with-rigetti-quantware-and-peak-quantum/",
-      "image": "./data/news-images/61709127e7ac7ced0f75076550e4b05e3b3fc921.png",
+      "image": "./data/news-images/daily/2026-04-21/61709127e7ac7ced0f75076550e4b05e3b3fc921.png",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Orange-QS-1.png",
@@ -69,7 +69,7 @@
     {
       "title": "Ripple Outlines Plan to Protect XRPL From Quantum Computing Risks",
       "url": "https://thequantuminsider.com/2026/04/21/ripple-outlines-plan-to-protect-xrpl-from-quantum-computing-risks/",
-      "image": "./data/news-images/d8fb17f3ed2ce27f1358f9edafb0ca0b16a1a69d.jpg",
+      "image": "./data/news-images/daily/2026-04-21/d8fb17f3ed2ce27f1358f9edafb0ca0b16a1a69d.jpg",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/3789233.jpg",
@@ -79,7 +79,7 @@
     {
       "title": "Quantum eMotion Passes ISO 27001 Audit, Gains ISO 27017 Certification",
       "url": "https://thequantuminsider.com/2026/04/21/quantum-emotion-iso-27001-audit-iso-27017-certification/",
-      "image": "./data/news-images/cbea3f5938733a806ceb2c7d790c67ef0b0b52bc.png",
+      "image": "./data/news-images/daily/2026-04-21/cbea3f5938733a806ceb2c7d790c67ef0b0b52bc.png",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-21_12-58.png",
@@ -89,7 +89,7 @@
     {
       "title": "Cerca Magnetics Secures £3.8m in Series A Funding to Scale Quantum Brain Scanner",
       "url": "https://thequantuminsider.com/2026/04/21/cerca-magnetics-secures-38m-series-a-funding-scale-quantum-brain-scanner/",
-      "image": "./data/news-images/decc79d34887ceeff44d70f585de717ad82db8e6.png",
+      "image": "./data/news-images/daily/2026-04-21/decc79d34887ceeff44d70f585de717ad82db8e6.png",
       "date": "April 21, 2026",
       "source": "The Quantum Insider",
       "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/ready.png",
@@ -102,7 +102,7 @@
       {
         "title": "Google Quantum AI Shows 13,000× Speedup Over World’s Fastest Supercomputer in Physics Simulation",
         "url": "https://thequantuminsider.com/2025/10/22/google-quantum-ai-shows-13000x-speedup-over-worlds-fastest-supercomputer-in-physics-simulation/",
-        "image": "./data/news-images/23b67974e52872f47e8f6d032da8b7e6c8dffcdf.jpg",
+        "image": "./data/news-images/companies/c01-google/23b67974e52872f47e8f6d032da8b7e6c8dffcdf.jpg",
         "date": "October 22, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/10/GoogleQuantumAI_WillowChip_Closeup_01.jpg",
@@ -112,7 +112,7 @@
       {
         "title": "Atlantic Quantum Joins Google Quantum AI",
         "url": "https://thequantuminsider.com/2025/10/03/atlantic-quantum-joins-google-quantum-ai/",
-        "image": "./data/news-images/7ae053da746e69adb01232f00dd1dfbcc916ea17.png",
+        "image": "./data/news-images/companies/c01-google/7ae053da746e69adb01232f00dd1dfbcc916ea17.png",
         "date": "October 3, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/10/Screenshot-2025-10-02-at-3.59.51-PM.png",
@@ -122,7 +122,7 @@
       {
         "title": "Socionext Partners with Google Quantum AI to Develop Next-Generation Quantum Computing SoCs",
         "url": "https://thequantuminsider.com/2025/02/28/socionext-partners-with-google-quantum-ai-to-develop-next-generation-quantum-computing-socs/",
-        "image": "./data/news-images/468e1f16b486d9e8098ba80cdcd66326f4499f66.jpg",
+        "image": "./data/news-images/companies/c01-google/468e1f16b486d9e8098ba80cdcd66326f4499f66.jpg",
         "date": "February 28, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/02/socionext_inc_logo.jpg",
@@ -132,7 +132,7 @@
       {
         "title": "Google Quantum AI Head Sees Commercial Quantum Within Five Years",
         "url": "https://thequantuminsider.com/2025/02/05/google-quantum-ai-head-sees-commercial-quantum-within-five-years/",
-        "image": "./data/news-images/abff8c7ea8f857c377c73c07c0359284e13129ab.png",
+        "image": "./data/news-images/companies/c01-google/abff8c7ea8f857c377c73c07c0359284e13129ab.png",
         "date": "February 5, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/02/slide-1.png",
@@ -152,7 +152,7 @@
       {
         "title": "NVIDIA Accelerates Google Quantum AI Processor Design With Simulation of Quantum Device Physics",
         "url": "https://thequantuminsider.com/2024/11/19/nvidia-accelerates-google-quantum-ai-processor-design-with-simulation-of-quantum-device-physics/",
-        "image": "./data/news-images/0124ba52c5a1b5dd69b63b87b4fa2b4a0980124b.jpg",
+        "image": "./data/news-images/companies/c01-google/0124ba52c5a1b5dd69b63b87b4fa2b4a0980124b.jpg",
         "date": "November 19, 2024",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2024/11/google-quantum-computer.jpg",
@@ -164,7 +164,7 @@
       {
         "title": "Scientists Load Genome Onto IBM Quantum Computer",
         "url": "https://thequantuminsider.com/2026/04/16/scientists-load-genome-onto-ibm-quantum-computer/",
-        "image": "./data/news-images/52790c5996d12f814246d448cbcda17c9d1cb0ae.jpg",
+        "image": "./data/news-images/companies/c02-ibm/52790c5996d12f814246d448cbcda17c9d1cb0ae.jpg",
         "date": "April 16, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/qzy0unpsio8.jpg",
@@ -174,7 +174,7 @@
       {
         "title": "Bloq Joins IBM Quantum Network to Build Quantum Algorithms at Utility Scale",
         "url": "https://thequantuminsider.com/2026/02/25/bloq-joins-ibm-quantum-network-to-build-quantum-algorithms-at-utility-scale/",
-        "image": "./data/news-images/d81695f73132a579e4529dec5e8aea911f8d2d60.png",
+        "image": "./data/news-images/companies/c02-ibm/d81695f73132a579e4529dec5e8aea911f8d2d60.png",
         "date": "February 25, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/BLOQ.png",
@@ -184,7 +184,7 @@
       {
         "title": "IBM Quantum Users Gain One-Year Free Access to Qunova’s HI-VQE Algorithm",
         "url": "https://thequantuminsider.com/2025/11/20/ibm-quantum-users-free-access-hi-vqe/",
-        "image": "./data/news-images/2cd479b0928202b177c89f2ac264d07bb92e9fbb.png",
+        "image": "./data/news-images/companies/c02-ibm/2cd479b0928202b177c89f2ac264d07bb92e9fbb.png",
         "date": "November 20, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/IBM.png",
@@ -194,7 +194,7 @@
       {
         "title": "Haiqu Demonstrates Improved Anomaly Detection And Pattern Recognition with IBM Quantum Computer",
         "url": "https://thequantuminsider.com/2025/11/13/haiqu-demonstrates-improved-anomaly-detection-and-pattern-recognition-with-ibm-quantum-computer/",
-        "image": "./data/news-images/3785baec72251257331d30eeb89c13d6148e1396.png",
+        "image": "./data/news-images/companies/c02-ibm/3785baec72251257331d30eeb89c13d6148e1396.png",
         "date": "November 13, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/Screenshot-2025-11-13-at-7.37.46-AM.png",
@@ -204,7 +204,7 @@
       {
         "title": "Q-CTRL Connects Fire Opal With RIKEN’s IBM Quantum System Two For Hybrid Quantum-Classical Computing",
         "url": "https://thequantuminsider.com/2025/11/12/q-ctrl-connects-fire-opal-with-rikens-ibm-quantum-system-two-for-hybrid-quantum-classical-computing/",
-        "image": "./data/news-images/29ba06e3d6efc1004e38142c5169e7b6fa363d44.jpeg",
+        "image": "./data/news-images/companies/c02-ibm/29ba06e3d6efc1004e38142c5169e7b6fa363d44.jpeg",
         "date": "November 12, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/upscalemedia-transformed-1.jpeg",
@@ -214,7 +214,7 @@
       {
         "title": "Former IBM Quantum VP Aparna Prabhakar Joins QuantWare’s Board of Directors",
         "url": "https://thequantuminsider.com/2025/11/05/former-ibm-quantum-vp-aparna-prabhakar-joins-quantwares-board-of-directors/",
-        "image": "./data/news-images/63fed1c0ca8682aae91c09fb0cc6328cc9747ea0.jpg",
+        "image": "./data/news-images/companies/c02-ibm/63fed1c0ca8682aae91c09fb0cc6328cc9747ea0.jpg",
         "date": "November 5, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/aparnamatt.jpg",
@@ -226,7 +226,7 @@
       {
         "title": "Krysta Svore Highlights Microsoft’s Azure Quantum Qubit Virtualization System",
         "url": "https://thequantuminsider.com/2024/10/23/krysta-svore-highlights-microsofts-azure-quantum-qubit-virtualization-system/",
-        "image": "./data/news-images/3030429e74e324ecaace69eb65b0e2574e763d54.png",
+        "image": "./data/news-images/companies/c03-microsoft/3030429e74e324ecaace69eb65b0e2574e763d54.png",
         "date": "October 23, 2024",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2024/10/Screenshot-876.png",
@@ -236,7 +236,7 @@
       {
         "title": "The Azure Quantum Resource Estimator: An In-Depth Look at an Important Quantum Tool",
         "url": "https://thequantuminsider.com/2024/06/29/the-azure-quantum-resource-estimator-an-in-depth-look-at-an-important-quantum-tool/",
-        "image": "./data/news-images/00970f0ff3d0d62b7e790949e0fe477ab0d7c67e.png",
+        "image": "./data/news-images/companies/c03-microsoft/00970f0ff3d0d62b7e790949e0fe477ab0d7c67e.png",
         "date": "June 29, 2024",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2024/06/Screenshot-2024-06-28-at-1.24.42-PM-1.png",
@@ -246,7 +246,7 @@
       {
         "title": "Microsoft Unveils Open Source Azure Quantum Resource Estimator, Prepares For Fault Tolerant Quantum Computing",
         "url": "https://thequantuminsider.com/2024/01/18/microsoft-unveils-open-source-azure-quantum-resource-estimator-prepares-for-fault-tolerant-quantum-computing/",
-        "image": "./data/news-images/7df2363a3314971ffdf9afe29482c833a5f95862.png",
+        "image": "./data/news-images/companies/c03-microsoft/7df2363a3314971ffdf9afe29482c833a5f95862.png",
         "date": "January 18, 2024",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2024/01/Screenshot-2024-01-18-at-6.05.37-AM.png",
@@ -256,7 +256,7 @@
       {
         "title": "Microsoft Announces Azure Quantum Elements — a New Azure Service that Brings Together the Latest Cloud Innovations to Accelerate Scientific Discovery",
         "url": "https://thequantuminsider.com/2023/06/22/microsoft-announces-azure-quantum-elements-a-new-azure-service-that-brings-together-the-latest-cloud-innovations-to-accelerate-scientific-discovery/",
-        "image": "./data/news-images/ab4404dff9d9788cd2608cfd0cd01eb7d9eb695e.png",
+        "image": "./data/news-images/companies/c03-microsoft/ab4404dff9d9788cd2608cfd0cd01eb7d9eb695e.png",
         "date": "June 22, 2023",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2023/06/Screenshot-361.png",
@@ -266,7 +266,7 @@
       {
         "title": "Classiq, Microsoft Azure Quantum to Bring Quantum Software to Researchers And Academic Institutions",
         "url": "https://thequantuminsider.com/2023/02/08/classiq-microsoft-azure-quantum-to-bring-quantum-software-to-researchers-and-academic-institutions/",
-        "image": "./data/news-images/50fe76cfed78f74f57c7fd0f9d14cbda881d860a.jpg",
+        "image": "./data/news-images/companies/c03-microsoft/50fe76cfed78f74f57c7fd0f9d14cbda881d860a.jpg",
         "date": "February 8, 2023",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2023/02/Classiq-Academia-w.-Microsoft.jpg",
@@ -276,7 +276,7 @@
       {
         "title": "TCS launches Free Quantum Education Program For Microsoft Azure Quantum",
         "url": "https://thequantuminsider.com/2022/12/27/tcs-launches-free-quantum-education-program-for-microsoft-azure-quantum/",
-        "image": "./data/news-images/a8de9f092ec9be8825e7d558b2b98d7dea2fbbcc.jpeg",
+        "image": "./data/news-images/companies/c03-microsoft/a8de9f092ec9be8825e7d558b2b98d7dea2fbbcc.jpeg",
         "date": "December 27, 2022",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2022/12/qubitbyqubit.jpeg",
@@ -288,7 +288,7 @@
       {
         "title": "SDT and IonQ Partner to Bring Trapped-Ion Quantum Power to the QuREKA Platform",
         "url": "https://thequantuminsider.com/2026/04/17/sdt-and-ionq-partner-to-bring-trapped-ion-quantum-power-to-the-qureka-platform/",
-        "image": "./data/news-images/c2ed04102b4cff0a15ef1bfa3ba1aa6e39e36088.jpg",
+        "image": "./data/news-images/companies/c04-ionq/c2ed04102b4cff0a15ef1bfa3ba1aa6e39e36088.jpg",
         "date": "April 17, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Qureka.jpg",
@@ -298,7 +298,7 @@
       {
         "title": "IonQ Selected for DARPA’s Heterogeneous Architectures for Quantum (HARQ) Program",
         "url": "https://thequantuminsider.com/2026/04/14/ionq-selected-darpa-harq-program/",
-        "image": "./data/news-images/d2297c21e7e774e93bffe37fa8df3d809e7872d5.png",
+        "image": "./data/news-images/companies/c04-ionq/d2297c21e7e774e93bffe37fa8df3d809e7872d5.png",
         "date": "April 14, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-14_19-24.png",
@@ -308,7 +308,7 @@
       {
         "title": "IonQ and University of Maryland Expand QLab Collaboration to Advance Quantum Networking and Research",
         "url": "https://thequantuminsider.com/2026/04/14/ionq-umd-qlab-quantum-networking-expansion/",
-        "image": "./data/news-images/5d85f1a7e80eb078c7cbd59441196bf444f69060.png",
+        "image": "./data/news-images/companies/c04-ionq/5d85f1a7e80eb078c7cbd59441196bf444f69060.png",
         "date": "April 14, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-14_06-17.png",
@@ -318,7 +318,7 @@
       {
         "title": "University of Houston Hosts Quantum Symposium with Industry and IonQ",
         "url": "https://thequantuminsider.com/2026/04/10/university-of-houston-quantum-initiative-ionq-symposium/",
-        "image": "./data/news-images/277822f54c485c05e92c72b569cbb97cdb9e151f.png",
+        "image": "./data/news-images/companies/c04-ionq/277822f54c485c05e92c72b569cbb97cdb9e151f.png",
         "date": "April 10, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-10_12-58.png",
@@ -328,7 +328,7 @@
       {
         "title": "Horizon Quantum To Acquire IonQ 256-Qubit Trapped-Ion System",
         "url": "https://thequantuminsider.com/2026/04/09/horizon-quantum-to-acquire-ionq-256-qubit-trapped-ion-system/",
-        "image": "./data/news-images/d0796c89f5c044f68b850ba4823f8fe2f33e1838.png",
+        "image": "./data/news-images/companies/c04-ionq/d0796c89f5c044f68b850ba4823f8fe2f33e1838.png",
         "date": "April 9, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-09-at-8.57.20-AM-1.png",
@@ -338,7 +338,7 @@
       {
         "title": "IonQ and KISTI Forge Strategic Alliance to Advance Quantum-HPC Hybrid Technologies in South Korea with NVIDIA NVQLink",
         "url": "https://thequantuminsider.com/2026/03/17/ionq-kisti-strategic-alliance-quantum-hpc-hybrid-technologies-south-korea-nvidia-nvqlink/",
-        "image": "./data/news-images/789a74c2fc903edc8935edd22044f85a632d5768.png",
+        "image": "./data/news-images/companies/c04-ionq/789a74c2fc903edc8935edd22044f85a632d5768.png",
         "date": "March 17, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/wwww.png",
@@ -350,7 +350,7 @@
       {
         "title": "Quantum Computing Inc. and Ciena Demonstrate Quantum-Secure Communications at OFC 2026",
         "url": "https://thequantuminsider.com/2026/03/12/qci-ciena-quantum-secure-communications-demo/",
-        "image": "./data/news-images/77f35fbf6c9bc0f0bbef38d05837262bb6bda0a7.png",
+        "image": "./data/news-images/companies/c05-quantum-computing-qubt/77f35fbf6c9bc0f0bbef38d05837262bb6bda0a7.png",
         "date": "March 12, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/zzzz.png",
@@ -360,7 +360,7 @@
       {
         "title": "Quantum Computing Inc. Completes Acquisition of NuCrypt",
         "url": "https://thequantuminsider.com/2026/03/05/quantum-computing-inc-acquires-nucrypt/",
-        "image": "./data/news-images/77f35fbf6c9bc0f0bbef38d05837262bb6bda0a7.png",
+        "image": "./data/news-images/companies/c05-quantum-computing-qubt/77f35fbf6c9bc0f0bbef38d05837262bb6bda0a7.png",
         "date": "March 5, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/zzzz.png",
@@ -370,7 +370,7 @@
       {
         "title": "Quantum Computing Inc.’s Revenue Rises, Operating Costs Climb",
         "url": "https://thequantuminsider.com/2026/03/03/quantum-computing-inc-s-revenue-rises-operating-costs-climb/",
-        "image": "./data/news-images/945d31cf119cdf8d3e83337d5d78a1e818b4774b.png",
+        "image": "./data/news-images/companies/c05-quantum-computing-qubt/945d31cf119cdf8d3e83337d5d78a1e818b4774b.png",
         "date": "March 3, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/QCI-1.png",
@@ -380,7 +380,7 @@
       {
         "title": "Quantum Computing Inc. Names Dr. Yuping Huang as CEO",
         "url": "https://thequantuminsider.com/2025/12/17/quantum-computing-inc-dr-yuping-huang-ceo/",
-        "image": "./data/news-images/9fd2b555bd646ebc4eadc976f28c50e2bbb34053.png",
+        "image": "./data/news-images/companies/c05-quantum-computing-qubt/9fd2b555bd646ebc4eadc976f28c50e2bbb34053.png",
         "date": "December 17, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/12/Yuping.png",
@@ -390,7 +390,7 @@
       {
         "title": "Quantum Computing Inc. Announces Agreement to Acquire Luminar Semiconductor, Inc.",
         "url": "https://thequantuminsider.com/2025/12/15/quantum-computing-inc-announces-agreement-to-acquire-luminar-semiconductor-inc/",
-        "image": "./data/news-images/0bcb788f77e1586df7e61fb629f7e8303fe2ffb1.jpeg",
+        "image": "./data/news-images/companies/c05-quantum-computing-qubt/0bcb788f77e1586df7e61fb629f7e8303fe2ffb1.jpeg",
         "date": "December 15, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/12/29746584.jpeg",
@@ -400,7 +400,7 @@
       {
         "title": "Quantum Computing Inc. Announces $750 Million Oversubscribed Private Placement of Common Stock Priced at the Market Under Nasdaq Rules",
         "url": "https://thequantuminsider.com/2025/10/06/quantum-computing-inc-announces-750-million-oversubscribed-private-placement-of-common-stock-priced-at-the-market-under-nasdaq-rules/",
-        "image": "./data/news-images/f96f09d7fa72b9beda25e84d128c85b765bc374e.png",
+        "image": "./data/news-images/companies/c05-quantum-computing-qubt/f96f09d7fa72b9beda25e84d128c85b765bc374e.png",
         "date": "October 6, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/10/Screenshot-2025-10-06-at-3.50.52-AM.png",
@@ -412,7 +412,7 @@
       {
         "title": "Quip.Network Launches Quantum-Classical Blockchain Testnet Built in Consultation with D-Wave",
         "url": "https://thequantuminsider.com/2026/04/02/quip-network-launches-quantum-classical-blockchain-testnet-built-in-consultation-with-d-wave/",
-        "image": "./data/news-images/cfccf0ede03c5f838b9bce6cae79ddcc01d41cd1.jpg",
+        "image": "./data/news-images/companies/c06-d-wave-quantum-qbts/cfccf0ede03c5f838b9bce6cae79ddcc01d41cd1.jpg",
         "date": "April 2, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/IMAGE-2026-03-31-09_33_14.jpg",
@@ -422,7 +422,7 @@
       {
         "title": "D-Wave Reports 179% Revenue Jump in 2025 as Bookings Accelerate",
         "url": "https://thequantuminsider.com/2026/02/26/d-wave-reports-179-revenue-jump-in-2025-as-bookings-accelerate/",
-        "image": "./data/news-images/bfa323a2163f3cd21f2251bf52db89fce5048865.jpg",
+        "image": "./data/news-images/companies/c06-d-wave-quantum-qbts/bfa323a2163f3cd21f2251bf52db89fce5048865.jpg",
         "date": "February 26, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/d-wave-advantage2_680-2.jpg",
@@ -432,7 +432,7 @@
       {
         "title": "D-Wave Joins Southeastern Quantum Collaborative as Inaugural Member",
         "url": "https://thequantuminsider.com/2026/02/20/d-wave-joins-southeastern-quantum-collaborative-inaugural-member/",
-        "image": "./data/news-images/fe5f8e118c87d993a59351380f258647b3cf3c99.png",
+        "image": "./data/news-images/companies/c06-d-wave-quantum-qbts/fe5f8e118c87d993a59351380f258647b3cf3c99.png",
         "date": "February 20, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-20_02-42.png",
@@ -442,7 +442,7 @@
       {
         "title": "D-Wave Establishes Global Headquarters and R&D Hub in South Florida",
         "url": "https://thequantuminsider.com/2026/01/28/d-wave-moves-headquarters-and-rd-to-florida/",
-        "image": "./data/news-images/f0700f94ebf1e635edbadd8ae4a0efbc9390273c.webp",
+        "image": "./data/news-images/companies/c06-d-wave-quantum-qbts/f0700f94ebf1e635edbadd8ae4a0efbc9390273c.webp",
         "date": "January 28, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/investor_press_release_image.webp",
@@ -452,7 +452,7 @@
       {
         "title": "D-Wave Signs $10 Million Two-Year QCaaS Contract with Fortune 100 Firm",
         "url": "https://thequantuminsider.com/2026/01/27/d-wave-10-million-two-year-qcaas-agreement-fortune-100/",
-        "image": "./data/news-images/7a7e3f91317dc6781031f0d12db11cb97a8b8f6c.webp",
+        "image": "./data/news-images/companies/c06-d-wave-quantum-qbts/7a7e3f91317dc6781031f0d12db11cb97a8b8f6c.webp",
         "date": "January 27, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/Fortune-100.webp",
@@ -462,7 +462,7 @@
       {
         "title": "Anduril and Davidson Work with D-Wave on Quantum-Assisted Defense Planning",
         "url": "https://thequantuminsider.com/2026/01/27/d-wave-anduril-davidson-quantum-hybrid-missile-defense/",
-        "image": "./data/news-images/57f50b966cdf2a4de741c20fb7aaf50a365319e1.png",
+        "image": "./data/news-images/companies/c06-d-wave-quantum-qbts/57f50b966cdf2a4de741c20fb7aaf50a365319e1.png",
         "date": "January 27, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/AXXX.png",
@@ -474,7 +474,7 @@
       {
         "title": "Quantum Elements, Rigetti Computing Exploring New Digital Twin Simulation Approach",
         "url": "https://thequantuminsider.com/2026/04/21/quantum-elements-rigetti-computing-exploring-new-digital-twin-simulation-approach/",
-        "image": "./data/news-images/e6216a751b3333fecce1dfad8723269cec2e8a2e.png",
+        "image": "./data/news-images/companies/c07-rigetti-computing-rgti/e6216a751b3333fecce1dfad8723269cec2e8a2e.png",
         "date": "April 21, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Quantum-Elements-1.png",
@@ -484,7 +484,7 @@
       {
         "title": "OrangeQS Extends Seed Round to €15 Million And Partners With Rigetti, QuantWare and Peak Quantum",
         "url": "https://thequantuminsider.com/2026/04/21/orangeqs-extends-seed-round-to-e15-million-and-partners-with-rigetti-quantware-and-peak-quantum/",
-        "image": "./data/news-images/61709127e7ac7ced0f75076550e4b05e3b3fc921.png",
+        "image": "./data/news-images/companies/c07-rigetti-computing-rgti/61709127e7ac7ced0f75076550e4b05e3b3fc921.png",
         "date": "April 21, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Orange-QS-1.png",
@@ -494,7 +494,7 @@
       {
         "title": "Rigetti Announces General Availability of 108-Qubit System",
         "url": "https://thequantuminsider.com/2026/04/08/rigetti-108-qubit-system-availability/",
-        "image": "./data/news-images/48a975e3acc90fe1d29dd9400c1664c932af89b5.png",
+        "image": "./data/news-images/companies/c07-rigetti-computing-rgti/48a975e3acc90fe1d29dd9400c1664c932af89b5.png",
         "date": "April 8, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/fffs.png",
@@ -504,7 +504,7 @@
       {
         "title": "University of Saskatchewan Installs First Quantum System with Rigetti QPU",
         "url": "https://thequantuminsider.com/2026/04/02/usask-quantum-system-rigetti-qpu/",
-        "image": "./data/news-images/df44c904581847e97ce9c417a97e16b83bd2dfb4.png",
+        "image": "./data/news-images/companies/c07-rigetti-computing-rgti/df44c904581847e97ce9c417a97e16b83bd2dfb4.png",
         "date": "April 2, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-02_15-15.png",
@@ -514,7 +514,7 @@
       {
         "title": "Rigetti Computing Intends to Invest $100 Million in UK to Accelerate Quantum Computing Development",
         "url": "https://thequantuminsider.com/2026/03/27/rigetti-computing-intends-to-invest-100-million-in-uk-to-accelerate-quantum-computing-development/",
-        "image": "./data/news-images/48a975e3acc90fe1d29dd9400c1664c932af89b5.png",
+        "image": "./data/news-images/companies/c07-rigetti-computing-rgti/48a975e3acc90fe1d29dd9400c1664c932af89b5.png",
         "date": "March 27, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/fffs.png",
@@ -524,7 +524,7 @@
       {
         "title": "Rigetti Posts $216 Million Annual Loss While Expanding Quantum System Deployments",
         "url": "https://thequantuminsider.com/2026/03/05/rigetti-posts-216-million-annual-loss-while-expanding-quantum-system-deployments/",
-        "image": "./data/news-images/02fc0512f11418db8779a218dd3cc82233a822ee.png",
+        "image": "./data/news-images/companies/c07-rigetti-computing-rgti/02fc0512f11418db8779a218dd3cc82233a822ee.png",
         "date": "March 5, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/Rigetti-1.png",
@@ -536,7 +536,7 @@
       {
         "title": "Arqit Named Scaleup Partner by Tomorrow Street",
         "url": "https://thequantuminsider.com/2026/04/16/tomorrow-street-arqit-quantum-security-portfolio/",
-        "image": "./data/news-images/26e5c5ef3c327f71274ae7b1cb52799724b49129.png",
+        "image": "./data/news-images/companies/c08-arqit-quantum-arqq/26e5c5ef3c327f71274ae7b1cb52799724b49129.png",
         "date": "April 16, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/zss.png",
@@ -546,7 +546,7 @@
       {
         "title": "Arqit and RAD Partner on Quantum-Safe Encryption for Telcos",
         "url": "https://thequantuminsider.com/2026/03/02/arqit-rad-quantum-safe-telco-partnership/",
-        "image": "./data/news-images/299f8cd43e88cfb93b8ba27c532d4b6855ff0231.png",
+        "image": "./data/news-images/companies/c08-arqit-quantum-arqq/299f8cd43e88cfb93b8ba27c532d4b6855ff0231.png",
         "date": "March 2, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/zzz.png",
@@ -556,7 +556,7 @@
       {
         "title": "Arqit Launches Encryption Intelligence for Post-Quantum Cryptography Planning",
         "url": "https://thequantuminsider.com/2026/01/23/arqit-encryption-intelligence-pqc-migration/",
-        "image": "./data/news-images/4fe243ab3cdbffcede066df3311ba3b56d2e712d.png",
+        "image": "./data/news-images/companies/c08-arqit-quantum-arqq/4fe243ab3cdbffcede066df3311ba3b56d2e712d.png",
         "date": "January 23, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/ARQIT-1.png",
@@ -576,7 +576,7 @@
       {
         "title": "Arqit Quantum Inc. Announces $13.6 Million Registered Direct Offering",
         "url": "https://thequantuminsider.com/2024/09/30/arqit-quantum-inc-announces-13-6-million-registered-direct-offering/",
-        "image": "./data/news-images/4798bcc07d9a30f4fe5a128f6a31f5865dd1ae72.jpg",
+        "image": "./data/news-images/companies/c08-arqit-quantum-arqq/4798bcc07d9a30f4fe5a128f6a31f5865dd1ae72.jpg",
         "date": "September 30, 2024",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2024/09/financial-traders-team-working-on-stock-exchange.jpg",
@@ -586,7 +586,7 @@
       {
         "title": "Sparkle, Arqit Complete Test of an International VPN Protected With Quantum Encryption",
         "url": "https://thequantuminsider.com/2024/05/18/sparkle-arqit-completes-test-of-an-international-vpn-protected-with-quantum-encryption/",
-        "image": "./data/news-images/9239e17a888ba1cd9a8e35ed302f399e81ed6d66.jpg",
+        "image": "./data/news-images/companies/c08-arqit-quantum-arqq/9239e17a888ba1cd9a8e35ed302f399e81ed6d66.jpg",
         "date": "May 18, 2024",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2024/05/eusvweosble.jpg",
@@ -598,7 +598,7 @@
       {
         "title": "SEALSQ Expands Quantum Fund to $200 Million and Accelerates Deployment of Sovereign Quantum Infrastructure",
         "url": "https://thequantuminsider.com/2026/03/31/sealsq-expands-quantum-fund-to-200-million-and-accelerates-sovereign-quantum-infrastructure/",
-        "image": "./data/news-images/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
+        "image": "./data/news-images/companies/c09-sealsq-corp-laes/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
         "date": "March 31, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-17_21-08.png",
@@ -608,7 +608,7 @@
       {
         "title": "SEALSQ and Parrot Expand Partnership to Add Post-Quantum Cryptography to Drones",
         "url": "https://thequantuminsider.com/2026/03/13/sealsq-parrot-post-quantum-cryptography-secure-drones/",
-        "image": "./data/news-images/f170e7f565d3748269dd243457ff0d96bfb7ea66.png",
+        "image": "./data/news-images/companies/c09-sealsq-corp-laes/f170e7f565d3748269dd243457ff0d96bfb7ea66.png",
         "date": "March 13, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/2026-03-13_20-00.png",
@@ -618,7 +618,7 @@
       {
         "title": "SEALSQ Deepens Technology Focus on CMOS-Compatible Quantum Architectures",
         "url": "https://thequantuminsider.com/2026/02/24/sealsq-cmos-compatible-quantum-architectures/",
-        "image": "./data/news-images/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
+        "image": "./data/news-images/companies/c09-sealsq-corp-laes/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
         "date": "February 24, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-17_21-08.png",
@@ -628,7 +628,7 @@
       {
         "title": "SEALSQ Expands Investment in Quantum Startup EeroQ",
         "url": "https://thequantuminsider.com/2026/02/20/sealsq-strengthens-quantum-made-in-usa-strategy-investment-eeroq/",
-        "image": "./data/news-images/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
+        "image": "./data/news-images/companies/c09-sealsq-corp-laes/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
         "date": "February 20, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-17_21-08.png",
@@ -638,7 +638,7 @@
       {
         "title": "SEALSQ and Lattice Partner on Post-Quantum Security for FPGAs",
         "url": "https://thequantuminsider.com/2026/02/18/sealsq-lattice-unified-tpm-fpga-post-quantum-security/",
-        "image": "./data/news-images/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
+        "image": "./data/news-images/companies/c09-sealsq-corp-laes/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
         "date": "February 18, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-17_21-08.png",
@@ -648,7 +648,7 @@
       {
         "title": "SEALSQ Releases Preliminary 2025 Financial Metrics",
         "url": "https://thequantuminsider.com/2026/02/17/sealsq-preliminary-2025-financial-results/",
-        "image": "./data/news-images/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
+        "image": "./data/news-images/companies/c09-sealsq-corp-laes/0c81473dfc211ce6461cae73fb024a88f59be63d.png",
         "date": "February 17, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-17_21-08.png",
@@ -660,7 +660,7 @@
       {
         "title": "The Quantum Insider Strengthens Its Role as The Intelligence Center of The Quantum Industry With Appointment of Matt Cimaglia as Senior Advisor",
         "url": "https://thequantuminsider.com/2026/02/26/the-quantum-insider-strengthens-its-role-as-the-intelligence-center-of-the-quantum-industry-with-appointment-of-matt-cimaglia-as-senior-advisor/",
-        "image": "./data/news-images/817ecf08ad37e03f1ea02b67b34a4f16203f9811.png",
+        "image": "./data/news-images/companies/c10-intel-intc/817ecf08ad37e03f1ea02b67b34a4f16203f9811.png",
         "date": "February 26, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/Screenshot-2026-02-26-at-5.13.20-PM.png",
@@ -670,7 +670,7 @@
       {
         "title": "GBAC Launches Quantum Strategic Intelligence (QSI) — A Sovereignty Standard for the Quantum‑AI Era",
         "url": "https://thequantuminsider.com/2026/02/04/gbac-launches-quantum-strategic-intelligence-qsi-a-sovereignty-standard-for-the-quantum-ai-era/",
-        "image": "./data/news-images/060692c1e2486fdd11e9a4eafc84357d421b98ca.png",
+        "image": "./data/news-images/companies/c10-intel-intc/060692c1e2486fdd11e9a4eafc84357d421b98ca.png",
         "date": "February 4, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/qsi-infographic-minimal-overla-1.png",
@@ -680,7 +680,7 @@
       {
         "title": "How Will The Military Use Quantum Artificial Intelligence? Quantum AI May Reshape Military Planning Before It Reaches the Battlefield",
         "url": "https://thequantuminsider.com/2026/02/02/how-will-the-military-use-quantum-artificial-intelligence-quantum-ai-may-reshape-military-planning-before-it-reaches-the-battlefield/",
-        "image": "./data/news-images/a619235ecd77062bf751dddc8112510159e0feb7.jpg",
+        "image": "./data/news-images/companies/c10-intel-intc/a619235ecd77062bf751dddc8112510159e0feb7.jpg",
         "date": "February 2, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/90krc3kiv54.jpg",
@@ -690,7 +690,7 @@
       {
         "title": "Artificial Intelligence Makes Quantum Field Theories Computable",
         "url": "https://thequantuminsider.com/2026/01/27/artificial-intelligence-makes-quantum-field-theories-computable/",
-        "image": "./data/news-images/c54d97e66249efbc08c4fedbcba771336b04752d.jpg",
+        "image": "./data/news-images/companies/c10-intel-intc/c54d97e66249efbc08c4fedbcba771336b04752d.jpg",
         "date": "January 27, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/Low-Res_Quantenfeld-lattice-c_TU-Wien.jpg",
@@ -700,7 +700,7 @@
       {
         "title": "Arqit Launches Encryption Intelligence for Post-Quantum Cryptography Planning",
         "url": "https://thequantuminsider.com/2026/01/23/arqit-encryption-intelligence-pqc-migration/",
-        "image": "./data/news-images/4fe243ab3cdbffcede066df3311ba3b56d2e712d.png",
+        "image": "./data/news-images/companies/c10-intel-intc/4fe243ab3cdbffcede066df3311ba3b56d2e712d.png",
         "date": "January 23, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/ARQIT-1.png",
@@ -710,7 +710,7 @@
       {
         "title": "Argonne and Intel Deploy 12-Qubit Quantum Dot Device",
         "url": "https://thequantuminsider.com/2026/01/13/argonne-intel-12-qubit-quantum-dot/",
-        "image": "./data/news-images/d7ba7fb33375516373119bb20eff6c7d1e3498f5.png",
+        "image": "./data/news-images/companies/c10-intel-intc/d7ba7fb33375516373119bb20eff6c7d1e3498f5.png",
         "date": "January 13, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/Argonne.png",
@@ -722,7 +722,7 @@
       {
         "title": "Quantinuum Expands Global Footprint to Singapore With The Establishment of a New R&D Centre",
         "url": "https://thequantuminsider.com/2026/03/12/quantinuum-expands-global-footprint-to-singapore-with-the-establishment-of-a-new-rd-centre/",
-        "image": "./data/news-images/e161865e5074aa08123e4d14d24feb3fe57b43bb.png",
+        "image": "./data/news-images/companies/c11-quantinuum/e161865e5074aa08123e4d14d24feb3fe57b43bb.png",
         "date": "March 12, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/Screenshot-2026-03-12-at-4.38.43-AM.png",
@@ -732,7 +732,7 @@
       {
         "title": "Quantinuum Researchers Demonstrate Quantum Computations With Dozens of Protected Logical Qubits",
         "url": "https://thequantuminsider.com/2026/03/10/quantinuum-researchers-demonstrates-quantum-computations-with-dozens-of-protected-logical-qubits/",
-        "image": "./data/news-images/fd6c7ecb51f992b4d24e5150fadede436704f0fc.jpeg",
+        "image": "./data/news-images/companies/c11-quantinuum/fd6c7ecb51f992b4d24e5150fadede436704f0fc.jpeg",
         "date": "March 10, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/10827983.jpeg",
@@ -742,7 +742,7 @@
       {
         "title": "Honeywell Announces Quantinuum Has Filed Confidential Paperwork For a Possible IPO",
         "url": "https://thequantuminsider.com/2026/01/14/honeywell-announces-quantinuum-has-filed-confidential-paperwork-for-a-possible-ipo/",
-        "image": "./data/news-images/6b816cc642c7a4472414853c9f1a3a2f8bcdd4ef.png",
+        "image": "./data/news-images/companies/c11-quantinuum/6b816cc642c7a4472414853c9f1a3a2f8bcdd4ef.png",
         "date": "January 14, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/Quantinuum-1.png",
@@ -752,7 +752,7 @@
       {
         "title": "Quantinuum Collaboration Aims at Using AI to Write Quantum Algorithms",
         "url": "https://thequantuminsider.com/2025/12/15/quantinuum-collaboration-aims-at-using-ai-to-write-quantum-algorithms/",
-        "image": "./data/news-images/55989c3e6fcf0c0ce90c77a3fda362ed73d4201a.png",
+        "image": "./data/news-images/companies/c11-quantinuum/55989c3e6fcf0c0ce90c77a3fda362ed73d4201a.png",
         "date": "December 15, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/12/Screenshot-2025-12-15-at-7.53.53-AM.png",
@@ -762,7 +762,7 @@
       {
         "title": "Illuminating Helios: Quantinuum’s Shiny New Quantum Computer Gets Sunny Reception",
         "url": "https://thequantuminsider.com/2025/11/06/illuminating-helios-quantinuums-shiny-new-quantum-computer-gets-sunny-reception/",
-        "image": "./data/news-images/e2733c0ac11261e8ff12049254e07db110241d36.jpeg",
+        "image": "./data/news-images/companies/c11-quantinuum/e2733c0ac11261e8ff12049254e07db110241d36.jpeg",
         "date": "November 6, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/Helios-Image.jpeg",
@@ -772,7 +772,7 @@
       {
         "title": "Singapore’s National Quantum Office and Quantinuum Forge Strategic Partnership to Accelerate Quantum Computing",
         "url": "https://thequantuminsider.com/2025/11/05/singapores-national-quantum-office-and-quantinuum-forge-strategic-partnership-to-accelerate-quantum-computing/",
-        "image": "./data/news-images/a6a838ef342bedea13f3dba8a50b6624b2922a68.jpg",
+        "image": "./data/news-images/companies/c11-quantinuum/a6a838ef342bedea13f3dba8a50b6624b2922a68.jpg",
         "date": "November 5, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/sj7pyyjfyua.jpg",
@@ -784,7 +784,7 @@
       {
         "title": "Infleqtion Announces 2026 Revenue Guidance of $40 Million",
         "url": "https://thequantuminsider.com/2026/04/09/infleqtion-announces-2026-revenue-guidance-of-40-million/",
-        "image": "./data/news-images/f6f1d6add9ebf0c15b27e1dafe74238073e525e0.png",
+        "image": "./data/news-images/companies/c12-infleqtion-infq/f6f1d6add9ebf0c15b27e1dafe74238073e525e0.png",
         "date": "April 9, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-09-at-11.52.51-AM.png",
@@ -794,7 +794,7 @@
       {
         "title": "Infleqtion and NASA Deliver Next-Generation Quantum Capabilities to International Space Station",
         "url": "https://thequantuminsider.com/2026/04/09/infleqtion-nasa-next-generation-quantum-iss/",
-        "image": "./data/news-images/1f91c6696ac2f24e8f9d185752d658dc421c662c.png",
+        "image": "./data/news-images/companies/c12-infleqtion-infq/1f91c6696ac2f24e8f9d185752d658dc421c662c.png",
         "date": "April 9, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/zz.png",
@@ -804,7 +804,7 @@
       {
         "title": "Infleqtion Delivers Quantum Precision Timing for Mission-Critical Systems",
         "url": "https://thequantuminsider.com/2026/04/02/infleqtion-quantum-timing-solution/",
-        "image": "./data/news-images/4e7554781ccbf29fa2ff01fdb25b7ec459ac4938.png",
+        "image": "./data/news-images/companies/c12-infleqtion-infq/4e7554781ccbf29fa2ff01fdb25b7ec459ac4938.png",
         "date": "April 2, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-02_18-09.png",
@@ -814,7 +814,7 @@
       {
         "title": "Infleqtion Delivers the UK’s Only Operational 100-Qubit Quantum Computing System at the National Quantum Computing Centre",
         "url": "https://thequantuminsider.com/2026/03/16/infleqtion-delivers-the-uks-only-operational-100-qubit-quantum-computing-system-at-the-national-quantum-computing-centre/",
-        "image": "./data/news-images/dc9e467bb79b3caa2685f52b59ed1b2ab5138fc0.png",
+        "image": "./data/news-images/companies/c12-infleqtion-infq/dc9e467bb79b3caa2685f52b59ed1b2ab5138fc0.png",
         "date": "March 16, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/Infleqtion.png",
@@ -824,7 +824,7 @@
       {
         "title": "Infleqtion to Begin Trading on NYSE Today",
         "url": "https://thequantuminsider.com/2026/02/17/infleqtion-to-begin-trading-on-nyse-today/",
-        "image": "./data/news-images/10c639e5012beeeec38b04fa181387ed2be8b5a5.png",
+        "image": "./data/news-images/companies/c12-infleqtion-infq/10c639e5012beeeec38b04fa181387ed2be8b5a5.png",
         "date": "February 17, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/Screenshot-2026-02-17-at-7.35.58-AM-1.png",
@@ -834,7 +834,7 @@
       {
         "title": "Infleqtion Set to Receive $550 Million as SPAC Redemptions Stay Low",
         "url": "https://thequantuminsider.com/2026/02/13/infleqtion-set-to-receive-550-million-as-spac-redemptions-stay-low/",
-        "image": "./data/news-images/ef2d9a98a74661cbb5ac27579106d68ac555169c.jpg",
+        "image": "./data/news-images/companies/c12-infleqtion-infq/ef2d9a98a74661cbb5ac27579106d68ac555169c.jpg",
         "date": "February 13, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/6ih4uoqzaas.jpg",
@@ -846,7 +846,7 @@
       {
         "title": "SkyWater Technology and Silicon Quantum Computing Team to Advance Hybrid Quantum-Classical Computing",
         "url": "https://thequantuminsider.com/2025/11/20/skywater-sqc-hybrid-quantum-classical-collaboration/",
-        "image": "./data/news-images/c507b20205e72bf1855ff566a0c1d7200375df0a.png",
+        "image": "./data/news-images/companies/c13-skywater-technology-inc-skyt/c507b20205e72bf1855ff566a0c1d7200375df0a.png",
         "date": "November 20, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/Skywater.png",
@@ -856,7 +856,7 @@
       {
         "title": "SkyWater Technology And QuamCore Announce Collaboration to Fabricate Digital Superconducting Controller For Scalable Quantum Computing",
         "url": "https://thequantuminsider.com/2025/11/06/skywater-technology-and-quamcore-announce-collaboration-to-fabricate-digital-superconducting-controller-for-scalable-quantum-computing/",
-        "image": "./data/news-images/9929312649bf0151822a3f12042de36eb913cb87.jpg",
+        "image": "./data/news-images/companies/c13-skywater-technology-inc-skyt/9929312649bf0151822a3f12042de36eb913cb87.jpg",
         "date": "November 6, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/11/SkyWater_Logo_Color_Landscape_002.jpg",
@@ -866,7 +866,7 @@
       {
         "title": "SkyWater’s Quantum Bet Gains Momentum After $93 Million Fab 25 Deal",
         "url": "https://thequantuminsider.com/2025/08/27/skywaters-quantum-bet-gains-momentum-after-93-million-fab-25-deal/",
-        "image": "./data/news-images/afe3537cc2560fa1f64fa4a5f987c32cb20ca4bd.png",
+        "image": "./data/news-images/companies/c13-skywater-technology-inc-skyt/afe3537cc2560fa1f64fa4a5f987c32cb20ca4bd.png",
         "date": "August 27, 2025",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2025/08/Screenshot-2025-08-27-at-4.11.35-AM.png",
@@ -876,7 +876,7 @@
       {
         "title": "SkyWater Technology Reports Fourth Quarter and Full Fiscal Year 2025 Results",
         "url": "https://thequantuminsider.com/2026/02/26/skywater-technology-q4-fy2025-results/",
-        "image": "./data/news-images/db92465e1880e0e87fdadace44cf26ef19bf1f9a.png",
+        "image": "./data/news-images/companies/c13-skywater-technology-inc-skyt/db92465e1880e0e87fdadace44cf26ef19bf1f9a.png",
         "date": "February 26, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/2026-02-26_18-51.png",
@@ -886,7 +886,7 @@
       {
         "title": "IonQ Surpasses $100 Million in Annual Revenue, Reports Quantum Sales Accelerating",
         "url": "https://thequantuminsider.com/2026/02/25/ionq-surpasses-100-million-in-annual-revenue-reports-quantum-sales-accelerating/",
-        "image": "./data/news-images/71aa4425a39122805fd72c6fbab4eb9e9b9aa14c.png",
+        "image": "./data/news-images/companies/c13-skywater-technology-inc-skyt/71aa4425a39122805fd72c6fbab4eb9e9b9aa14c.png",
         "date": "February 25, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/Screenshot-2026-02-25-at-5.02.30-PM.png",
@@ -896,7 +896,7 @@
       {
         "title": "Florida’s Emerging Role in the Quantum Economy",
         "url": "https://thequantuminsider.com/2026/02/05/floridas-emerging-role-in-the-quantum-economy/",
-        "image": "./data/news-images/a83e9a9b2a89d2c06425cf53fcd0d30ede6c6ea4.png",
+        "image": "./data/news-images/companies/c13-skywater-technology-inc-skyt/a83e9a9b2a89d2c06425cf53fcd0d30ede6c6ea4.png",
         "date": "February 5, 2026",
         "source": "The Quantum Insider",
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/02/Screenshot-2026-02-05-at-2.11.10-PM-1.png",
