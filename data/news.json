@@ -2,99 +2,99 @@
   "meta": {
     "source": "The Quantum Insider",
     "sourceUrl": "https://thequantuminsider.com/category/daily/",
-    "generatedAt": "2026-04-20T15:47:55+00:00",
+    "generatedAt": "2026-04-21T14:32:47+00:00",
     "notes": "新闻数据由脚本构建时抓取 The Quantum Insider 页面结构生成。"
   },
   "latest": [
     {
-      "title": "Kvantify and Equal1 Partner on Quantum Computing Integration",
-      "url": "https://thequantuminsider.com/2026/04/20/kvantify-equal1-quantum-partnership/",
-      "image": "./data/news-images/2035618a0f8e2ccac024dfe64f2e384d2ae0474e.png",
-      "date": "April 20, 2026",
+      "title": "NPL Collaborates with NVIDIA to Use AI for Automated Quantum Computing Characterization",
+      "url": "https://thequantuminsider.com/2026/04/21/npl-nvidia-ai-quantum-computing-characterisation/",
+      "image": "./data/news-images/1d642a77297c2d65e4bed2607b4a1f6192f1d8c4.png",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/admin-x.png",
-      "titleEn": "Kvantify and Equal1 Partner on Quantum Computing Integration",
-      "titleZh": "Kvantify 与 Equal1 合作推进量子计算集成"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-13-at-1.47.27-PM.png",
+      "titleEn": "NPL Collaborates with NVIDIA to Use AI for Automated Quantum Computing Characterization",
+      "titleZh": "NPL 与 NVIDIA 合作，用 AI 自动化量子计算表征"
     },
     {
-      "title": "Quantum Matters: AI and Quantum Converge as Risks, Regulation and Energy Constraints Mount",
-      "url": "https://thequantuminsider.com/2026/04/20/quantum-matters-ai-risks/",
-      "image": "./data/news-images/b80f800dc4fad0bdf5b83219fad069d90323ad3c.jpg",
-      "date": "April 20, 2026",
+      "title": "Guest Post – Why The Real Quantum Race is Shifting From Hardware to Software",
+      "url": "https://thequantuminsider.com/2026/04/21/guest-post-why-the-real-quantum-race-is-shifting-from-hardware-to-software/",
+      "image": "./data/news-images/fa9b7cde65334555389243bb40bf4a8c24a9f42e.jpg",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/yul6dcghtuy.jpg",
-      "titleEn": "Quantum Matters: AI and Quantum Converge as Risks, Regulation and Energy Constraints Mount",
-      "titleZh": "Quantum Matters：AI 与量子在风险、监管和能源约束加剧下加速交汇"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/9269924.jpg",
+      "titleEn": "Guest Post – Why The Real Quantum Race is Shifting From Hardware to Software",
+      "titleZh": "客座文章：为什么真正的量子竞赛正从硬件转向软件"
     },
     {
-      "title": "New Model Explains How Single Electrons Cause Damage Inside Silicon Chips",
-      "url": "https://thequantuminsider.com/2026/04/20/new-model-explains-how-single-electrons-cause-damage-inside-silicon-chips/",
-      "image": "./data/news-images/e74d5f31344b5f4f106174913544431fedc4a338.png",
-      "date": "April 20, 2026",
+      "title": "Quantum Elements, Rigetti Computing Exploring New Digital Twin Simulation Approach",
+      "url": "https://thequantuminsider.com/2026/04/21/quantum-elements-rigetti-computing-exploring-new-digital-twin-simulation-approach/",
+      "image": "./data/news-images/e6216a751b3333fecce1dfad8723269cec2e8a2e.png",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-20-at-4.06.03-AM.png",
-      "titleEn": "New Model Explains How Single Electrons Cause Damage Inside Silicon Chips",
-      "titleZh": "新模型解释单个电子如何在硅芯片内部造成损伤"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Quantum-Elements-1.png",
+      "titleEn": "Quantum Elements, Rigetti Computing Exploring New Digital Twin Simulation Approach",
+      "titleZh": "Quantum Elements 与 Rigetti Computing 探索新的数字孪生模拟方法"
     },
     {
-      "title": "Quantum Myths vs Reality – Understanding Where the Technology Stands",
-      "url": "https://thequantuminsider.com/2026/04/20/quantum-myths-vs-reality-understanding-technology/",
-      "image": "./data/news-images/c86279838680548247c38c973637c517872306b9.png",
-      "date": "April 20, 2026",
+      "title": "QuEra-led Study Points to Ultra-High-Rate Quantum Error Correction Moving Closer to Practical Hardware",
+      "url": "https://thequantuminsider.com/2026/04/21/quera-led-study-points-to-ultra-high-rate-quantum-error-correction-moving-closer-to-practical-hardware/",
+      "image": "./data/news-images/63feb38064025b2e8f87f21aaa397a9e2f06a456.png",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/upload.png",
-      "titleEn": "Quantum Myths vs Reality – Understanding Where the Technology Stands",
-      "titleZh": "量子神话与现实：理解这项技术目前所处的位置"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-21-at-7.05.54-AM.png",
+      "titleEn": "QuEra-led Study Points to Ultra-High-Rate Quantum Error Correction Moving Closer to Practical Hardware",
+      "titleZh": "QuEra 牵头研究显示超高速量子纠错正更接近实用硬件"
     },
     {
-      "title": "Overview of 10+ Quantum Companies in Germany – 2026",
-      "url": "https://thequantuminsider.com/2026/04/18/quantum-computing-companies-in-germany/",
-      "image": "./data/news-images/7ac8f68e09e795864765550c3b3b052456d27605.png",
-      "date": "April 18, 2026",
+      "title": "Quantum Magnonics: Toward Interconnected Quantum Systems",
+      "url": "https://thequantuminsider.com/2026/04/21/quantum-magnonics-toward-interconnected-quantum-systems/",
+      "image": "./data/news-images/0bbadbf49fc95e06ab78fb4491259673125c2833.jpg",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/assz.png",
-      "titleEn": "Overview of 10+ Quantum Companies in Germany – 2026",
-      "titleZh": "2026 年德国 10 多家量子公司概览"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Bluefors.jpg",
+      "titleEn": "Quantum Magnonics: Toward Interconnected Quantum Systems",
+      "titleZh": "量子磁振子学：迈向互联量子系统"
     },
     {
-      "title": "Study: Majorana States Get Easier to Find as Quantum Chains Grow Longer",
-      "url": "https://thequantuminsider.com/2026/04/18/study-majorana-states-get-easier-to-find-as-quantum-chains-grow-longer/",
-      "image": "./data/news-images/960d3c96c267b90a8a36695703591d978a9f1c73.png",
-      "date": "April 18, 2026",
+      "title": "OrangeQS Extends Seed Round to €15 Million And Partners With Rigetti, QuantWare and Peak Quantum",
+      "url": "https://thequantuminsider.com/2026/04/21/orangeqs-extends-seed-round-to-e15-million-and-partners-with-rigetti-quantware-and-peak-quantum/",
+      "image": "./data/news-images/61709127e7ac7ced0f75076550e4b05e3b3fc921.png",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-18-at-8.39.26-AM.png",
-      "titleEn": "Study: Majorana States Get Easier to Find as Quantum Chains Grow Longer",
-      "titleZh": "研究称：随着量子链变长，Majorana 态更容易被发现"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Orange-QS-1.png",
+      "titleEn": "OrangeQS Extends Seed Round to €15 Million And Partners With Rigetti, QuantWare and Peak Quantum",
+      "titleZh": "OrangeQS 将种子轮扩至 1500 万欧元，并与 Rigetti、QuantWare 和 Peak Quantum 合作"
     },
     {
-      "title": "The Korea Quantum Trade: Why Seoul Produced the Biggest Stock Moves on NVIDIA’s Ising Launch",
-      "url": "https://thequantuminsider.com/2026/04/18/the-korea-quantum-trade-why-seoul-produced-the-biggest-stock-moves-on-nvidias-ising-launch/",
-      "image": "./data/news-images/54ac9df881117a144cefc59dcffb3e15c1c9887c.png",
-      "date": "April 18, 2026",
+      "title": "Ripple Outlines Plan to Protect XRPL From Quantum Computing Risks",
+      "url": "https://thequantuminsider.com/2026/04/21/ripple-outlines-plan-to-protect-xrpl-from-quantum-computing-risks/",
+      "image": "./data/news-images/d8fb17f3ed2ce27f1358f9edafb0ca0b16a1a69d.jpg",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/TQI-Saturday.png",
-      "titleEn": "The Korea Quantum Trade: Why Seoul Produced the Biggest Stock Moves on NVIDIA’s Ising Launch",
-      "titleZh": "韩国量子交易：为何 NVIDIA Ising 发布后首尔相关股票波动最大"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/3789233.jpg",
+      "titleEn": "Ripple Outlines Plan to Protect XRPL From Quantum Computing Risks",
+      "titleZh": "Ripple 概述保护 XRPL 免受量子计算风险影响的计划"
     },
     {
-      "title": "OVHcloud Adds Quandela Belenos to Quantum Platform",
-      "url": "https://thequantuminsider.com/2026/04/17/ovhcloud-quandela-belenos-quantum-platform/",
-      "image": "./data/news-images/1a5e5f9be9b2c15c0882f4ca3b70a037fb4f4d13.png",
-      "date": "April 17, 2026",
+      "title": "Quantum eMotion Passes ISO 27001 Audit, Gains ISO 27017 Certification",
+      "url": "https://thequantuminsider.com/2026/04/21/quantum-emotion-iso-27001-audit-iso-27017-certification/",
+      "image": "./data/news-images/cbea3f5938733a806ceb2c7d790c67ef0b0b52bc.png",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-14_20-20.png",
-      "titleEn": "OVHcloud Adds Quandela Belenos to Quantum Platform",
-      "titleZh": "OVHcloud 将 Quandela Belenos 加入量子平台"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/2026-04-21_12-58.png",
+      "titleEn": "Quantum eMotion Passes ISO 27001 Audit, Gains ISO 27017 Certification",
+      "titleZh": "Quantum eMotion 通过 ISO 27001 审计并获得 ISO 27017 认证"
     },
     {
-      "title": "Aalto Team Reports New Algorithm Tackles Quasicrystal Calculations Beyond Classical Limits",
-      "url": "https://thequantuminsider.com/2026/04/17/aalto-team-reports-new-algorithm-tackles-quasicrystal-calculations-beyond-classical-limits/",
-      "image": "./data/news-images/f24fcbdc5f3688faee30f4133974ed3374d07081.png",
-      "date": "April 17, 2026",
+      "title": "Cerca Magnetics Secures £3.8m in Series A Funding to Scale Quantum Brain Scanner",
+      "url": "https://thequantuminsider.com/2026/04/21/cerca-magnetics-secures-38m-series-a-funding-scale-quantum-brain-scanner/",
+      "image": "./data/news-images/decc79d34887ceeff44d70f585de717ad82db8e6.png",
+      "date": "April 21, 2026",
       "source": "The Quantum Insider",
-      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Screenshot-2026-04-17-at-7.13.09-AM.png",
-      "titleEn": "Aalto Team Reports New Algorithm Tackles Quasicrystal Calculations Beyond Classical Limits",
-      "titleZh": "阿尔托大学团队称新算法可处理超越经典极限的准晶计算"
+      "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/ready.png",
+      "titleEn": "Cerca Magnetics Secures £3.8m in Series A Funding to Scale Quantum Brain Scanner",
+      "titleZh": "Cerca Magnetics 获得 380 万英镑 A 轮融资，用于扩大量子脑扫描仪"
     }
   ],
   "companies": {
@@ -472,6 +472,26 @@
     ],
     "c07-rigetti-computing-rgti": [
       {
+        "title": "Quantum Elements, Rigetti Computing Exploring New Digital Twin Simulation Approach",
+        "url": "https://thequantuminsider.com/2026/04/21/quantum-elements-rigetti-computing-exploring-new-digital-twin-simulation-approach/",
+        "image": "./data/news-images/e6216a751b3333fecce1dfad8723269cec2e8a2e.png",
+        "date": "April 21, 2026",
+        "source": "The Quantum Insider",
+        "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Quantum-Elements-1.png",
+        "titleEn": "Quantum Elements, Rigetti Computing Exploring New Digital Twin Simulation Approach",
+        "titleZh": "Quantum Elements 与 Rigetti Computing 探索新的数字孪生模拟方法"
+      },
+      {
+        "title": "OrangeQS Extends Seed Round to €15 Million And Partners With Rigetti, QuantWare and Peak Quantum",
+        "url": "https://thequantuminsider.com/2026/04/21/orangeqs-extends-seed-round-to-e15-million-and-partners-with-rigetti-quantware-and-peak-quantum/",
+        "image": "./data/news-images/61709127e7ac7ced0f75076550e4b05e3b3fc921.png",
+        "date": "April 21, 2026",
+        "source": "The Quantum Insider",
+        "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/04/Orange-QS-1.png",
+        "titleEn": "OrangeQS Extends Seed Round to €15 Million And Partners With Rigetti, QuantWare and Peak Quantum",
+        "titleZh": "OrangeQS 将种子轮扩至 1500 万欧元，并与 Rigetti、QuantWare 和 Peak Quantum 合作"
+      },
+      {
         "title": "Rigetti Announces General Availability of 108-Qubit System",
         "url": "https://thequantuminsider.com/2026/04/08/rigetti-108-qubit-system-availability/",
         "image": "./data/news-images/48a975e3acc90fe1d29dd9400c1664c932af89b5.png",
@@ -510,26 +530,6 @@
         "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/03/Rigetti-1.png",
         "titleEn": "Rigetti Posts $216 Million Annual Loss While Expanding Quantum System Deployments",
         "titleZh": "Rigetti 在扩大系统部署的同时录得 2.16 亿美元年度亏损"
-      },
-      {
-        "title": "Rigetti’s Vision for the Future of Quantum Computing: What Makes This Company So Special?",
-        "url": "https://thequantuminsider.com/2026/01/27/rigettis-vision-for-the-future-of-quantum-computing-what-makes-this-company-so-special/",
-        "image": "./data/news-images/a34af104e37ff6186739b098530821c8b9d76202.png",
-        "date": "January 27, 2026",
-        "source": "The Quantum Insider",
-        "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/DCLC-title-card-Subodh-Kulkarni-Rigetti.png",
-        "titleEn": "Rigetti’s Vision for the Future of Quantum Computing: What Makes This Company So Special?",
-        "titleZh": "Rigetti 的量子计算未来愿景：这家公司特别在哪里？"
-      },
-      {
-        "title": "Rigetti Announces Order For 108-Qubit Quantum Computer From India’s Centre for Development of Advanced Computing",
-        "url": "https://thequantuminsider.com/2026/01/20/rigetti-announces-order-for-108-qubit-quantum-computer-from-indias-centre-for-development-of-advanced-computing/",
-        "image": "./data/news-images/9894c818a0e764c403faaa39093a11dfcd61f19d.png",
-        "date": "January 20, 2026",
-        "source": "The Quantum Insider",
-        "remoteImage": "https://thequantuminsider.com/wp-content/uploads/2026/01/Rigetti-image-1.png",
-        "titleEn": "Rigetti Announces Order For 108-Qubit Quantum Computer From India’s Centre for Development of Advanced Computing",
-        "titleZh": "Rigetti 宣布获得印度先进计算发展中心 108 量子比特量子计算机订单"
       }
     ],
     "c08-arqit-quantum-arqq": [
