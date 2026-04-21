@@ -132,11 +132,18 @@ function renderCompanyQuickLinks(companies) {
     .map(
       (company) => `
         <a class="company-chip" href="./company.html?id=${encodeURIComponent(company.id)}">
-          ${escapeHtml(company.name)}
+          ${escapeHtml(shortCompanyName(company.name))}
         </a>
       `
     )
     .join("");
+}
+
+function shortCompanyName(name) {
+  return String(name)
+    .replace(/\s*\([^)]*\)/g, "")
+    .replace(/,\s*Inc\.?$/i, "")
+    .trim();
 }
 
 async function renderGlobalNews() {
