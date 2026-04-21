@@ -132,18 +132,19 @@ function renderCompanyQuickLinks(companies) {
     .map(
       (company) => `
         <a class="company-chip" href="./company.html?id=${encodeURIComponent(company.id)}">
-          ${escapeHtml(shortCompanyName(company.name))}
+          ${escapeHtml(companyTickerLabel(company))}
         </a>
       `
     )
     .join("");
 }
 
-function shortCompanyName(name) {
-  return String(name)
-    .replace(/\s*\([^)]*\)/g, "")
-    .replace(/,\s*Inc\.?$/i, "")
-    .trim();
+function companyTickerLabel(company) {
+  const ticker = String(company.ticker || "").trim();
+  if (ticker.includes(":")) {
+    return ticker.split(":").pop();
+  }
+  return ticker || company.name;
 }
 
 async function renderGlobalNews() {
