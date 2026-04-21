@@ -392,6 +392,13 @@ h3 {
   text-align: right;
 }
 
+.news-panel .section-note {
+  justify-self: end;
+  max-width: 620px;
+  margin: 0;
+  text-align: right;
+}
+
 .route-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
