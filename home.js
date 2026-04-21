@@ -140,6 +140,9 @@ function renderCompanyQuickLinks(companies) {
 }
 
 function companyTickerLabel(company) {
+  if (company.id === "c11-quantinuum") {
+    return "Quantinuum";
+  }
   const ticker = String(company.ticker || "").trim();
   if (ticker.includes(":")) {
     return ticker.split(":").pop();

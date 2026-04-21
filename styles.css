@@ -631,7 +631,7 @@ h3 {
 .company-quick-links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-self: end;
   gap: 8px;
 }
