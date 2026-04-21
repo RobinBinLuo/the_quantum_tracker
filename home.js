@@ -105,7 +105,7 @@ function renderRouteGrid(routes) {
   routeGridEl.innerHTML = routes
     .map(
       (route) => {
-        const label = localized(route, "label");
+        const label = cleanRouteLabel(localized(route, "label"));
         const summary = localized(route, "summary");
         return `
         <article class="route-card link-card">
@@ -125,6 +125,13 @@ function renderRouteGrid(routes) {
       }
     )
     .join("");
+}
+
+function cleanRouteLabel(label) {
+  if (getLanguage() === "en") {
+    return label;
+  }
+  return String(label).replace(/\s+[A-Za-z][A-Za-z\s/-]*$/g, "").trim();
 }
 
 function renderCompanyQuickLinks(companies) {
