@@ -40,7 +40,9 @@ async function init() {
   const company = await fetchCompanyDetail(companyIndex);
   const routeLabel = localized(company.route, "label");
   const routeSummary = localized(company.route, "summary");
-  const latestReport = company.earningsReports?.[company.earningsReports.length - 1];
+  const latestReport =
+    (company.earningsReports ?? []).find((report) => report.key === company.latestQuarterKey) ??
+    company.earningsReports?.[company.earningsReports.length - 1];
   const latestReportLabel = latestReport ? localizedReport(latestReport, "label") : company.latestQuarterLabel;
 
   titleEl.textContent = `${company.name} | Quantum Frontier Atlas`;
@@ -207,7 +209,7 @@ function renderEarningsReports(company, isEn) {
     return "";
   }
 
-  const latestReport = reports[reports.length - 1];
+  const latestReport = reports.find((report) => report.key === company.latestQuarterKey) ?? reports[reports.length - 1];
   return `
     <section class="detail-block earnings-block">
       <div class="earnings-head">
