@@ -2,7 +2,7 @@
   "meta": {
     "title": "量子公司调研（美股）",
     "sourceFile": "量子公司调研 （美股）-20260309.xlsx",
-    "generatedAt": "2026-04-20T23:59:27",
+    "generatedAt": "2026-05-07T23:59:27",
     "companyCount": 13,
     "routeCount": 8,
     "notes": "网页中的数值与文字均沿用原始 Excel 口径，部分字段为原表手工整理后的描述。"
@@ -75,7 +75,7 @@
           },
           "ticker": "NASDAQ:GOOGL",
           "newsSearchTerm": "Google Quantum AI",
-          "latestQuarterLabel": "2025 Q4",
+          "latestQuarterLabel": "2026 Q1",
           "route": {
             "slug": "superconducting",
             "label": "超导 Superconducting",
@@ -1239,8 +1239,8 @@
           "metrics": {
             "marketCap": "17.16B",
             "revenue2024": 0.0431,
-            "guidance2025": "0.082 - 0.1 (2025 Q2)",
-            "growth2025": 1.11,
+            "guidance2025": "0.26 - 0.27 (2026 Q1)",
+            "growth2025": "1.00 - 1.08",
             "ps": "133.38",
             "evSales": "115.22",
             "pe": "n/a",
@@ -1432,27 +1432,27 @@
             },
             {
               "key": "revenue_2025_guidance",
-              "label": "2025 收入指引",
-              "value": "0.082 - 0.1 (2025 Q2)",
+              "label": "2026 收入指引",
+              "value": "0.26 - 0.27 (2026 Q1)",
               "source": "Excel",
               "sourceUrl": null,
               "i18n": {
                 "en": {
-                  "label": "2025 Revenue Guidance",
-                  "value": "0.082 - 0.1 (2025 Q2)"
+                  "label": "2026 Revenue Guidance",
+                  "value": "0.26 - 0.27 (2026 Q1)"
                 }
               }
             },
             {
               "key": "revenue_2025_growth",
-              "label": "2025 收入增速",
-              "value": "1.11",
+              "label": "2026 收入增速",
+              "value": "1.00 - 1.08",
               "source": "Excel",
               "sourceUrl": null,
               "i18n": {
                 "en": {
-                  "label": "2025 Revenue Growth",
-                  "value": "1.11"
+                  "label": "2026 Revenue Growth",
+                  "value": "1.00 - 1.08"
                 }
               }
             },
@@ -1600,7 +1600,7 @@
           },
           "ticker": "NASDAQ:HON",
           "newsSearchTerm": "Quantinuum",
-          "latestQuarterLabel": "2025 Q4",
+          "latestQuarterLabel": "2026 Q1",
           "route": {
             "slug": "trapped-ion",
             "label": "离子阱 Trapped-Ion",
@@ -3021,8 +3021,8 @@
           "metrics": {
             "marketCap": "17.16B",
             "revenue2024": 0.0431,
-            "guidance2025": "0.082 - 0.1 (2025 Q2)",
-            "growth2025": 1.11,
+            "guidance2025": "0.26 - 0.27 (2026 Q1)",
+            "growth2025": "1.00 - 1.08",
             "ps": "133.38",
             "evSales": "115.22",
             "pe": "n/a",
@@ -3214,27 +3214,27 @@
             },
             {
               "key": "revenue_2025_guidance",
-              "label": "2025 收入指引",
-              "value": "0.082 - 0.1 (2025 Q2)",
+              "label": "2026 收入指引",
+              "value": "0.26 - 0.27 (2026 Q1)",
               "source": "Excel",
               "sourceUrl": null,
               "i18n": {
                 "en": {
-                  "label": "2025 Revenue Guidance",
-                  "value": "0.082 - 0.1 (2025 Q2)"
+                  "label": "2026 Revenue Guidance",
+                  "value": "0.26 - 0.27 (2026 Q1)"
                 }
               }
             },
             {
               "key": "revenue_2025_growth",
-              "label": "2025 收入增速",
-              "value": "1.11",
+              "label": "2026 收入增速",
+              "value": "1.00 - 1.08",
               "source": "Excel",
               "sourceUrl": null,
               "i18n": {
                 "en": {
-                  "label": "2025 Revenue Growth",
-                  "value": "1.11"
+                  "label": "2026 Revenue Growth",
+                  "value": "1.00 - 1.08"
                 }
               }
             },
@@ -4114,7 +4114,7 @@
       },
       "ticker": "NASDAQ:GOOGL",
       "newsSearchTerm": "Google Quantum AI",
-      "latestQuarterLabel": "2025 Q4",
+      "latestQuarterLabel": "2026 Q1",
       "route": {
         "slug": "superconducting",
         "label": "超导 Superconducting",
@@ -5021,8 +5021,8 @@
       "metrics": {
         "marketCap": "17.16B",
         "revenue2024": 0.0431,
-        "guidance2025": "0.082 - 0.1 (2025 Q2)",
-        "growth2025": 1.11,
+        "guidance2025": "0.26 - 0.27 (2026 Q1)",
+        "growth2025": "1.00 - 1.08",
         "ps": "133.38",
         "evSales": "115.22",
         "pe": "n/a",
@@ -5214,27 +5214,27 @@
         },
         {
           "key": "revenue_2025_guidance",
-          "label": "2025 收入指引",
-          "value": "0.082 - 0.1 (2025 Q2)",
+          "label": "2026 收入指引",
+          "value": "0.26 - 0.27 (2026 Q1)",
           "source": "Excel",
           "sourceUrl": null,
           "i18n": {
             "en": {
-              "label": "2025 Revenue Guidance",
-              "value": "0.082 - 0.1 (2025 Q2)"
+              "label": "2026 Revenue Guidance",
+              "value": "0.26 - 0.27 (2026 Q1)"
             }
           }
         },
         {
           "key": "revenue_2025_growth",
-          "label": "2025 收入增速",
-          "value": "1.11",
+          "label": "2026 收入增速",
+          "value": "1.00 - 1.08",
           "source": "Excel",
           "sourceUrl": null,
           "i18n": {
             "en": {
-              "label": "2025 Revenue Growth",
-              "value": "1.11"
+              "label": "2026 Revenue Growth",
+              "value": "1.00 - 1.08"
             }
           }
         },

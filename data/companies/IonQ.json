@@ -12,8 +12,8 @@
   "ticker": "NYSE:IONQ",
   "newsQuery": "(IonQ OR trapped-ion quantum computing)",
   "newsSearchTerm": "IonQ",
-  "latestQuarterKey": "q4_2025",
-  "latestQuarterLabel": "2025 Q4",
+  "latestQuarterKey": "q1_2026",
+  "latestQuarterLabel": "2026 Q1",
   "route": {
     "slug": "trapped-ion",
     "label": "离子阱 Trapped-Ion",
@@ -42,8 +42,8 @@
   "metrics": {
     "marketCap": "17.16B",
     "revenue2024": 0.0431,
-    "guidance2025": "0.082 - 0.1 (2025 Q2)",
-    "growth2025": 1.11,
+    "guidance2025": "0.26 - 0.27 (2026 Q1)",
+    "growth2025": "1.00 - 1.08",
     "ps": "133.38",
     "evSales": "115.22",
     "pe": "n/a",
@@ -235,27 +235,27 @@
     },
     {
       "key": "revenue_2025_guidance",
-      "label": "2025 收入指引",
-      "value": "0.082 - 0.1 (2025 Q2)",
+      "label": "2026 收入指引",
+      "value": "0.26 - 0.27 (2026 Q1)",
       "source": "Excel",
       "sourceUrl": null,
       "i18n": {
         "en": {
-          "label": "2025 Revenue Guidance",
-          "value": "0.082 - 0.1 (2025 Q2)"
+          "label": "2026 Revenue Guidance",
+          "value": "0.26 - 0.27 (2026 Q1)"
         }
       }
     },
     {
       "key": "revenue_2025_growth",
-      "label": "2025 收入增速",
-      "value": "1.11",
+      "label": "2026 收入增速",
+      "value": "1.00 - 1.08",
       "source": "Excel",
       "sourceUrl": null,
       "i18n": {
         "en": {
-          "label": "2025 Revenue Growth",
-          "value": "1.11"
+          "label": "2026 Revenue Growth",
+          "value": "1.00 - 1.08"
         }
       }
     },
@@ -339,14 +339,14 @@
     },
     {
       "key": "cash_and_equivalents",
-      "label": "总资产 / 现金及等价物",
-      "value": "0.14",
+      "label": "现金、现金等价物及投资",
+      "value": "3.1",
       "source": "Excel",
       "sourceUrl": null,
       "i18n": {
         "en": {
-          "label": "Total Assets / Cash and Equivalents",
-          "value": "0.14"
+          "label": "Cash, Cash Equivalents and Investments",
+          "value": "3.1"
         }
       }
     },
@@ -428,6 +428,17 @@
       }
     },
     {
+      "key": "q1_2026",
+      "label": "2026 Q1",
+      "content": "1. 收入方面：\n（1）Q1季度收入：$64.7 M，同比增长 ≈755%，且较公司此前指引中值高出约 30%，继续刷新单季新高。\n（2）GAAP 净利润：Q1 报告为正 $805.4 M，每股收益（GAAP EPS）约 $2.19；但这依然主要受认股权证负债等公允价值变动带来的大额非现金收益推动，不能简单视为主营业务已稳定盈利。\n（3）调整后 EBITDA：季度亏损约 -$96.8 M；若剔除与 SkyWater 商业合作相关的支出，调整后 EBITDA 亏损约 -$85.0 M。\n（4）调整后 EPS：约 -$0.34。\n（5）现金、现金等价物和投资：截至 2026 年 3 月 31 日约 $3.1 B。\n\n2. 商业化与订单可见性\n（1）RPO（剩余履约义务）达到约 $470 M，同比增长约 554%，说明 backlog 继续明显走强。\n（2）约 60% 收入来自商业客户，约 35% 来自国际客户，约 35% 来自多产品销售，说明公司已不再只依赖单一量子计算产品成交。\n（3）管理层表示 IonQ 方案已售往超过 30 个国家，全球系统销售、Tempo 需求、云端利用率与销售管线都在增强。\n\n3. 近期业务亮点\n（1）向剑桥大学出售首台第六代、基于芯片的 256 量子比特系统，并配套安全量子网络及覆盖计算、网络、传感与安全的广泛知识产权合作。\n（2）在波兰部署国家量子通信网络，并完成美国中大西洋区域量子互联网首个量子存储节点商业销售，同时推进佛罗里达州级量子网络项目。\n（3）入选 DARPA HARQ 项目，强化其在模块化量子计算、异构架构与量子互连方向的地位。\n（4）获得约 $39 M 的 SDA HALO 合同，用于下一代战术太空通信；同时被纳入 Missile Defense Agency 的 SHIELD IDIQ 合同。\n（5）完成首个“两台商用量子计算机互连”的商业演示，并与 GDIT、KISTI 等伙伴继续推进量子网络与量子-HPC 结合。\n\n4. 2026年指引更新\n（1）公司将 2026 全年营收指引上调至 $260M–$270M。\n（2）Q2 2026 营收指引为 $65M–$68M。\n（3）全年调整后 EBITDA 亏损指引维持在 -$330M 到 -$310M。\n\n财报链接：https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx\n电话会链接：https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-First-Quarter-2026-Earnings-Call-2026-5K-97ZNkMB/default.aspx",
+      "i18n": {
+        "en": {
+          "label": "2026 Q1",
+          "content": "Q1 2026 revenue reached about $64.7M, up roughly 755% year over year and about 30% above the midpoint of prior guidance. Reported GAAP net income was about $805.4M, but it was still driven largely by non-cash fair-value adjustments. Adjusted EBITDA remained negative at about ($96.8M), or about ($85.0M) excluding pending-SkyWater-related commercial costs. IonQ ended the quarter with about $3.1B of cash, cash equivalents and investments, raised full-year 2026 revenue guidance to about $260M-$270M, and reported RPO of about $470M with strong commercial, international and multi-product mix."
+        }
+      }
+    },
+    {
       "key": "q4_2025",
       "label": "2025 Q4",
       "content": "1. 收入方面：\n（1）Q4季度收入：$61.9 M，美股季度同比增长 ≈429%（2024 同期远低得多）。季度收入大幅超越市场预期（分析师预估约 $40.4 M 以上）\n（2）全年收入：$130.0 M，同比暴增 ≈202%，成为首家年 GAAP 收入超过 $100 M 的公开量子计算公司。（Q3 时候已经预告过了公司提高了全年营收指引，但是最终营收还是超过了当时的指引）\n（3）GAAP 净利润：Q4 报告为正 $753.7 M，但主要由认股权证等非（4）现金公允价值调整推动；全年净亏损约 $510.4 M。\n（5）调整后 EPS：每股亏损约 -$0.20，明显好于市场预期。\n（6）调整后 EBITDA：季度亏损约 -$67.4 M，全年约 -$186.8 M。\n（7）现金及等价物：截至 2025 年末约 $3.3 B，为进一步扩张和研发提供了深厚缓冲。\n\n2. 商业化与产品落地\n商业收入占比超过 60%，首度体现 Trapped-ion 技术在工业与企业应用上的初步商业吸引力。\n国际销售贡献逾 30%，表明市场不再局限本土科研或政府项目。\n\n2.1. 近期业务亮点\n（1）与 QuantumBasel 扩大协议，金额超过 6000 万美元，涵盖四年和四代 IonQ Forte系统。\n（2）向韩国科学技术研究院 (KISTI) 出售第五代IonQ Forte Enterprice 100 量子比特系统，打造韩国最大的量子-经典计算平台，并将混合人工智能、高性能计算和英伟达加速技术置于韩国下一代计算战略的核心。\n（3）通过与CCRM的战略合作，持续推进量子赋能生命科学领域的创新，加速先进疗法的研发。\n（4）在瑞士、斯洛伐克和罗马尼亚部署了大规模、可运行的国家级量子网络\n（5）IonQ 因其展现出的量子能力而被 DARPA 选中参加量子基准测试计划的 B 阶段。\n在错误校正与量子门保真度方面有显著技术成果（例如 99.99% 两量子比特门保真度）。（但是IonQ 的基于离子阱的技术的量子计算机运行速度慢核心问题还是没有被提到有改进，运行速度慢是这个技术路线相对于超导是的最大弊端。）\n\n2.2. 订单与收入可见性：未完成履约义务（RPO）大幅上升，显示 backlog 增强，有利于未来收入可见性。RPO 从 2024 年末的约 $77 M 增加到 2025 年末约 $370 M，几乎提升 5 倍\n\n3. 战略扩张\n宣布收购 SkyWater Technology —— 全球领先的量子芯片代工厂，有望整合供应链并强化制造能力。此次交易预计约 $1.8 B，并需监管批准。收购动作体现 IonQ 从 量子计算硬件开发商 向 全栈量子平台公司 的战略转型，涵盖计算、联网、传感、量子安全等业务领域\n\n4. 2026年营收指引\n（1）指导全年预计营收 $225M–$245M，显著高于 2025 年水平与多数市场预期。\n（2）预计第一季度营收约 $48M–$51M。\n（3）同时预期调整后 EBITDA 仍为负值（约 -$310M to -$330M）。\n\n财报链接：https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx\n电话会链接：https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-Fourth-Quarter-and-Full-Year-2025-Earnings-Call/default.aspx?utm_source=chatgpt.com",
@@ -448,31 +459,35 @@
   "fundamentalAnalysis": {
     "business": "目前主要业务\n1. 核心技术：基于离子阱技术设计与制造通用量子处理器，离子阱技术目前被认为是实现高精度、低错误率量子计算的一种可行路径，\n（1.1）IonQ Forte: 36 算法量子比特 （算法量子比特是完全真正能用来实现计算的量子比特数量，上面IBM的Condor虽然可以有1000多个量子比特，但是大部分量子比特是作为辅助进行纠错而不能用来计算。目前还没有统一的标准去比较不同技术下的量子计算机的性能。）Forte是当前旗舰级、性能最强的系统，目前在商用可访问的离子阱系统中处于较高水平，但与实现大规模逻辑比特的目标（通常需要数千至数百万算法量子比特）还有很大差距。\n（1.2）IonQ Tempo：正在规划中，预计将提升到 算法量子比特 ≥ 64–100 的范围，目标实现门保真度 99.9%，该系统尚未全面商用，但代表 IonQ 在未来两三年的扩展目标。\n\n2. IonQ Cloud 平台（量子云平台）\n(2.1) 功能\nIonQ 提供基于云端的量子计算平台，能够让用户不依赖于本地硬件即可访问量子计算资源。\n平台的核心功能包括：\n       （a）用户可以通过 IonQ 提供的云平台直接访问 IonQ 的量子计算机，进行量子算法的开发、测试和优化，无需自建量子硬件；\n       （b）IonQ 的平台支持用户利用量子算法开发工具（如 Quantum Development Kit (QDK)）开发量子程序并运行在量子计算机上，同时平台支持量子-经典混合计算，使得非量子专家也能轻松上手量子计算；\n         (c)通过量子优化服务，用户可以利用量子计算解决例如物流、金融建模、能源调度等领域的优化问题。\n(2.2) 开发者与生态支持\nSDK与编程工具：IonQ 为开发者提供了丰富的量子计算软件工具包（SDK），其中包括支持 Python 和 Q# 语言的量子开发工具，能够帮助开发者在量子计算平台上进行算法设计、调试、测试等操作。\n集成与支持：IonQ 的云平台支持与主流开发环境和工具的集成，包括与 GitHub 和 Visual Studio Code 的深度集成，开发者可以轻松在这些常见平台上进行量子程序的开发与部署。\n学习资源与社区支持：IonQ 提供大量的示例库、教程和文档，以帮助初学者和专业开发者更好地理解量子计算并开发相关应用。公司还致力于建设量子开发者社区，鼓励更多的创新与合作。（但是目前最火的还是IBM Qiskit）。\n\n3. 量子网络 /安全通信产品：由于离子阱技术能够让量子比特获得更长的相干时间，这使得IonQ在量子通信上也会有所发展。IonQ 最近的收购与扩张中包括 Oxford Ionics（英国量子公司），其在高保真 ion-trap 芯片制造方面有强能力，并希望将这种控制技术与 IonQ 的系统整合以加速其路线图。还有 ID Quantique 的收购，用于增强量子安全密钥分发 (QKD)／量子网络等能力。\n\n\n未来展望商业模式：\n（a）通过云平台（例如 IonQ Quantum Cloud，与 AWS Braket / Azure Quantum /Google Cloud 等集成或直接）出租量子计算硬件访问权和作业执行。 \n（b）提供专业服务（professional services）—帮助客户识别、测试、构建量子解决方案（applications, algorithms,业务集成等）。（这个将会和D-Wave 类似） \n（c）销售全量子计算系统（本地安装或云端服务）给特定客户。（目前只有IBM能做到这个，这个应该是量子的公司实现收益的重要渠道） \n（d）出售／许可量子网络产品、安全通信产品 /量子安全 (quantum-safe cryptography)／密钥分发等。收购如 ID-Quantique 增强了这一块",
     "financial": "市值：209亿\nP/S：400.23",
-    "latestQuarter": "1. 收入方面：\n（1）Q4季度收入：$61.9 M，美股季度同比增长 ≈429%（2024 同期远低得多）。季度收入大幅超越市场预期（分析师预估约 $40.4 M 以上）\n（2）全年收入：$130.0 M，同比暴增 ≈202%，成为首家年 GAAP 收入超过 $100 M 的公开量子计算公司。（Q3 时候已经预告过了公司提高了全年营收指引，但是最终营收还是超过了当时的指引）\n（3）GAAP 净利润：Q4 报告为正 $753.7 M，但主要由认股权证等非（4）现金公允价值调整推动；全年净亏损约 $510.4 M。\n（5）调整后 EPS：每股亏损约 -$0.20，明显好于市场预期。\n（6）调整后 EBITDA：季度亏损约 -$67.4 M，全年约 -$186.8 M。\n（7）现金及等价物：截至 2025 年末约 $3.3 B，为进一步扩张和研发提供了深厚缓冲。\n\n2. 商业化与产品落地\n商业收入占比超过 60%，首度体现 Trapped-ion 技术在工业与企业应用上的初步商业吸引力。\n国际销售贡献逾 30%，表明市场不再局限本土科研或政府项目。\n\n2.1. 近期业务亮点\n（1）与 QuantumBasel 扩大协议，金额超过 6000 万美元，涵盖四年和四代 IonQ Forte系统。\n（2）向韩国科学技术研究院 (KISTI) 出售第五代IonQ Forte Enterprice 100 量子比特系统，打造韩国最大的量子-经典计算平台，并将混合人工智能、高性能计算和英伟达加速技术置于韩国下一代计算战略的核心。\n（3）通过与CCRM的战略合作，持续推进量子赋能生命科学领域的创新，加速先进疗法的研发。\n（4）在瑞士、斯洛伐克和罗马尼亚部署了大规模、可运行的国家级量子网络\n（5）IonQ 因其展现出的量子能力而被 DARPA 选中参加量子基准测试计划的 B 阶段。\n在错误校正与量子门保真度方面有显著技术成果（例如 99.99% 两量子比特门保真度）。（但是IonQ 的基于离子阱的技术的量子计算机运行速度慢核心问题还是没有被提到有改进，运行速度慢是这个技术路线相对于超导是的最大弊端。）\n\n2.2. 订单与收入可见性：未完成履约义务（RPO）大幅上升，显示 backlog 增强，有利于未来收入可见性。RPO 从 2024 年末的约 $77 M 增加到 2025 年末约 $370 M，几乎提升 5 倍\n\n3. 战略扩张\n宣布收购 SkyWater Technology —— 全球领先的量子芯片代工厂，有望整合供应链并强化制造能力。此次交易预计约 $1.8 B，并需监管批准。收购动作体现 IonQ 从 量子计算硬件开发商 向 全栈量子平台公司 的战略转型，涵盖计算、联网、传感、量子安全等业务领域\n\n4. 2026年营收指引\n（1）指导全年预计营收 $225M–$245M，显著高于 2025 年水平与多数市场预期。\n（2）预计第一季度营收约 $48M–$51M。\n（3）同时预期调整后 EBITDA 仍为负值（约 -$310M to -$330M）。\n\n财报链接：https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx\n电话会链接：https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-Fourth-Quarter-and-Full-Year-2025-Earnings-Call/default.aspx?utm_source=chatgpt.com",
+    "latestQuarter": "1. 收入方面：\n（1）Q1季度收入：$64.7 M，同比增长 ≈755%，且较公司此前指引中值高出约 30%，继续刷新单季新高。\n（2）GAAP 净利润：Q1 报告为正 $805.4 M，每股收益（GAAP EPS）约 $2.19；但这依然主要受认股权证负债等公允价值变动带来的大额非现金收益推动，不能简单视为主营业务已稳定盈利。\n（3）调整后 EBITDA：季度亏损约 -$96.8 M；若剔除与 SkyWater 商业合作相关的支出，调整后 EBITDA 亏损约 -$85.0 M。\n（4）调整后 EPS：约 -$0.34。\n（5）现金、现金等价物和投资：截至 2026 年 3 月 31 日约 $3.1 B。\n\n2. 商业化与订单可见性\n（1）RPO（剩余履约义务）达到约 $470 M，同比增长约 554%，说明 backlog 继续明显走强。\n（2）约 60% 收入来自商业客户，约 35% 来自国际客户，约 35% 来自多产品销售，说明公司已不再只依赖单一量子计算产品成交。\n（3）管理层表示 IonQ 方案已售往超过 30 个国家，全球系统销售、Tempo 需求、云端利用率与销售管线都在增强。\n\n3. 近期业务亮点\n（1）向剑桥大学出售首台第六代、基于芯片的 256 量子比特系统，并配套安全量子网络及覆盖计算、网络、传感与安全的广泛知识产权合作。\n（2）在波兰部署国家量子通信网络，并完成美国中大西洋区域量子互联网首个量子存储节点商业销售，同时推进佛罗里达州级量子网络项目。\n（3）入选 DARPA HARQ 项目，强化其在模块化量子计算、异构架构与量子互连方向的地位。\n（4）获得约 $39 M 的 SDA HALO 合同，用于下一代战术太空通信；同时被纳入 Missile Defense Agency 的 SHIELD IDIQ 合同。\n（5）完成首个“两台商用量子计算机互连”的商业演示，并与 GDIT、KISTI 等伙伴继续推进量子网络与量子-HPC 结合。\n\n4. 2026年指引更新\n（1）公司将 2026 全年营收指引上调至 $260M–$270M。\n（2）Q2 2026 营收指引为 $65M–$68M。\n（3）全年调整后 EBITDA 亏损指引维持在 -$330M 到 -$310M。\n\n财报链接：https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx\n电话会链接：https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-First-Quarter-2026-Earnings-Call-2026-5K-97ZNkMB/default.aspx",
     "ceoMedia": "2025年9月17日，IonQ 与美国能源部签署了一份谅解备忘录，探索在轨道中部署量子功能，例如量子安全通信 、量子定位导航时序系统 、量子传感与映射，以及未来量子计算在卫星上的测试与应用。\nhttps://investors.ionq.com/news/news-details/2025/IonQ-Signs-Memorandum-of-Understanding-with-U-S--Department-of-Energy-to-Advance-Quantum-Technologies-in-Space/default.aspx?utm_source=chatgpt.com",
-    "notes": "高速增长+高估值：指引上调至 $82–100M；但估值倍数极高（PS/EV/Sales > 400×），盈利仍远期化。2025 年多起并购（Oxford Ionics、Lightsynq、Capella 等）推升无形资产与商誉；账上净现金充裕且无债，但整合与执行风险需关注。",
-    "latestEarnings": "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/?utm",
-    "latestQuarterlyReport": null,
-    "latestAnnualReport": "https://s28.q4cdn.com/828571518/files/doc_financials/2024/ar/IonQ_2024-Annual-Report.pdf"
+    "notes": "收入继续超预期、订单与商业化结构同步改善，但 GAAP 盈利仍主要受非现金公允价值变动驱动。SkyWater 交易尚未完成，整合节奏、持续高投入与高估值仍是核心风险点。",
+    "latestEarnings": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx",
+    "latestQuarterlyReport": "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx",
+    "latestAnnualReport": "https://s28.q4cdn.com/828571518/files/doc_financials/2025/ar/IONQ-2025-Annual-Report.pdf"
   },
   "fundamentalAnalysisI18n": {
     "en": {
       "business": "Business and product focus\n1. Trapped-ion quantum computers with high-fidelity gates and cloud access through major cloud platforms.\n2. Enterprise and government projects, including algorithm pilots, hybrid workflows and direct system sales.\n3. Quantum networking initiatives, including collaborations with research institutions and programs aimed at connecting quantum systems.",
       "financial": "IonQ is still in a high-growth, investment-heavy stage. Revenue is growing from a small base, while operating losses remain meaningful as the company invests in R&D, commercialization and system deployment.",
-      "latestQuarter": "Recent reporting highlights accelerating quantum sales and annual revenue crossing the $100M level. The company continues to emphasize bookings, system contracts and government/enterprise demand as key progress indicators.",
+      "latestQuarter": "Q1 2026 revenue reached about $64.7M, up roughly 755% year over year and well above prior guidance. RPO grew to about $470M, commercial and international mix remained strong, and management raised full-year 2026 revenue guidance to about $260M-$270M while adjusted EBITDA stayed negative.",
       "ceoMedia": "IonQ frequently communicates progress through system-roadmap updates, government program awards, university collaborations and customer announcements. Management frames trapped-ion performance and networking capability as core differentiators.",
       "notes": "IonQ has also been added to the Quantum Network / Security route because its networking collaborations are increasingly relevant to that category."
     }
   },
   "links": [
     "https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-Fourth-Quarter-and-Full-Year-2025-Earnings-Call/default.aspx?utm_source=chatgpt.com",
+    "https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-First-Quarter-2026-Earnings-Call-2026-5K-97ZNkMB/default.aspx",
+    "https://investors.ionq.com/events-and-presentations/presentations/presentation-details/2026/First-Quarter-2026-Earnings-Presentation/default.aspx",
     "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-First-Quarter-Financial-Results/?utm",
     "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/",
     "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Second-Quarter-Financial-Results/?utm",
     "https://investors.ionq.com/news/news-details/2025/IonQ-Announces-Third-Quarter-2025-Financial-Results/",
     "https://investors.ionq.com/news/news-details/2025/IonQ-Signs-Memorandum-of-Understanding-with-U-S--Department-of-Energy-to-Advance-Quantum-Technologies-in-Space/default.aspx?utm_source=chatgpt.com",
+    "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx",
     "https://investors.ionq.com/news/news-details/2026/IonQ-Announces-Fourth-Quarter-and-Full-Year-2025-Financial-Results/default.aspx",
     "https://s28.q4cdn.com/828571518/files/doc_financials/2024/ar/IonQ_2024-Annual-Report.pdf",
+    "https://s28.q4cdn.com/828571518/files/doc_financials/2025/ar/IONQ-2025-Annual-Report.pdf",
     "https://s28.q4cdn.com/828571518/files/doc_financials/2025/q1/IONQ-Q1-2025-Earnings-Call-7-May-2025-430-PM-ET.pdf?utm",
     "https://seekingalpha.com/article/4838778-ionq-inc-ionq-q3-2025-earnings-call-transcript?utm_source=chatgpt.com",
     "https://viavid.webcasts.com/starthere.jsp?ei=1724799&tp_key=ac60832f6f"
