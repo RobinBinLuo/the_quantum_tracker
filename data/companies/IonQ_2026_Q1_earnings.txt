@@ -24,11 +24,32 @@ IonQ 2026 Q1 财报整理
 - IonQ将2026年全年营收预期上调至2.6亿美元至2.7亿美元，其中第二季度营收预计在6500万美元至6800万美元之间。我们预计全年将实现超过100%的强劲内生增长。
 - IonQ重申其2026年全年调整后EBITDA亏损预期，范围在3.3亿美元至3.1亿美元之间。
 
+4. 为什么收入大涨但仍大幅亏损
+- 这一季的核心矛盾是：收入增长非常快，但成本和费用增长得更快。
+- Q1营业收入约为 $64.7 M，但营业亏损（Loss from operations）约为 $271.5 M，意味着总营业成本和费用大约达到 $336.2 M。
+- 公司这季收入之所以比之前高很多，主要来自全球系统销售加速、Tempo需求增强、云端使用率提升、销售管线扩大，以及商业客户、国际客户和多产品销售占比继续上升。
+- 换句话说，IonQ已经进入“收入开始放量，但研发、组织扩张、交付和平台建设也同时放量”的阶段。
+
+5. 成本细节：钱主要花在哪
+- 研发费用（R&D）：约 $125.7 M。这是最大支出项，主要对应量子计算机、量子网络、芯片级系统、量子互连与相关平台研发。
+- 行政费用（G&A）：约 $88.6 M。通常反映并购整合、法务、管理团队扩张、股权激励以及平台化建设带来的管理成本。
+- 收入成本（Cost of revenue）：约 $49.3 M。说明系统交付、硬件部署和相关服务本身也在消耗大量成本。
+- 折旧与摊销（Depreciation and amortization）：约 $43.1 M。显示此前设备投入、并购形成的无形资产和相关资产摊销压力已经明显进入利润表。
+- 销售和市场费用（Sales and marketing）：约 $29.4 M。反映其商业化拓展、客户获取与市场推进仍在持续投入。
+
+6. IonQ 当前最强机器与路线更新
+- 如果看当前对外主推、最接近实际交付的最新一代系统，IonQ 现在的核心机器是 Tempo。官方系统页显示 Tempo 为 100 qubits，并在 2026 年进入 available / 交付阶段，韩国 KISTI 就是明确客户之一。
+- 如果看更前沿的下一代路线，IonQ 已经宣布第六代 chip-based 256 qubit system，并已拿到剑桥大学首单。这代表公司正从目前的 trapped-ion 系统继续推进到更大规模的芯片级架构。
+- 因此可以理解为：Tempo 是当前最现实、最新的主力系统；256 qubit 芯片级系统则是更下一代、代表未来扩展方向的机器。
+
 财报链接：
 https://investors.ionq.com/news/news-details/2026/IonQ-Announces-First-Quarter-2026-Financial-Results/default.aspx
 
 电话会链接：
 https://investors.ionq.com/events-and-presentations/events/event-details/2026/IonQ-First-Quarter-2026-Earnings-Call-2026-5K-97ZNkMB/default.aspx
+
+SEC链接：
+https://www.sec.gov/Archives/edgar/data/1824920/000119312526208923/ionq-ex99_1.htm
 
 
 注释：
@@ -38,4 +59,3 @@ https://investors.ionq.com/events-and-presentations/events/event-details/2026/Io
 
 剩余履约义务
 （RPO）是指截至报告期末已签署合同中分配给尚未履行（或部分履行）的履约义务的总交易价格。这包括合同中已拨款部分（已获授权并拨付资金的确定订单）和未拨款部分（尚未拨付资金的确定订单）。未行使的合同期权在行使之前不计入剩余履约义务。
-

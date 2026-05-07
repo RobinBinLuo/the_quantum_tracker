@@ -1,6 +1,6 @@
 export const DATA_PATH = "./data/companies.json";
 export const NEWS_PATH = "./data/news.json";
-const DATA_VERSION = "20260507-03";
+const DATA_VERSION = "20260507-04";
 const LANGUAGE_KEY = "quantum-frontier-language";
 
 const UI_TEXT = {
